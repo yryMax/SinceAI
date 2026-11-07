@@ -1,0 +1,11 @@
+# Limitations: what this data is and is not
+
+- **Synthetic, not sampled from reality.** Distributions are plausible and internally consistent: age structure, language areas, seasonality, weekday and hour curves, Finnish holidays, diagnosis mix and physics-based heating loads. They are not calibrated to official statistics. Do not draw conclusions about Southwest Finland, its hospitals, transit, banks or schools from them.
+- **Scale.** The population (100,000) is about a fifth of the real region. The share of unique people on a given set of quasi-identifiers is therefore somewhat higher than it would be in reality, especially in small archipelago postcodes.
+- **Simplified attackers.** The attacker files and `attack_specs.json` model realistic but limited background knowledge. A real attacker can be more creative. A low re-identification rate here is evidence, not proof.
+- **Utility tasks are proxies.** They capture typical analytical needs for each scenario, not every possible use. Report the tasks your scenario needs, and say which ones you sacrificed.
+- **Template-based free text.** The notes, chats and complaints are generated from many templates with variation and noise. They are realistic in structure and in where personal data hides, but less varied than real writing. Detectors that overfit to the templates will do worse on real text.
+- **DP workload.** The workload's municipality list is chosen from the data, which is a small data-dependent choice. A strict DP release would fix the query set in advance. The B3 baseline documents its own mechanism.
+- **Approximate domain codes.** Course codes, ICD-10 subsets, MCCs, ATT&CK labels and the Finnish triage scale are realistic approximations, not complete official code sets.
+- **Identifier formats.** HETUs use the 900–999 temporary-identifier range (never used in permanent codes), IBANs use a non-Finnish bank identifier, cards use public test BINs, and emails use `.example` domains. Phone numbers, plates and IDs are random in realistic formats; any match with a real one is coincidental.
+- **Not a TrustED deliverable.** The package was produced by Since AI ry for the hackathon, inspired by TrustED's challenge brief.

@@ -1,0 +1,503 @@
+{"record_id": "ED25-000184", "spans": [{"end": 51, "label": "LOCATION", "start": 32, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-000228", "spans": [{"end": 66, "label": "ORG", "start": 47, "text": "Kaislan Akatemia Ky"}]}
+{"record_id": "ED25-000309", "spans": [{"end": 55, "label": "LOCATION", "start": 31, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-000346", "spans": [{"end": 46, "label": "LOCATION", "start": 36, "text": "Kauppatori"}]}
+{"record_id": "ED25-000414", "spans": [{"end": 69, "label": "ORG", "start": 50, "text": "Kotiranta Huolto Oy"}]}
+{"record_id": "ED25-000523", "spans": [{"end": 49, "label": "LOCATION", "start": 36, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-000571", "spans": [{"end": 65, "label": "LOCATION", "start": 51, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-000706", "spans": [{"end": 74, "label": "ORG", "start": 56, "text": "Kajo Ravintola Tmi"}]}
+{"record_id": "ED25-000709", "spans": [{"end": 51, "label": "LOCATION", "start": 39, "text": "Turun satama"}]}
+{"record_id": "ED25-000764", "spans": [{"end": 76, "label": "ORG", "start": 56, "text": "Lehvä Arkkitehdit Oy"}]}
+{"record_id": "ED25-000848", "spans": [{"end": 72, "label": "ORG", "start": 56, "text": "Varpu Terveys Ky"}]}
+{"record_id": "ED25-000850", "spans": [{"end": 49, "label": "LOCATION", "start": 39, "text": "Salon tori"}]}
+{"record_id": "ED25-000859", "spans": [{"end": 81, "label": "ORG", "start": 56, "text": "Kotiranta Saneeraus Oy Ab"}]}
+{"record_id": "ED25-000997", "spans": [{"end": 54, "label": "LOCATION", "start": 41, "text": "Hansakortteli"}]}
+{"record_id": "ED25-001194", "spans": [{"end": 66, "label": "LOCATION", "start": 45, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-001329", "spans": [{"end": 72, "label": "ORG", "start": 52, "text": "Merivalo Koulutus Oy"}]}
+{"record_id": "ED25-001423", "spans": [{"end": 45, "label": "LOCATION", "start": 32, "text": "Hansakortteli"}]}
+{"record_id": "ED25-001453", "spans": [{"end": 53, "label": "LOCATION", "start": 41, "text": "Turun satama"}]}
+{"record_id": "ED25-001487", "spans": [{"end": 63, "label": "LOCATION", "start": 45, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-001505", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-001584", "spans": [{"end": 76, "label": "ORG", "start": 56, "text": "Lehvä Arkkitehdit Oy"}]}
+{"record_id": "ED25-001596", "spans": [{"end": 39, "label": "LOCATION", "start": 26, "text": "Idrottsparken"}]}
+{"record_id": "ED25-001648", "spans": [{"end": 77, "label": "ORG", "start": 52, "text": "Harmaja Logistiikka Oy Ab"}]}
+{"record_id": "ED25-001688", "spans": [{"end": 42, "label": "LOCATION", "start": 32, "text": "Kauppatori"}]}
+{"record_id": "ED25-001771", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Hansakortteli"}]}
+{"record_id": "ED25-001822", "spans": [{"end": 71, "label": "ORG", "start": 56, "text": "Lumora Hoiva Ab"}]}
+{"record_id": "ED25-001969", "spans": [{"end": 70, "label": "ORG", "start": 56, "text": "Aallon Tila Oy"}]}
+{"record_id": "ED25-002035", "spans": [{"end": 51, "label": "LOCATION", "start": 40, "text": "Kuppis park"}]}
+{"record_id": "ED25-002044", "spans": [{"end": 66, "label": "LOCATION", "start": 45, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-002072", "spans": [{"end": 61, "label": "LOCATION", "start": 45, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-002121", "spans": [{"end": 59, "label": "LOCATION", "start": 41, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-002143", "spans": [{"end": 41, "label": "LOCATION", "start": 31, "text": "Salon tori"}]}
+{"record_id": "ED25-002176", "spans": [{"end": 76, "label": "ORG", "start": 56, "text": "Hiidenkivi Market Oy"}]}
+{"record_id": "ED25-002186", "spans": [{"end": 73, "label": "ORG", "start": 56, "text": "Kuohu Akatemia Ky"}]}
+{"record_id": "ED25-002211", "spans": [{"end": 47, "label": "LOCATION", "start": 36, "text": "Kuppis park"}]}
+{"record_id": "ED25-002375", "spans": [{"end": 41, "label": "LOCATION", "start": 29, "text": "Aurastranden"}]}
+{"record_id": "ED25-002389", "spans": [{"end": 62, "label": "ORG", "start": 43, "text": "Aallokko Telecom Oy"}]}
+{"record_id": "ED25-002424", "spans": [{"end": 56, "label": "LOCATION", "start": 36, "text": "Nådendals gamla stad"}]}
+{"record_id": "ED25-002442", "spans": [{"end": 49, "label": "LOCATION", "start": 36, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-002518", "spans": [{"end": 60, "label": "LOCATION", "start": 42, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-002586", "spans": [{"end": 39, "label": "LOCATION", "start": 26, "text": "Idrottsparken"}]}
+{"record_id": "ED25-002695", "spans": [{"end": 82, "label": "ORG", "start": 52, "text": "Southwest Joint Service Centre"}]}
+{"record_id": "ED25-002715", "spans": [{"end": 54, "label": "LOCATION", "start": 40, "text": "Hansakvarteret"}]}
+{"record_id": "ED25-002739", "spans": [{"end": 62, "label": "LOCATION", "start": 41, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-002766", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Hansakortteli"}]}
+{"record_id": "ED25-002804", "spans": [{"end": 61, "label": "LOCATION", "start": 51, "text": "Kauppatori"}]}
+{"record_id": "ED25-002829", "spans": [{"end": 55, "label": "LOCATION", "start": 45, "text": "Kauppatori"}]}
+{"record_id": "ED25-002846", "spans": [{"end": 87, "label": "ORG", "start": 56, "text": "Naantali Upper Secondary School"}]}
+{"record_id": "ED25-002921", "spans": [{"end": 68, "label": "ORG", "start": 56, "text": "Vire Data Ky"}]}
+{"record_id": "ED25-002955", "spans": [{"end": 67, "label": "ORG", "start": 52, "text": "Utu Akatemia Oy"}]}
+{"record_id": "ED25-003197", "spans": [{"end": 53, "label": "LOCATION", "start": 41, "text": "Turun satama"}]}
+{"record_id": "ED25-003236", "spans": [{"end": 59, "label": "LOCATION", "start": 45, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-003273", "spans": [{"end": 51, "label": "LOCATION", "start": 41, "text": "Kauppatori"}]}
+{"record_id": "ED25-003282", "spans": [{"end": 57, "label": "LOCATION", "start": 45, "text": "Turun satama"}]}
+{"record_id": "ED25-003290", "spans": [{"end": 64, "label": "LOCATION", "start": 45, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-003333", "spans": [{"end": 74, "label": "ORG", "start": 52, "text": "Harmaja Kiinteistöt Oy"}]}
+{"record_id": "ED25-003453", "spans": [{"end": 69, "label": "LOCATION", "start": 45, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-003494", "spans": [{"end": 49, "label": "LOCATION", "start": 36, "text": "Idrottsparken"}]}
+{"record_id": "ED25-003529", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Hansakortteli"}]}
+{"record_id": "ED25-003564", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Hansakortteli"}]}
+{"record_id": "ED25-003617", "spans": [{"end": 55, "label": "LOCATION", "start": 39, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-003696", "spans": [{"end": 60, "label": "ORG", "start": 43, "text": "Lumora Tila Oy Ab"}]}
+{"record_id": "ED25-003771", "spans": [{"end": 63, "label": "LOCATION", "start": 39, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-003802", "spans": [{"end": 76, "label": "ORG", "start": 56, "text": "Merivalo Koulutus Oy"}]}
+{"record_id": "ED25-003804", "spans": [{"end": 64, "label": "LOCATION", "start": 45, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-003920", "spans": [{"end": 70, "label": "ORG", "start": 52, "text": "Ilmarin Digital Oy"}]}
+{"record_id": "ED25-004004", "spans": [{"end": 54, "label": "LOCATION", "start": 41, "text": "Hansakortteli"}]}
+{"record_id": "ED25-004016", "spans": [{"end": 62, "label": "LOCATION", "start": 41, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-004186", "spans": [{"end": 55, "label": "LOCATION", "start": 45, "text": "Kauppatori"}]}
+{"record_id": "ED25-004259", "spans": [{"end": 72, "label": "ORG", "start": 52, "text": "Jokivarsi Tila Oy Ab"}]}
+{"record_id": "ED25-004308", "spans": [{"end": 59, "label": "LOCATION", "start": 51, "text": "Ruissalo"}]}
+{"record_id": "ED25-004350", "spans": [{"end": 57, "label": "LOCATION", "start": 41, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-004395", "spans": [{"end": 61, "label": "LOCATION", "start": 45, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-004490", "spans": [{"end": 52, "label": "LOCATION", "start": 39, "text": "Hansakortteli"}]}
+{"record_id": "ED25-004494", "spans": [{"end": 50, "label": "LOCATION", "start": 36, "text": "Österås ishall"}]}
+{"record_id": "ED25-004500", "spans": [{"end": 81, "label": "ORG", "start": 56, "text": "Rauta-Aura Rahoitus Oy Ab"}]}
+{"record_id": "ED25-004546", "spans": [{"end": 59, "label": "LOCATION", "start": 40, "text": "Varissuo köpcentrum"}]}
+{"record_id": "ED25-004680", "spans": [{"end": 55, "label": "LOCATION", "start": 39, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-004692", "spans": [{"end": 64, "label": "LOCATION", "start": 45, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-004754", "spans": [{"end": 78, "label": "ORG", "start": 52, "text": "Aurajoki Regional Hospital"}]}
+{"record_id": "ED25-004781", "spans": [{"end": 78, "label": "ORG", "start": 52, "text": "Aurajoki Regional Hospital"}]}
+{"record_id": "ED25-004863", "spans": [{"end": 73, "label": "ORG", "start": 47, "text": "Aurinkokivi Palvelut Oy Ab"}]}
+{"record_id": "ED25-004878", "spans": [{"end": 52, "label": "LOCATION", "start": 36, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-004933", "spans": [{"end": 79, "label": "ORG", "start": 62, "text": "Selkä Puutarha Oy"}]}
+{"record_id": "ED25-004946", "spans": [{"end": 76, "label": "ORG", "start": 56, "text": "Sarastus Akatemia Oy"}]}
+{"record_id": "ED25-005012", "spans": [{"end": 61, "label": "LOCATION", "start": 45, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-005069", "spans": [{"end": 41, "label": "LOCATION", "start": 31, "text": "Salon tori"}]}
+{"record_id": "ED25-005107", "spans": [{"end": 49, "label": "LOCATION", "start": 39, "text": "Kauppatori"}]}
+{"record_id": "ED25-005223", "spans": [{"end": 59, "label": "LOCATION", "start": 45, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-005249", "spans": [{"end": 50, "label": "LOCATION", "start": 36, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-005279", "spans": [{"end": 78, "label": "ORG", "start": 52, "text": "Aurinkokivi Palvelut Oy Ab"}]}
+{"record_id": "ED25-005290", "spans": [{"end": 87, "label": "ORG", "start": 56, "text": "Naantali Upper Secondary School"}]}
+{"record_id": "ED25-005353", "spans": [{"end": 51, "label": "LOCATION", "start": 41, "text": "Salon tori"}]}
+{"record_id": "ED25-005454", "spans": [{"end": 69, "label": "ORG", "start": 52, "text": "Ilmarin Muovi Tmi"}]}
+{"record_id": "ED25-005500", "spans": [{"end": 77, "label": "ORG", "start": 56, "text": "Lounari Henkilöstö Ab"}]}
+{"record_id": "ED25-005605", "spans": [{"end": 49, "label": "LOCATION", "start": 39, "text": "Kauppatori"}]}
+{"record_id": "ED25-005648", "spans": [{"end": 84, "label": "ORG", "start": 62, "text": "Lounaisvirta Verkko Oy"}]}
+{"record_id": "ED25-005743", "spans": [{"end": 59, "label": "LOCATION", "start": 45, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-005767", "spans": [{"end": 72, "label": "ORG", "start": 56, "text": "Kuohu Asunnot Oy"}]}
+{"record_id": "ED25-005778", "spans": [{"end": 60, "label": "LOCATION", "start": 41, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-005805", "spans": [{"end": 44, "label": "LOCATION", "start": 31, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-005927", "spans": [{"end": 58, "label": "LOCATION", "start": 39, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-006026", "spans": [{"end": 42, "label": "LOCATION", "start": 32, "text": "Kauppatori"}]}
+{"record_id": "ED25-006053", "spans": [{"end": 46, "label": "LOCATION", "start": 32, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-006150", "spans": [{"end": 72, "label": "LOCATION", "start": 51, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-006214", "spans": [{"end": 47, "label": "LOCATION", "start": 39, "text": "Ruissalo"}]}
+{"record_id": "ED25-006535", "spans": [{"end": 65, "label": "LOCATION", "start": 41, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-006566", "spans": [{"end": 64, "label": "LOCATION", "start": 45, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-006669", "spans": [{"end": 55, "label": "LOCATION", "start": 45, "text": "Salon tori"}]}
+{"record_id": "ED25-006714", "spans": [{"end": 69, "label": "LOCATION", "start": 45, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-006737", "spans": [{"end": 66, "label": "LOCATION", "start": 45, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-006782", "spans": [{"end": 50, "label": "LOCATION", "start": 31, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-006783", "spans": [{"end": 72, "label": "ORG", "start": 52, "text": "Sarastus Akatemia Oy"}]}
+{"record_id": "ED25-006803", "spans": [{"end": 52, "label": "LOCATION", "start": 36, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-006810", "spans": [{"end": 66, "label": "ORG", "start": 47, "text": "Ilmarin Konepaja Ky"}]}
+{"record_id": "ED25-006889", "spans": [{"end": 68, "label": "ORG", "start": 52, "text": "Tervala Fysio Ky"}]}
+{"record_id": "ED25-006958", "spans": [{"end": 60, "label": "LOCATION", "start": 41, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-006982", "spans": [{"end": 46, "label": "LOCATION", "start": 36, "text": "Kauppatori"}]}
+{"record_id": "ED25-007078", "spans": [{"end": 71, "label": "ORG", "start": 56, "text": "Utu Puutarha Oy"}]}
+{"record_id": "ED25-007283", "spans": [{"end": 66, "label": "LOCATION", "start": 45, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-007400", "spans": [{"end": 61, "label": "LOCATION", "start": 45, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-007427", "spans": [{"end": 77, "label": "ORG", "start": 56, "text": "Rauta-Aura Terveys Ky"}]}
+{"record_id": "ED25-007654", "spans": [{"end": 74, "label": "ORG", "start": 56, "text": "Merivalo Market Oy"}]}
+{"record_id": "ED25-007923", "spans": [{"end": 55, "label": "LOCATION", "start": 45, "text": "Salon tori"}]}
+{"record_id": "ED25-007933", "spans": [{"end": 69, "label": "ORG", "start": 50, "text": "Vaskivuori Tukku Oy"}]}
+{"record_id": "ED25-007941", "spans": [{"end": 53, "label": "LOCATION", "start": 41, "text": "Turun satama"}]}
+{"record_id": "ED25-008000", "spans": [{"end": 67, "label": "ORG", "start": 52, "text": "Aallon Fysio Ab"}]}
+{"record_id": "ED25-008091", "spans": [{"end": 61, "label": "LOCATION", "start": 45, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-008166", "spans": [{"end": 51, "label": "LOCATION", "start": 41, "text": "Kauppatori"}]}
+{"record_id": "ED25-008214", "spans": [{"end": 75, "label": "ORG", "start": 62, "text": "Saaristo Bank"}]}
+{"record_id": "ED25-008452", "spans": [{"end": 62, "label": "ORG", "start": 47, "text": "Utu Puutarha Oy"}]}
+{"record_id": "ED25-008520", "spans": [{"end": 73, "label": "ORG", "start": 56, "text": "Varpu Liikunta Ky"}]}
+{"record_id": "ED25-008535", "spans": [{"end": 69, "label": "ORG", "start": 52, "text": "Tervala Kauppa Ky"}]}
+{"record_id": "ED25-008756", "spans": [{"end": 37, "label": "LOCATION", "start": 26, "text": "Kuppis park"}]}
+{"record_id": "ED25-008822", "spans": [{"end": 61, "label": "LOCATION", "start": 45, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-008840", "spans": [{"end": 59, "label": "ORG", "start": 43, "text": "Rusko Kauppa Tmi"}]}
+{"record_id": "ED25-008845", "spans": [{"end": 77, "label": "ORG", "start": 56, "text": "Jokivarsi Puutarha Ky"}]}
+{"record_id": "ED25-008982", "spans": [{"end": 66, "label": "ORG", "start": 53, "text": "Kuohu Data Ab"}]}
+{"record_id": "ED25-009050", "spans": [{"end": 54, "label": "LOCATION", "start": 41, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-009127", "spans": [{"end": 82, "label": "ORG", "start": 56, "text": "Aurajoki Regional Hospital"}]}
+{"record_id": "ED25-009185", "spans": [{"end": 64, "label": "ORG", "start": 52, "text": "Vire Data Ky"}]}
+{"record_id": "ED25-009305", "spans": [{"end": 63, "label": "LOCATION", "start": 45, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-009333", "spans": [{"end": 68, "label": "ORG", "start": 52, "text": "Rusko Kauppa Tmi"}]}
+{"record_id": "ED25-009441", "spans": [{"end": 66, "label": "LOCATION", "start": 45, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-009593", "spans": [{"end": 47, "label": "LOCATION", "start": 39, "text": "Ruissalo"}]}
+{"record_id": "ED25-009821", "spans": [{"end": 45, "label": "LOCATION", "start": 26, "text": "Varissuo köpcentrum"}]}
+{"record_id": "ED25-010209", "spans": [{"end": 50, "label": "LOCATION", "start": 40, "text": "Salutorget"}]}
+{"record_id": "ED25-010218", "spans": [{"end": 49, "label": "LOCATION", "start": 31, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-010424", "spans": [{"end": 55, "label": "LOCATION", "start": 45, "text": "Salon tori"}]}
+{"record_id": "ED25-010452", "spans": [{"end": 60, "label": "ORG", "start": 42, "text": "Kotiranta Fysio Ab"}]}
+{"record_id": "ED25-010991", "spans": [{"end": 82, "label": "ORG", "start": 56, "text": "Aurajoki Regional Hospital"}]}
+{"record_id": "ED25-011176", "spans": [{"end": 55, "label": "LOCATION", "start": 42, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-011333", "spans": [{"end": 48, "label": "LOCATION", "start": 32, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-011463", "spans": [{"end": 65, "label": "ORG", "start": 47, "text": "Lumora Akatemia Oy"}]}
+{"record_id": "ED25-011540", "spans": [{"end": 85, "label": "ORG", "start": 62, "text": "Aallon Talotekniikka Ab"}]}
+{"record_id": "ED25-011553", "spans": [{"end": 51, "label": "LOCATION", "start": 41, "text": "Kauppatori"}]}
+{"record_id": "ED25-011758", "spans": [{"end": 39, "label": "LOCATION", "start": 31, "text": "Ruissalo"}]}
+{"record_id": "ED25-011785", "spans": [{"end": 72, "label": "ORG", "start": 42, "text": "Southwest Joint Service Centre"}]}
+{"record_id": "ED25-011828", "spans": [{"end": 63, "label": "LOCATION", "start": 39, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-012055", "spans": [{"end": 66, "label": "ORG", "start": 47, "text": "Ruovo Henkilöstö Ky"}]}
+{"record_id": "ED25-012114", "spans": [{"end": 82, "label": "ORG", "start": 56, "text": "Aurajoki Regional Hospital"}]}
+{"record_id": "ED25-012237", "spans": [{"end": 61, "label": "ORG", "start": 43, "text": "Merivalo Huolto Oy"}]}
+{"record_id": "ED25-012537", "spans": [{"end": 44, "label": "LOCATION", "start": 31, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-012556", "spans": [{"end": 78, "label": "ORG", "start": 56, "text": "Pilvari Kiinteistöt Oy"}]}
+{"record_id": "ED25-012557", "spans": [{"end": 71, "label": "ORG", "start": 56, "text": "Lehvä Huolto Oy"}]}
+{"record_id": "ED25-012703", "spans": [{"end": 65, "label": "LOCATION", "start": 41, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-012990", "spans": [{"end": 85, "label": "ORG", "start": 62, "text": "Sarastus Rahoitus Oy Ab"}]}
+{"record_id": "ED25-013056", "spans": [{"end": 55, "label": "LOCATION", "start": 45, "text": "Kauppatori"}]}
+{"record_id": "ED25-013106", "spans": [{"end": 92, "label": "ORG", "start": 56, "text": "Lounais Vocational Institute, Loimaa"}]}
+{"record_id": "ED25-013154", "spans": [{"end": 49, "label": "LOCATION", "start": 31, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-013260", "spans": [{"end": 57, "label": "LOCATION", "start": 41, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-013534", "spans": [{"end": 53, "label": "LOCATION", "start": 39, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-013641", "spans": [{"end": 74, "label": "ORG", "start": 56, "text": "Saarni Puutarha Ky"}]}
+{"record_id": "ED25-013864", "spans": [{"end": 45, "label": "LOCATION", "start": 31, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-014008", "spans": [{"end": 66, "label": "LOCATION", "start": 42, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-014042", "spans": [{"end": 54, "label": "LOCATION", "start": 41, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-014289", "spans": [{"end": 71, "label": "ORG", "start": 52, "text": "Vaskivuori Hoiva Oy"}]}
+{"record_id": "ED25-014380", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-014644", "spans": [{"end": 66, "label": "ORG", "start": 42, "text": "Kotiranta Suunnittelu Oy"}]}
+{"record_id": "ED25-014686", "spans": [{"end": 67, "label": "ORG", "start": 47, "text": "Kivaro Tapahtumat Ab"}]}
+{"record_id": "ED25-014834", "spans": [{"end": 45, "label": "LOCATION", "start": 32, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-014917", "spans": [{"end": 51, "label": "LOCATION", "start": 32, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-015068", "spans": [{"end": 62, "label": "LOCATION", "start": 41, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-015104", "spans": [{"end": 55, "label": "LOCATION", "start": 36, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-015220", "spans": [{"end": 88, "label": "ORG", "start": 62, "text": "Aurajoki Regional Hospital"}]}
+{"record_id": "ED25-015273", "spans": [{"end": 66, "label": "ORG", "start": 50, "text": "Ruovo Kauppa Tmi"}]}
+{"record_id": "ED25-015513", "spans": [{"end": 72, "label": "ORG", "start": 52, "text": "Sarastus Rakennus Oy"}]}
+{"record_id": "ED25-015756", "spans": [{"end": 50, "label": "LOCATION", "start": 42, "text": "Ruissalo"}]}
+{"record_id": "ED25-015771", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Hansakortteli"}]}
+{"record_id": "ED25-015793", "spans": [{"end": 50, "label": "LOCATION", "start": 32, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-016082", "spans": [{"end": 38, "label": "LOCATION", "start": 26, "text": "Aurastranden"}]}
+{"record_id": "ED25-016094", "spans": [{"end": 76, "label": "ORG", "start": 53, "text": "Aallon Talotekniikka Ab"}]}
+{"record_id": "ED25-016357", "spans": [{"end": 57, "label": "LOCATION", "start": 41, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-016612", "spans": [{"end": 49, "label": "LOCATION", "start": 31, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-016637", "spans": [{"end": 51, "label": "LOCATION", "start": 41, "text": "Salon tori"}]}
+{"record_id": "ED25-016646", "spans": [{"end": 70, "label": "ORG", "start": 47, "text": "Sarastus Rahoitus Oy Ab"}]}
+{"record_id": "ED25-016651", "spans": [{"end": 60, "label": "ORG", "start": 43, "text": "Lumora Tila Oy Ab"}]}
+{"record_id": "ED25-016796", "spans": [{"end": 49, "label": "LOCATION", "start": 39, "text": "Kauppatori"}]}
+{"record_id": "ED25-017072", "spans": [{"end": 51, "label": "LOCATION", "start": 39, "text": "Turun satama"}]}
+{"record_id": "ED25-017185", "spans": [{"end": 55, "label": "LOCATION", "start": 42, "text": "Hansakortteli"}]}
+{"record_id": "ED25-017237", "spans": [{"end": 49, "label": "LOCATION", "start": 36, "text": "Hansakortteli"}]}
+{"record_id": "ED25-017580", "spans": [{"end": 47, "label": "LOCATION", "start": 40, "text": "Runsala"}]}
+{"record_id": "ED25-017603", "spans": [{"end": 64, "label": "LOCATION", "start": 45, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-017606", "spans": [{"end": 68, "label": "ORG", "start": 50, "text": "Kivaro Liikunta Ab"}]}
+{"record_id": "ED25-017666", "spans": [{"end": 64, "label": "ORG", "start": 47, "text": "Selkä Rakennus Oy"}]}
+{"record_id": "ED25-017842", "spans": [{"end": 55, "label": "LOCATION", "start": 36, "text": "Varissuo köpcentrum"}]}
+{"record_id": "ED25-017870", "spans": [{"end": 69, "label": "LOCATION", "start": 45, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-017929", "spans": [{"end": 50, "label": "LOCATION", "start": 32, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-018288", "spans": [{"end": 68, "label": "ORG", "start": 53, "text": "Lehvä Huolto Oy"}]}
+{"record_id": "ED25-018448", "spans": [{"end": 54, "label": "LOCATION", "start": 41, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-018508", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-018761", "spans": [{"end": 73, "label": "ORG", "start": 53, "text": "Sarastus Rakennus Oy"}]}
+{"record_id": "ED25-018847", "spans": [{"end": 51, "label": "LOCATION", "start": 41, "text": "Kauppatori"}]}
+{"record_id": "ED25-018887", "spans": [{"end": 67, "label": "LOCATION", "start": 51, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-019022", "spans": [{"end": 65, "label": "ORG", "start": 43, "text": "Harmaja Kiinteistöt Oy"}]}
+{"record_id": "ED25-019129", "spans": [{"end": 53, "label": "LOCATION", "start": 41, "text": "Turun satama"}]}
+{"record_id": "ED25-019151", "spans": [{"end": 55, "label": "LOCATION", "start": 45, "text": "Kauppatori"}]}
+{"record_id": "ED25-019394", "spans": [{"end": 58, "label": "LOCATION", "start": 39, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-019403", "spans": [{"end": 52, "label": "LOCATION", "start": 42, "text": "Kauppatori"}]}
+{"record_id": "ED25-019464", "spans": [{"end": 53, "label": "LOCATION", "start": 45, "text": "Ruissalo"}]}
+{"record_id": "ED25-019506", "spans": [{"end": 50, "label": "LOCATION", "start": 36, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-019600", "spans": [{"end": 62, "label": "ORG", "start": 42, "text": "Jokivarsi Tila Oy Ab"}]}
+{"record_id": "ED25-020082", "spans": [{"end": 72, "label": "ORG", "start": 52, "text": "Hiidenkivi Market Oy"}]}
+{"record_id": "ED25-020314", "spans": [{"end": 38, "label": "LOCATION", "start": 27, "text": "Kuppis park"}]}
+{"record_id": "ED25-020347", "spans": [{"end": 57, "label": "LOCATION", "start": 39, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-020401", "spans": [{"end": 53, "label": "LOCATION", "start": 32, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-020689", "spans": [{"end": 67, "label": "ORG", "start": 47, "text": "Lehvä Arkkitehdit Oy"}]}
+{"record_id": "ED25-020789", "spans": [{"end": 75, "label": "ORG", "start": 56, "text": "Ilmarin Akatemia Oy"}]}
+{"record_id": "ED25-020841", "spans": [{"end": 55, "label": "LOCATION", "start": 31, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-020926", "spans": [{"end": 45, "label": "LOCATION", "start": 31, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-020927", "spans": [{"end": 66, "label": "LOCATION", "start": 45, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-021005", "spans": [{"end": 60, "label": "LOCATION", "start": 41, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-021074", "spans": [{"end": 61, "label": "LOCATION", "start": 51, "text": "Kauppatori"}]}
+{"record_id": "ED25-021372", "spans": [{"end": 72, "label": "ORG", "start": 56, "text": "Tervala Fysio Ky"}]}
+{"record_id": "ED25-021389", "spans": [{"end": 59, "label": "ORG", "start": 42, "text": "Lumora Tila Oy Ab"}]}
+{"record_id": "ED25-021453", "spans": [{"end": 62, "label": "LOCATION", "start": 41, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-021552", "spans": [{"end": 64, "label": "ORG", "start": 52, "text": "Vire Data Ky"}]}
+{"record_id": "ED25-021688", "spans": [{"end": 65, "label": "LOCATION", "start": 41, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-021810", "spans": [{"end": 49, "label": "LOCATION", "start": 40, "text": "Salo torg"}]}
+{"record_id": "ED25-022057", "spans": [{"end": 55, "label": "LOCATION", "start": 41, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-022126", "spans": [{"end": 60, "label": "LOCATION", "start": 41, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-022289", "spans": [{"end": 56, "label": "LOCATION", "start": 32, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-022457", "spans": [{"end": 49, "label": "LOCATION", "start": 31, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-022508", "spans": [{"end": 39, "label": "LOCATION", "start": 29, "text": "Salutorget"}]}
+{"record_id": "ED25-022691", "spans": [{"end": 72, "label": "ORG", "start": 52, "text": "Sarastus Koulutus Ab"}]}
+{"record_id": "ED25-022819", "spans": [{"end": 78, "label": "ORG", "start": 62, "text": "Rusko Kauppa Tmi"}]}
+{"record_id": "ED25-023095", "spans": [{"end": 64, "label": "LOCATION", "start": 45, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-023169", "spans": [{"end": 65, "label": "LOCATION", "start": 51, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-023237", "spans": [{"end": 69, "label": "ORG", "start": 52, "text": "Kumpu Kuljetus Ky"}]}
+{"record_id": "ED25-023387", "spans": [{"end": 70, "label": "ORG", "start": 52, "text": "Lumora Siivous Tmi"}]}
+{"record_id": "ED25-023417", "spans": [{"end": 71, "label": "ORG", "start": 52, "text": "Ilmarin Konepaja Ky"}]}
+{"record_id": "ED25-023480", "spans": [{"end": 52, "label": "LOCATION", "start": 39, "text": "Hansakortteli"}]}
+{"record_id": "ED25-023590", "spans": [{"end": 51, "label": "LOCATION", "start": 41, "text": "Kauppatori"}]}
+{"record_id": "ED25-023689", "spans": [{"end": 74, "label": "ORG", "start": 52, "text": "Lehvä Talotekniikka Oy"}]}
+{"record_id": "ED25-023708", "spans": [{"end": 76, "label": "ORG", "start": 50, "text": "Aurajoki Regional Hospital"}]}
+{"record_id": "ED25-023816", "spans": [{"end": 44, "label": "LOCATION", "start": 31, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-023860", "spans": [{"end": 78, "label": "ORG", "start": 56, "text": "Hiidenkivi Konepaja Ab"}]}
+{"record_id": "ED25-023863", "spans": [{"end": 86, "label": "ORG", "start": 56, "text": "Southwest Joint Service Centre"}]}
+{"record_id": "ED25-024067", "spans": [{"end": 50, "label": "LOCATION", "start": 31, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-024189", "spans": [{"end": 51, "label": "LOCATION", "start": 39, "text": "Turun satama"}]}
+{"record_id": "ED25-024240", "spans": [{"end": 55, "label": "LOCATION", "start": 31, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-024419", "spans": [{"end": 70, "label": "ORG", "start": 53, "text": "Ilmarin Muovi Tmi"}]}
+{"record_id": "ED25-024432", "spans": [{"end": 52, "label": "LOCATION", "start": 31, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-024499", "spans": [{"end": 69, "label": "ORG", "start": 43, "text": "Aurinkokivi Palvelut Oy Ab"}]}
+{"record_id": "ED25-024703", "spans": [{"end": 60, "label": "LOCATION", "start": 41, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-024714", "spans": [{"end": 66, "label": "ORG", "start": 50, "text": "Kuohu Asunnot Oy"}]}
+{"record_id": "ED25-024778", "spans": [{"end": 57, "label": "LOCATION", "start": 39, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-025022", "spans": [{"end": 45, "label": "LOCATION", "start": 31, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-025027", "spans": [{"end": 45, "label": "LOCATION", "start": 31, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-025028", "spans": [{"end": 44, "label": "LOCATION", "start": 36, "text": "Ruissalo"}]}
+{"record_id": "ED25-025116", "spans": [{"end": 46, "label": "LOCATION", "start": 36, "text": "Salon tori"}]}
+{"record_id": "ED25-025219", "spans": [{"end": 45, "label": "LOCATION", "start": 32, "text": "Hansakortteli"}]}
+{"record_id": "ED25-025283", "spans": [{"end": 40, "label": "LOCATION", "start": 27, "text": "Idrottsparken"}]}
+{"record_id": "ED25-025311", "spans": [{"end": 64, "label": "ORG", "start": 47, "text": "Sinikallio Puu Oy"}]}
+{"record_id": "ED25-025349", "spans": [{"end": 62, "label": "ORG", "start": 43, "text": "Aallokko Telecom Oy"}]}
+{"record_id": "ED25-025660", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-025780", "spans": [{"end": 68, "label": "ORG", "start": 50, "text": "Kuohu Saneeraus Oy"}]}
+{"record_id": "ED25-025885", "spans": [{"end": 44, "label": "LOCATION", "start": 31, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-025974", "spans": [{"end": 70, "label": "ORG", "start": 52, "text": "Tähtiväylä Puu Tmi"}]}
+{"record_id": "ED25-026026", "spans": [{"end": 52, "label": "LOCATION", "start": 39, "text": "Hansakortteli"}]}
+{"record_id": "ED25-026036", "spans": [{"end": 41, "label": "LOCATION", "start": 31, "text": "Kauppatori"}]}
+{"record_id": "ED25-026274", "spans": [{"end": 55, "label": "LOCATION", "start": 41, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-026300", "spans": [{"end": 55, "label": "LOCATION", "start": 45, "text": "Salon tori"}]}
+{"record_id": "ED25-026606", "spans": [{"end": 53, "label": "LOCATION", "start": 41, "text": "Turun satama"}]}
+{"record_id": "ED25-026624", "spans": [{"end": 58, "label": "ORG", "start": 42, "text": "Rusko Kauppa Tmi"}]}
+{"record_id": "ED25-026625", "spans": [{"end": 66, "label": "ORG", "start": 47, "text": "Vire Arkkitehdit Oy"}]}
+{"record_id": "ED25-026645", "spans": [{"end": 75, "label": "ORG", "start": 56, "text": "Lounari Kuljetus Oy"}]}
+{"record_id": "ED25-026711", "spans": [{"end": 37, "label": "LOCATION", "start": 26, "text": "Kuppis park"}]}
+{"record_id": "ED25-027193", "spans": [{"end": 51, "label": "LOCATION", "start": 39, "text": "Turun satama"}]}
+{"record_id": "ED25-027403", "spans": [{"end": 55, "label": "LOCATION", "start": 45, "text": "Kauppatori"}]}
+{"record_id": "ED25-027532", "spans": [{"end": 82, "label": "ORG", "start": 56, "text": "Aurajoki Regional Hospital"}]}
+{"record_id": "ED25-027536", "spans": [{"end": 49, "label": "LOCATION", "start": 36, "text": "Hansakortteli"}]}
+{"record_id": "ED25-027629", "spans": [{"end": 82, "label": "ORG", "start": 56, "text": "Aurinkokivi Palvelut Oy Ab"}]}
+{"record_id": "ED25-027752", "spans": [{"end": 73, "label": "ORG", "start": 52, "text": "Meridian Logistics Oy"}]}
+{"record_id": "ED25-027829", "spans": [{"end": 52, "label": "LOCATION", "start": 39, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-027972", "spans": [{"end": 65, "label": "LOCATION", "start": 41, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-028018", "spans": [{"end": 60, "label": "LOCATION", "start": 41, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-028026", "spans": [{"end": 56, "label": "LOCATION", "start": 36, "text": "Nådendals gamla stad"}]}
+{"record_id": "ED25-028119", "spans": [{"end": 44, "label": "LOCATION", "start": 32, "text": "Turun satama"}]}
+{"record_id": "ED25-028144", "spans": [{"end": 88, "label": "ORG", "start": 47, "text": "Southwest Vocational College, Salo campus"}]}
+{"record_id": "ED25-028271", "spans": [{"end": 61, "label": "LOCATION", "start": 45, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-028275", "spans": [{"end": 51, "label": "LOCATION", "start": 32, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-028324", "spans": [{"end": 38, "label": "LOCATION", "start": 27, "text": "Kuppis park"}]}
+{"record_id": "ED25-028470", "spans": [{"end": 70, "label": "LOCATION", "start": 51, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-028628", "spans": [{"end": 58, "label": "ORG", "start": 42, "text": "Kajo Kampaamo Ab"}]}
+{"record_id": "ED25-028689", "spans": [{"end": 31, "label": "LOCATION", "start": 24, "text": "Runsala"}]}
+{"record_id": "ED25-028701", "spans": [{"end": 70, "label": "ORG", "start": 47, "text": "Aallon Talotekniikka Ab"}]}
+{"record_id": "ED25-028710", "spans": [{"end": 55, "label": "LOCATION", "start": 31, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-028743", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Hansakortteli"}]}
+{"record_id": "ED25-028749", "spans": [{"end": 51, "label": "LOCATION", "start": 41, "text": "Salon tori"}]}
+{"record_id": "ED25-029150", "spans": [{"end": 53, "label": "LOCATION", "start": 41, "text": "Turun satama"}]}
+{"record_id": "ED25-029191", "spans": [{"end": 52, "label": "LOCATION", "start": 40, "text": "Aurastranden"}]}
+{"record_id": "ED25-029269", "spans": [{"end": 66, "label": "LOCATION", "start": 42, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-029402", "spans": [{"end": 40, "label": "LOCATION", "start": 26, "text": "Hansakvarteret"}]}
+{"record_id": "ED25-029579", "spans": [{"end": 64, "label": "ORG", "start": 47, "text": "Varpu Kuljetus Ab"}]}
+{"record_id": "ED25-029650", "spans": [{"end": 65, "label": "ORG", "start": 47, "text": "Kajo Henkilöstö Oy"}]}
+{"record_id": "ED25-029707", "spans": [{"end": 72, "label": "ORG", "start": 56, "text": "Ruovo Kauppa Tmi"}]}
+{"record_id": "ED25-029718", "spans": [{"end": 67, "label": "ORG", "start": 53, "text": "Kaarna Care Oy"}]}
+{"record_id": "ED25-029770", "spans": [{"end": 61, "label": "ORG", "start": 47, "text": "Aallon Tila Oy"}]}
+{"record_id": "ED25-029817", "spans": [{"end": 58, "label": "LOCATION", "start": 39, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-030111", "spans": [{"end": 77, "label": "ORG", "start": 56, "text": "Jokivarsi Puutarha Oy"}]}
+{"record_id": "ED25-030431", "spans": [{"end": 78, "label": "ORG", "start": 56, "text": "Hiidenkivi Konepaja Ky"}]}
+{"record_id": "ED25-030437", "spans": [{"end": 67, "label": "ORG", "start": 52, "text": "Kajo Asunnot Oy"}]}
+{"record_id": "ED25-030486", "spans": [{"end": 72, "label": "ORG", "start": 47, "text": "Lounari Talotekniikka Tmi"}]}
+{"record_id": "ED25-030734", "spans": [{"end": 59, "label": "LOCATION", "start": 45, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-030947", "spans": [{"end": 49, "label": "LOCATION", "start": 36, "text": "Hansakortteli"}]}
+{"record_id": "ED25-030968", "spans": [{"end": 64, "label": "LOCATION", "start": 45, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-031035", "spans": [{"end": 75, "label": "ORG", "start": 56, "text": "Lehvä Tapahtumat Oy"}]}
+{"record_id": "ED25-031230", "spans": [{"end": 61, "label": "LOCATION", "start": 45, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-031270", "spans": [{"end": 75, "label": "ORG", "start": 52, "text": "Sarastus Rahoitus Oy Ab"}]}
+{"record_id": "ED25-031541", "spans": [{"end": 66, "label": "ORG", "start": 47, "text": "Tuohi Henkilöstö Ab"}]}
+{"record_id": "ED25-031754", "spans": [{"end": 73, "label": "ORG", "start": 50, "text": "Lounari Suunnittelu Tmi"}]}
+{"record_id": "ED25-031789", "spans": [{"end": 50, "label": "LOCATION", "start": 32, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-031957", "spans": [{"end": 51, "label": "LOCATION", "start": 32, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-032061", "spans": [{"end": 53, "label": "LOCATION", "start": 41, "text": "Turun satama"}]}
+{"record_id": "ED25-032109", "spans": [{"end": 73, "label": "ORG", "start": 56, "text": "Lumora Tila Oy Ab"}]}
+{"record_id": "ED25-032460", "spans": [{"end": 74, "label": "ORG", "start": 56, "text": "Merivalo Market Oy"}]}
+{"record_id": "ED25-032653", "spans": [{"end": 60, "label": "LOCATION", "start": 41, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-032903", "spans": [{"end": 44, "label": "LOCATION", "start": 31, "text": "Hansakortteli"}]}
+{"record_id": "ED25-032933", "spans": [{"end": 58, "label": "ORG", "start": 43, "text": "Aallon Fysio Ab"}]}
+{"record_id": "ED25-032974", "spans": [{"end": 45, "label": "LOCATION", "start": 31, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-033065", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-033151", "spans": [{"end": 51, "label": "LOCATION", "start": 41, "text": "Kauppatori"}]}
+{"record_id": "ED25-033277", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-033510", "spans": [{"end": 67, "label": "ORG", "start": 50, "text": "Kivaro Asunnot Oy"}]}
+{"record_id": "ED25-033560", "spans": [{"end": 49, "label": "LOCATION", "start": 36, "text": "Hansakortteli"}]}
+{"record_id": "ED25-033658", "spans": [{"end": 51, "label": "LOCATION", "start": 41, "text": "Kauppatori"}]}
+{"record_id": "ED25-033732", "spans": [{"end": 52, "label": "LOCATION", "start": 36, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-033755", "spans": [{"end": 53, "label": "LOCATION", "start": 32, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-033756", "spans": [{"end": 54, "label": "LOCATION", "start": 41, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-034013", "spans": [{"end": 56, "label": "LOCATION", "start": 32, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-034047", "spans": [{"end": 39, "label": "LOCATION", "start": 31, "text": "Ruissalo"}]}
+{"record_id": "ED25-034067", "spans": [{"end": 41, "label": "LOCATION", "start": 31, "text": "Salon tori"}]}
+{"record_id": "ED25-034188", "spans": [{"end": 46, "label": "LOCATION", "start": 36, "text": "Kauppatori"}]}
+{"record_id": "ED25-034196", "spans": [{"end": 53, "label": "LOCATION", "start": 41, "text": "Turun satama"}]}
+{"record_id": "ED25-034231", "spans": [{"end": 75, "label": "ORG", "start": 52, "text": "Aallon Talotekniikka Ab"}]}
+{"record_id": "ED25-034307", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-034499", "spans": [{"end": 53, "label": "LOCATION", "start": 39, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-034525", "spans": [{"end": 53, "label": "LOCATION", "start": 45, "text": "Ruissalo"}]}
+{"record_id": "ED25-034794", "spans": [{"end": 72, "label": "ORG", "start": 53, "text": "Kaislan Akatemia Ky"}]}
+{"record_id": "ED25-035298", "spans": [{"end": 50, "label": "LOCATION", "start": 42, "text": "Ruissalo"}]}
+{"record_id": "ED25-035426", "spans": [{"end": 48, "label": "LOCATION", "start": 32, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-035489", "spans": [{"end": 54, "label": "LOCATION", "start": 41, "text": "Hansakortteli"}]}
+{"record_id": "ED25-035512", "spans": [{"end": 57, "label": "LOCATION", "start": 41, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-035667", "spans": [{"end": 63, "label": "ORG", "start": 43, "text": "Sarastus Rakennus Oy"}]}
+{"record_id": "ED25-035780", "spans": [{"end": 73, "label": "ORG", "start": 56, "text": "Ruovo Koulutus Ky"}]}
+{"record_id": "ED25-035863", "spans": [{"end": 70, "label": "ORG", "start": 50, "text": "Lounari Saneeraus Oy"}]}
+{"record_id": "ED25-035868", "spans": [{"end": 83, "label": "ORG", "start": 62, "text": "Saarni Liikunta Oy Ab"}]}
+{"record_id": "ED25-035920", "spans": [{"end": 63, "label": "ORG", "start": 47, "text": "Okra Kampaamo Oy"}]}
+{"record_id": "ED25-035957", "spans": [{"end": 62, "label": "ORG", "start": 42, "text": "Hiidenkivi Market Oy"}]}
+{"record_id": "ED25-035999", "spans": [{"end": 61, "label": "ORG", "start": 47, "text": "Saarni Tila Ky"}]}
+{"record_id": "ED25-036475", "spans": [{"end": 63, "label": "LOCATION", "start": 39, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-036664", "spans": [{"end": 52, "label": "LOCATION", "start": 31, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-036761", "spans": [{"end": 69, "label": "ORG", "start": 52, "text": "Kuohu Kuljetus Oy"}]}
+{"record_id": "ED25-036969", "spans": [{"end": 59, "label": "LOCATION", "start": 45, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-037073", "spans": [{"end": 40, "label": "LOCATION", "start": 26, "text": "Hansakvarteret"}]}
+{"record_id": "ED25-037104", "spans": [{"end": 82, "label": "ORG", "start": 56, "text": "Aurajoki Regional Hospital"}]}
+{"record_id": "ED25-037249", "spans": [{"end": 34, "label": "LOCATION", "start": 26, "text": "Åbo hamn"}]}
+{"record_id": "ED25-037335", "spans": [{"end": 65, "label": "LOCATION", "start": 41, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-037443", "spans": [{"end": 47, "label": "LOCATION", "start": 31, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-037500", "spans": [{"end": 33, "label": "LOCATION", "start": 26, "text": "Runsala"}]}
+{"record_id": "ED25-037548", "spans": [{"end": 38, "label": "LOCATION", "start": 26, "text": "Aurastranden"}]}
+{"record_id": "ED25-037564", "spans": [{"end": 62, "label": "ORG", "start": 43, "text": "Saarni Ravintola Oy"}]}
+{"record_id": "ED25-037665", "spans": [{"end": 64, "label": "ORG", "start": 50, "text": "Kivaro Soft Oy"}]}
+{"record_id": "ED25-037763", "spans": [{"end": 67, "label": "ORG", "start": 47, "text": "Lehvä Arkkitehdit Oy"}]}
+{"record_id": "ED25-037786", "spans": [{"end": 55, "label": "LOCATION", "start": 36, "text": "Åbo järnvägsstation"}]}
+{"record_id": "ED25-037852", "spans": [{"end": 55, "label": "LOCATION", "start": 42, "text": "Hansakortteli"}]}
+{"record_id": "ED25-038028", "spans": [{"end": 69, "label": "ORG", "start": 56, "text": "Kehrä Data Oy"}]}
+{"record_id": "ED25-038479", "spans": [{"end": 48, "label": "LOCATION", "start": 32, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-038530", "spans": [{"end": 60, "label": "LOCATION", "start": 40, "text": "Nådendals gamla stad"}]}
+{"record_id": "ED25-038663", "spans": [{"end": 48, "label": "LOCATION", "start": 36, "text": "Turun satama"}]}
+{"record_id": "ED25-038682", "spans": [{"end": 53, "label": "LOCATION", "start": 39, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-038789", "spans": [{"end": 66, "label": "ORG", "start": 50, "text": "Rusko Kauppa Tmi"}]}
+{"record_id": "ED25-038999", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-039163", "spans": [{"end": 77, "label": "ORG", "start": 56, "text": "Lumora Kiinteistöt Ky"}]}
+{"record_id": "ED25-039200", "spans": [{"end": 63, "label": "ORG", "start": 47, "text": "Lounari Hoiva Ab"}]}
+{"record_id": "ED25-039501", "spans": [{"end": 55, "label": "LOCATION", "start": 31, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-039593", "spans": [{"end": 69, "label": "LOCATION", "start": 45, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-039810", "spans": [{"end": 57, "label": "LOCATION", "start": 36, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-039844", "spans": [{"end": 75, "label": "ORG", "start": 56, "text": "Ilmarin Konepaja Ky"}]}
+{"record_id": "ED25-040068", "spans": [{"end": 45, "label": "LOCATION", "start": 31, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-040112", "spans": [{"end": 37, "label": "LOCATION", "start": 26, "text": "Kuppis park"}]}
+{"record_id": "ED25-040156", "spans": [{"end": 49, "label": "LOCATION", "start": 41, "text": "Ruissalo"}]}
+{"record_id": "ED25-040176", "spans": [{"end": 52, "label": "LOCATION", "start": 31, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-040302", "spans": [{"end": 74, "label": "ORG", "start": 53, "text": "Meridian Logistics Oy"}]}
+{"record_id": "ED25-040331", "spans": [{"end": 68, "label": "ORG", "start": 52, "text": "Pilvari Hoiva Ky"}]}
+{"record_id": "ED25-040336", "spans": [{"end": 71, "label": "ORG", "start": 53, "text": "Lehvä Ravintola Oy"}]}
+{"record_id": "ED25-040415", "spans": [{"end": 51, "label": "LOCATION", "start": 41, "text": "Salutorget"}]}
+{"record_id": "ED25-040423", "spans": [{"end": 68, "label": "ORG", "start": 47, "text": "Meridian Logistics Oy"}]}
+{"record_id": "ED25-040426", "spans": [{"end": 68, "label": "ORG", "start": 47, "text": "Vaskivuori Asunnot Oy"}]}
+{"record_id": "ED25-040440", "spans": [{"end": 47, "label": "LOCATION", "start": 39, "text": "Ruissalo"}]}
+{"record_id": "ED25-040557", "spans": [{"end": 54, "label": "LOCATION", "start": 41, "text": "Hansakortteli"}]}
+{"record_id": "ED25-040596", "spans": [{"end": 60, "label": "LOCATION", "start": 42, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-040631", "spans": [{"end": 64, "label": "LOCATION", "start": 51, "text": "Hansakortteli"}]}
+{"record_id": "ED25-040688", "spans": [{"end": 43, "label": "LOCATION", "start": 31, "text": "Turun satama"}]}
+{"record_id": "ED25-041249", "spans": [{"end": 63, "label": "LOCATION", "start": 42, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-041301", "spans": [{"end": 66, "label": "LOCATION", "start": 42, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-041348", "spans": [{"end": 33, "label": "LOCATION", "start": 26, "text": "Runsala"}]}
+{"record_id": "ED25-041393", "spans": [{"end": 84, "label": "ORG", "start": 42, "text": "Southwest Vocational College, Turku campus"}]}
+{"record_id": "ED25-041701", "spans": [{"end": 63, "label": "LOCATION", "start": 39, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-041744", "spans": [{"end": 77, "label": "ORG", "start": 56, "text": "Rauta-Aura Asunnot Oy"}]}
+{"record_id": "ED25-041782", "spans": [{"end": 45, "label": "LOCATION", "start": 31, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-041911", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Hansakortteli"}]}
+{"record_id": "ED25-041950", "spans": [{"end": 49, "label": "LOCATION", "start": 41, "text": "Ruissalo"}]}
+{"record_id": "ED25-042005", "spans": [{"end": 74, "label": "ORG", "start": 53, "text": "Vaskivuori Siivous Ky"}]}
+{"record_id": "ED25-042419", "spans": [{"end": 44, "label": "LOCATION", "start": 36, "text": "Ruissalo"}]}
+{"record_id": "ED25-042455", "spans": [{"end": 76, "label": "ORG", "start": 56, "text": "Hiidenkivi Market Oy"}]}
+{"record_id": "ED25-042950", "spans": [{"end": 66, "label": "ORG", "start": 47, "text": "Varpu Ravintola Tmi"}]}
+{"record_id": "ED25-043046", "spans": [{"end": 44, "label": "LOCATION", "start": 32, "text": "Turun satama"}]}
+{"record_id": "ED25-043260", "spans": [{"end": 55, "label": "LOCATION", "start": 39, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-043272", "spans": [{"end": 41, "label": "LOCATION", "start": 31, "text": "Salon tori"}]}
+{"record_id": "ED25-043554", "spans": [{"end": 54, "label": "LOCATION", "start": 36, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-043602", "spans": [{"end": 73, "label": "ORG", "start": 52, "text": "Kotiranta Akatemia Oy"}]}
+{"record_id": "ED25-043638", "spans": [{"end": 63, "label": "ORG", "start": 50, "text": "Saaristo Bank"}]}
+{"record_id": "ED25-043652", "spans": [{"end": 59, "label": "LOCATION", "start": 41, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-043684", "spans": [{"end": 47, "label": "LOCATION", "start": 36, "text": "Kuppis park"}]}
+{"record_id": "ED25-043999", "spans": [{"end": 46, "label": "LOCATION", "start": 27, "text": "Åbo järnvägsstation"}]}
+{"record_id": "ED25-044371", "spans": [{"end": 50, "label": "LOCATION", "start": 31, "text": "Turun rautatieasema"}]}
+{"record_id": "ED25-044513", "spans": [{"end": 58, "label": "ORG", "start": 42, "text": "Ruovo Kauppa Tmi"}]}
+{"record_id": "ED25-044514", "spans": [{"end": 73, "label": "ORG", "start": 56, "text": "Aallon Terveys Oy"}]}
+{"record_id": "ED25-044603", "spans": [{"end": 80, "label": "ORG", "start": 56, "text": "Sinikallio Henkilöstö Oy"}]}
+{"record_id": "ED25-044680", "spans": [{"end": 55, "label": "LOCATION", "start": 31, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-044783", "spans": [{"end": 54, "label": "LOCATION", "start": 41, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-044794", "spans": [{"end": 72, "label": "ORG", "start": 53, "text": "Ilmarin Akatemia Oy"}]}
+{"record_id": "ED25-044802", "spans": [{"end": 70, "label": "ORG", "start": 47, "text": "Rauta-Aura Kampaamo Tmi"}]}
+{"record_id": "ED25-044836", "spans": [{"end": 82, "label": "ORG", "start": 62, "text": "Pilvari Puutarha Tmi"}]}
+{"record_id": "ED25-044857", "spans": [{"end": 64, "label": "ORG", "start": 42, "text": "Kaislan Puutarha Oy Ab"}]}
+{"record_id": "ED25-045089", "spans": [{"end": 40, "label": "LOCATION", "start": 26, "text": "Hansakvarteret"}]}
+{"record_id": "ED25-045346", "spans": [{"end": 73, "label": "ORG", "start": 47, "text": "Hiidenkivi Kiinteistöt Tmi"}]}
+{"record_id": "ED25-045413", "spans": [{"end": 59, "label": "LOCATION", "start": 40, "text": "Åbo järnvägsstation"}]}
+{"record_id": "ED25-045480", "spans": [{"end": 68, "label": "ORG", "start": 52, "text": "Kuohu Asunnot Oy"}]}
+{"record_id": "ED25-045675", "spans": [{"end": 44, "label": "LOCATION", "start": 31, "text": "Hansakortteli"}]}
+{"record_id": "ED25-045698", "spans": [{"end": 57, "label": "ORG", "start": 43, "text": "Kaarna Care Oy"}]}
+{"record_id": "ED25-045788", "spans": [{"end": 39, "label": "LOCATION", "start": 31, "text": "Ruissalo"}]}
+{"record_id": "ED25-045848", "spans": [{"end": 64, "label": "ORG", "start": 47, "text": "Lumora Tila Oy Ab"}]}
+{"record_id": "ED25-046014", "spans": [{"end": 58, "label": "LOCATION", "start": 45, "text": "Hansakortteli"}]}
+{"record_id": "ED25-046098", "spans": [{"end": 47, "label": "LOCATION", "start": 39, "text": "Ruissalo"}]}
+{"record_id": "ED25-046236", "spans": [{"end": 55, "label": "LOCATION", "start": 39, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-046284", "spans": [{"end": 44, "label": "LOCATION", "start": 31, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-046378", "spans": [{"end": 55, "label": "LOCATION", "start": 41, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-046687", "spans": [{"end": 57, "label": "LOCATION", "start": 41, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-046774", "spans": [{"end": 51, "label": "LOCATION", "start": 41, "text": "Kauppatori"}]}
+{"record_id": "ED25-046878", "spans": [{"end": 40, "label": "LOCATION", "start": 26, "text": "Österås ishall"}]}
+{"record_id": "ED25-046908", "spans": [{"end": 57, "label": "LOCATION", "start": 39, "text": "Itäharjun jäähalli"}]}
+{"record_id": "ED25-046914", "spans": [{"end": 78, "label": "ORG", "start": 56, "text": "Lounaisvirta Verkko Oy"}]}
+{"record_id": "ED25-047208", "spans": [{"end": 79, "label": "ORG", "start": 53, "text": "Aurajoki Regional Hospital"}]}
+{"record_id": "ED25-047260", "spans": [{"end": 71, "label": "ORG", "start": 52, "text": "Kumpu Kahvila Oy Ab"}]}
+{"record_id": "ED25-047392", "spans": [{"end": 72, "label": "LOCATION", "start": 51, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-047393", "spans": [{"end": 64, "label": "ORG", "start": 52, "text": "Vire Data Ky"}]}
+{"record_id": "ED25-047417", "spans": [{"end": 82, "label": "ORG", "start": 56, "text": "Aurinkokivi Palvelut Oy Ab"}]}
+{"record_id": "ED25-047576", "spans": [{"end": 69, "label": "LOCATION", "start": 45, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-047587", "spans": [{"end": 82, "label": "ORG", "start": 56, "text": "Aurinkokivi Palvelut Oy Ab"}]}
+{"record_id": "ED25-047600", "spans": [{"end": 75, "label": "ORG", "start": 52, "text": "Vaskivuori Kauppa Oy Ab"}]}
+{"record_id": "ED25-047610", "spans": [{"end": 44, "label": "LOCATION", "start": 36, "text": "Ruissalo"}]}
+{"record_id": "ED25-047618", "spans": [{"end": 69, "label": "LOCATION", "start": 45, "text": "Naantalin vanha kaupunki"}]}
+{"record_id": "ED25-047634", "spans": [{"end": 47, "label": "LOCATION", "start": 27, "text": "Nådendals gamla stad"}]}
+{"record_id": "ED25-047752", "spans": [{"end": 67, "label": "ORG", "start": 47, "text": "Merivalo Akatemia Ky"}]}
+{"record_id": "ED25-047760", "spans": [{"end": 47, "label": "LOCATION", "start": 39, "text": "Ruissalo"}]}
+{"record_id": "ED25-047930", "spans": [{"end": 66, "label": "ORG", "start": 52, "text": "Lehvä Fysio Ab"}]}
+{"record_id": "ED25-047964", "spans": [{"end": 72, "label": "ORG", "start": 50, "text": "Tähtiväylä Kahvila Tmi"}]}
+{"record_id": "ED25-048011", "spans": [{"end": 78, "label": "ORG", "start": 52, "text": "Aurajoki Regional Hospital"}]}
+{"record_id": "ED25-048017", "spans": [{"end": 70, "label": "ORG", "start": 52, "text": "Rusko Kuljetus Tmi"}]}
+{"record_id": "ED25-048042", "spans": [{"end": 52, "label": "LOCATION", "start": 42, "text": "Kauppatori"}]}
+{"record_id": "ED25-048123", "spans": [{"end": 77, "label": "ORG", "start": 52, "text": "Harmaja Logistiikka Oy Ab"}]}
+{"record_id": "ED25-048185", "spans": [{"end": 59, "label": "LOCATION", "start": 45, "text": "Aurajoen ranta"}]}
+{"record_id": "ED25-048232", "spans": [{"end": 49, "label": "LOCATION", "start": 36, "text": "Urheilupuisto"}]}
+{"record_id": "ED25-048483", "spans": [{"end": 73, "label": "ORG", "start": 56, "text": "Lumora Tila Oy Ab"}]}
+{"record_id": "ED25-048825", "spans": [{"end": 45, "label": "LOCATION", "start": 26, "text": "Varissuo köpcentrum"}]}
+{"record_id": "ED25-049336", "spans": [{"end": 44, "label": "LOCATION", "start": 32, "text": "Turun satama"}]}
+{"record_id": "ED25-049405", "spans": [{"end": 67, "label": "ORG", "start": 52, "text": "Kajo Asunnot Oy"}]}
+{"record_id": "ED25-049543", "spans": [{"end": 53, "label": "LOCATION", "start": 32, "text": "Varissuon ostoskeskus"}]}
+{"record_id": "ED25-049656", "spans": [{"end": 74, "label": "ORG", "start": 52, "text": "Lounaisvirta Verkko Oy"}]}
+{"record_id": "ED25-049698", "spans": [{"end": 61, "label": "LOCATION", "start": 45, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-049815", "spans": [{"end": 48, "label": "LOCATION", "start": 36, "text": "Turun satama"}]}
+{"record_id": "ED25-049880", "spans": [{"end": 48, "label": "LOCATION", "start": 36, "text": "Aurastranden"}]}
+{"record_id": "ED25-049931", "spans": [{"end": 78, "label": "ORG", "start": 56, "text": "Vaskivuori Rakennus Oy"}]}
+{"record_id": "ED25-050059", "spans": [{"end": 76, "label": "ORG", "start": 53, "text": "Ruovo Suunnittelu Oy Ab"}]}
+{"record_id": "ED25-050074", "spans": [{"end": 45, "label": "LOCATION", "start": 26, "text": "Åbo järnvägsstation"}]}
+{"record_id": "ED25-050213", "spans": [{"end": 73, "label": "ORG", "start": 56, "text": "Sinikallio Puu Oy"}]}
+{"record_id": "ED25-050655", "spans": [{"end": 47, "label": "LOCATION", "start": 39, "text": "Ruissalo"}]}
+{"record_id": "ED25-050977", "spans": [{"end": 48, "label": "LOCATION", "start": 32, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-051172", "spans": [{"end": 61, "label": "LOCATION", "start": 45, "text": "Kupittaan puisto"}]}
+{"record_id": "ED25-051364", "spans": [{"end": 54, "label": "LOCATION", "start": 42, "text": "Turun satama"}]}

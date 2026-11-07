@@ -1,0 +1,2359 @@
+{
+ "version": "1.0",
+ "table": "ed_visits",
+ "derived_fields": {
+  "week": "ISO week of arrival_ts",
+  "month": "YYYY-MM of arrival_ts",
+  "age_band": "10-year band of age at arrival (from date_of_birth, age or age_band)",
+  "diagnosis_group": "group of icd10_primary (pets_eval.utility.health.DIAGNOSIS_GROUPS)",
+  "los": "los_minutes (or discharge_ts - arrival_ts)",
+  "admitted": "1 if disposition in {admitted_ward, icu} else 0"
+ },
+ "excluded_rows": "disposition == cancelled_duplicate",
+ "evaluate_with": "pets_eval.utility.health.evaluate_workload(ed_visits_df, workload)",
+ "answer_format": "CSV or JSON with columns/keys: id, value",
+ "queries": [
+  {
+   "id": "HQ-ILI-2025-W01",
+   "type": "count",
+   "filters": {
+    "week": "2025-W01",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W01"
+  },
+  {
+   "id": "HQ-ILI-2025-W02",
+   "type": "count",
+   "filters": {
+    "week": "2025-W02",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W02"
+  },
+  {
+   "id": "HQ-ILI-2025-W03",
+   "type": "count",
+   "filters": {
+    "week": "2025-W03",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W03"
+  },
+  {
+   "id": "HQ-ILI-2025-W04",
+   "type": "count",
+   "filters": {
+    "week": "2025-W04",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W04"
+  },
+  {
+   "id": "HQ-ILI-2025-W05",
+   "type": "count",
+   "filters": {
+    "week": "2025-W05",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W05"
+  },
+  {
+   "id": "HQ-ILI-2025-W06",
+   "type": "count",
+   "filters": {
+    "week": "2025-W06",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W06"
+  },
+  {
+   "id": "HQ-ILI-2025-W07",
+   "type": "count",
+   "filters": {
+    "week": "2025-W07",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W07"
+  },
+  {
+   "id": "HQ-ILI-2025-W08",
+   "type": "count",
+   "filters": {
+    "week": "2025-W08",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W08"
+  },
+  {
+   "id": "HQ-ILI-2025-W09",
+   "type": "count",
+   "filters": {
+    "week": "2025-W09",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W09"
+  },
+  {
+   "id": "HQ-ILI-2025-W10",
+   "type": "count",
+   "filters": {
+    "week": "2025-W10",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W10"
+  },
+  {
+   "id": "HQ-ILI-2025-W11",
+   "type": "count",
+   "filters": {
+    "week": "2025-W11",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W11"
+  },
+  {
+   "id": "HQ-ILI-2025-W12",
+   "type": "count",
+   "filters": {
+    "week": "2025-W12",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W12"
+  },
+  {
+   "id": "HQ-ILI-2025-W13",
+   "type": "count",
+   "filters": {
+    "week": "2025-W13",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W13"
+  },
+  {
+   "id": "HQ-ILI-2025-W14",
+   "type": "count",
+   "filters": {
+    "week": "2025-W14",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W14"
+  },
+  {
+   "id": "HQ-ILI-2025-W15",
+   "type": "count",
+   "filters": {
+    "week": "2025-W15",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W15"
+  },
+  {
+   "id": "HQ-ILI-2025-W16",
+   "type": "count",
+   "filters": {
+    "week": "2025-W16",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W16"
+  },
+  {
+   "id": "HQ-ILI-2025-W17",
+   "type": "count",
+   "filters": {
+    "week": "2025-W17",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W17"
+  },
+  {
+   "id": "HQ-ILI-2025-W18",
+   "type": "count",
+   "filters": {
+    "week": "2025-W18",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W18"
+  },
+  {
+   "id": "HQ-ILI-2025-W19",
+   "type": "count",
+   "filters": {
+    "week": "2025-W19",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W19"
+  },
+  {
+   "id": "HQ-ILI-2025-W20",
+   "type": "count",
+   "filters": {
+    "week": "2025-W20",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W20"
+  },
+  {
+   "id": "HQ-ILI-2025-W21",
+   "type": "count",
+   "filters": {
+    "week": "2025-W21",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W21"
+  },
+  {
+   "id": "HQ-ILI-2025-W22",
+   "type": "count",
+   "filters": {
+    "week": "2025-W22",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W22"
+  },
+  {
+   "id": "HQ-ILI-2025-W23",
+   "type": "count",
+   "filters": {
+    "week": "2025-W23",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W23"
+  },
+  {
+   "id": "HQ-ILI-2025-W24",
+   "type": "count",
+   "filters": {
+    "week": "2025-W24",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W24"
+  },
+  {
+   "id": "HQ-ILI-2025-W25",
+   "type": "count",
+   "filters": {
+    "week": "2025-W25",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W25"
+  },
+  {
+   "id": "HQ-ILI-2025-W26",
+   "type": "count",
+   "filters": {
+    "week": "2025-W26",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W26"
+  },
+  {
+   "id": "HQ-ILI-2025-W27",
+   "type": "count",
+   "filters": {
+    "week": "2025-W27",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W27"
+  },
+  {
+   "id": "HQ-ILI-2025-W28",
+   "type": "count",
+   "filters": {
+    "week": "2025-W28",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W28"
+  },
+  {
+   "id": "HQ-ILI-2025-W29",
+   "type": "count",
+   "filters": {
+    "week": "2025-W29",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W29"
+  },
+  {
+   "id": "HQ-ILI-2025-W30",
+   "type": "count",
+   "filters": {
+    "week": "2025-W30",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W30"
+  },
+  {
+   "id": "HQ-ILI-2025-W31",
+   "type": "count",
+   "filters": {
+    "week": "2025-W31",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W31"
+  },
+  {
+   "id": "HQ-ILI-2025-W32",
+   "type": "count",
+   "filters": {
+    "week": "2025-W32",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W32"
+  },
+  {
+   "id": "HQ-ILI-2025-W33",
+   "type": "count",
+   "filters": {
+    "week": "2025-W33",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W33"
+  },
+  {
+   "id": "HQ-ILI-2025-W34",
+   "type": "count",
+   "filters": {
+    "week": "2025-W34",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W34"
+  },
+  {
+   "id": "HQ-ILI-2025-W35",
+   "type": "count",
+   "filters": {
+    "week": "2025-W35",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W35"
+  },
+  {
+   "id": "HQ-ILI-2025-W36",
+   "type": "count",
+   "filters": {
+    "week": "2025-W36",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W36"
+  },
+  {
+   "id": "HQ-ILI-2025-W37",
+   "type": "count",
+   "filters": {
+    "week": "2025-W37",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W37"
+  },
+  {
+   "id": "HQ-ILI-2025-W38",
+   "type": "count",
+   "filters": {
+    "week": "2025-W38",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W38"
+  },
+  {
+   "id": "HQ-ILI-2025-W39",
+   "type": "count",
+   "filters": {
+    "week": "2025-W39",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W39"
+  },
+  {
+   "id": "HQ-ILI-2025-W40",
+   "type": "count",
+   "filters": {
+    "week": "2025-W40",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W40"
+  },
+  {
+   "id": "HQ-ILI-2025-W41",
+   "type": "count",
+   "filters": {
+    "week": "2025-W41",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W41"
+  },
+  {
+   "id": "HQ-ILI-2025-W42",
+   "type": "count",
+   "filters": {
+    "week": "2025-W42",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W42"
+  },
+  {
+   "id": "HQ-ILI-2025-W43",
+   "type": "count",
+   "filters": {
+    "week": "2025-W43",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W43"
+  },
+  {
+   "id": "HQ-ILI-2025-W44",
+   "type": "count",
+   "filters": {
+    "week": "2025-W44",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W44"
+  },
+  {
+   "id": "HQ-ILI-2025-W45",
+   "type": "count",
+   "filters": {
+    "week": "2025-W45",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W45"
+  },
+  {
+   "id": "HQ-ILI-2025-W46",
+   "type": "count",
+   "filters": {
+    "week": "2025-W46",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W46"
+  },
+  {
+   "id": "HQ-ILI-2025-W47",
+   "type": "count",
+   "filters": {
+    "week": "2025-W47",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W47"
+  },
+  {
+   "id": "HQ-ILI-2025-W48",
+   "type": "count",
+   "filters": {
+    "week": "2025-W48",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W48"
+  },
+  {
+   "id": "HQ-ILI-2025-W49",
+   "type": "count",
+   "filters": {
+    "week": "2025-W49",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W49"
+  },
+  {
+   "id": "HQ-ILI-2025-W50",
+   "type": "count",
+   "filters": {
+    "week": "2025-W50",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W50"
+  },
+  {
+   "id": "HQ-ILI-2025-W51",
+   "type": "count",
+   "filters": {
+    "week": "2025-W51",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W51"
+  },
+  {
+   "id": "HQ-ILI-2025-W52",
+   "type": "count",
+   "filters": {
+    "week": "2025-W52",
+    "diagnosis_group": "ILI"
+   },
+   "description": "ED visits for influenza-like illness in 2025-W52"
+  },
+  {
+   "id": "HQ-M01-0-9",
+   "type": "count",
+   "filters": {
+    "month": "2025-01",
+    "age_band": "0-9"
+   },
+   "description": "ED visits in 2025-01, age 0-9"
+  },
+  {
+   "id": "HQ-M01-10-19",
+   "type": "count",
+   "filters": {
+    "month": "2025-01",
+    "age_band": "10-19"
+   },
+   "description": "ED visits in 2025-01, age 10-19"
+  },
+  {
+   "id": "HQ-M01-20-29",
+   "type": "count",
+   "filters": {
+    "month": "2025-01",
+    "age_band": "20-29"
+   },
+   "description": "ED visits in 2025-01, age 20-29"
+  },
+  {
+   "id": "HQ-M01-30-39",
+   "type": "count",
+   "filters": {
+    "month": "2025-01",
+    "age_band": "30-39"
+   },
+   "description": "ED visits in 2025-01, age 30-39"
+  },
+  {
+   "id": "HQ-M01-40-49",
+   "type": "count",
+   "filters": {
+    "month": "2025-01",
+    "age_band": "40-49"
+   },
+   "description": "ED visits in 2025-01, age 40-49"
+  },
+  {
+   "id": "HQ-M01-50-59",
+   "type": "count",
+   "filters": {
+    "month": "2025-01",
+    "age_band": "50-59"
+   },
+   "description": "ED visits in 2025-01, age 50-59"
+  },
+  {
+   "id": "HQ-M01-60-69",
+   "type": "count",
+   "filters": {
+    "month": "2025-01",
+    "age_band": "60-69"
+   },
+   "description": "ED visits in 2025-01, age 60-69"
+  },
+  {
+   "id": "HQ-M01-70-79",
+   "type": "count",
+   "filters": {
+    "month": "2025-01",
+    "age_band": "70-79"
+   },
+   "description": "ED visits in 2025-01, age 70-79"
+  },
+  {
+   "id": "HQ-M01-80+",
+   "type": "count",
+   "filters": {
+    "month": "2025-01",
+    "age_band": "80+"
+   },
+   "description": "ED visits in 2025-01, age 80+"
+  },
+  {
+   "id": "HQ-M02-0-9",
+   "type": "count",
+   "filters": {
+    "month": "2025-02",
+    "age_band": "0-9"
+   },
+   "description": "ED visits in 2025-02, age 0-9"
+  },
+  {
+   "id": "HQ-M02-10-19",
+   "type": "count",
+   "filters": {
+    "month": "2025-02",
+    "age_band": "10-19"
+   },
+   "description": "ED visits in 2025-02, age 10-19"
+  },
+  {
+   "id": "HQ-M02-20-29",
+   "type": "count",
+   "filters": {
+    "month": "2025-02",
+    "age_band": "20-29"
+   },
+   "description": "ED visits in 2025-02, age 20-29"
+  },
+  {
+   "id": "HQ-M02-30-39",
+   "type": "count",
+   "filters": {
+    "month": "2025-02",
+    "age_band": "30-39"
+   },
+   "description": "ED visits in 2025-02, age 30-39"
+  },
+  {
+   "id": "HQ-M02-40-49",
+   "type": "count",
+   "filters": {
+    "month": "2025-02",
+    "age_band": "40-49"
+   },
+   "description": "ED visits in 2025-02, age 40-49"
+  },
+  {
+   "id": "HQ-M02-50-59",
+   "type": "count",
+   "filters": {
+    "month": "2025-02",
+    "age_band": "50-59"
+   },
+   "description": "ED visits in 2025-02, age 50-59"
+  },
+  {
+   "id": "HQ-M02-60-69",
+   "type": "count",
+   "filters": {
+    "month": "2025-02",
+    "age_band": "60-69"
+   },
+   "description": "ED visits in 2025-02, age 60-69"
+  },
+  {
+   "id": "HQ-M02-70-79",
+   "type": "count",
+   "filters": {
+    "month": "2025-02",
+    "age_band": "70-79"
+   },
+   "description": "ED visits in 2025-02, age 70-79"
+  },
+  {
+   "id": "HQ-M02-80+",
+   "type": "count",
+   "filters": {
+    "month": "2025-02",
+    "age_band": "80+"
+   },
+   "description": "ED visits in 2025-02, age 80+"
+  },
+  {
+   "id": "HQ-M03-0-9",
+   "type": "count",
+   "filters": {
+    "month": "2025-03",
+    "age_band": "0-9"
+   },
+   "description": "ED visits in 2025-03, age 0-9"
+  },
+  {
+   "id": "HQ-M03-10-19",
+   "type": "count",
+   "filters": {
+    "month": "2025-03",
+    "age_band": "10-19"
+   },
+   "description": "ED visits in 2025-03, age 10-19"
+  },
+  {
+   "id": "HQ-M03-20-29",
+   "type": "count",
+   "filters": {
+    "month": "2025-03",
+    "age_band": "20-29"
+   },
+   "description": "ED visits in 2025-03, age 20-29"
+  },
+  {
+   "id": "HQ-M03-30-39",
+   "type": "count",
+   "filters": {
+    "month": "2025-03",
+    "age_band": "30-39"
+   },
+   "description": "ED visits in 2025-03, age 30-39"
+  },
+  {
+   "id": "HQ-M03-40-49",
+   "type": "count",
+   "filters": {
+    "month": "2025-03",
+    "age_band": "40-49"
+   },
+   "description": "ED visits in 2025-03, age 40-49"
+  },
+  {
+   "id": "HQ-M03-50-59",
+   "type": "count",
+   "filters": {
+    "month": "2025-03",
+    "age_band": "50-59"
+   },
+   "description": "ED visits in 2025-03, age 50-59"
+  },
+  {
+   "id": "HQ-M03-60-69",
+   "type": "count",
+   "filters": {
+    "month": "2025-03",
+    "age_band": "60-69"
+   },
+   "description": "ED visits in 2025-03, age 60-69"
+  },
+  {
+   "id": "HQ-M03-70-79",
+   "type": "count",
+   "filters": {
+    "month": "2025-03",
+    "age_band": "70-79"
+   },
+   "description": "ED visits in 2025-03, age 70-79"
+  },
+  {
+   "id": "HQ-M03-80+",
+   "type": "count",
+   "filters": {
+    "month": "2025-03",
+    "age_band": "80+"
+   },
+   "description": "ED visits in 2025-03, age 80+"
+  },
+  {
+   "id": "HQ-M04-0-9",
+   "type": "count",
+   "filters": {
+    "month": "2025-04",
+    "age_band": "0-9"
+   },
+   "description": "ED visits in 2025-04, age 0-9"
+  },
+  {
+   "id": "HQ-M04-10-19",
+   "type": "count",
+   "filters": {
+    "month": "2025-04",
+    "age_band": "10-19"
+   },
+   "description": "ED visits in 2025-04, age 10-19"
+  },
+  {
+   "id": "HQ-M04-20-29",
+   "type": "count",
+   "filters": {
+    "month": "2025-04",
+    "age_band": "20-29"
+   },
+   "description": "ED visits in 2025-04, age 20-29"
+  },
+  {
+   "id": "HQ-M04-30-39",
+   "type": "count",
+   "filters": {
+    "month": "2025-04",
+    "age_band": "30-39"
+   },
+   "description": "ED visits in 2025-04, age 30-39"
+  },
+  {
+   "id": "HQ-M04-40-49",
+   "type": "count",
+   "filters": {
+    "month": "2025-04",
+    "age_band": "40-49"
+   },
+   "description": "ED visits in 2025-04, age 40-49"
+  },
+  {
+   "id": "HQ-M04-50-59",
+   "type": "count",
+   "filters": {
+    "month": "2025-04",
+    "age_band": "50-59"
+   },
+   "description": "ED visits in 2025-04, age 50-59"
+  },
+  {
+   "id": "HQ-M04-60-69",
+   "type": "count",
+   "filters": {
+    "month": "2025-04",
+    "age_band": "60-69"
+   },
+   "description": "ED visits in 2025-04, age 60-69"
+  },
+  {
+   "id": "HQ-M04-70-79",
+   "type": "count",
+   "filters": {
+    "month": "2025-04",
+    "age_band": "70-79"
+   },
+   "description": "ED visits in 2025-04, age 70-79"
+  },
+  {
+   "id": "HQ-M04-80+",
+   "type": "count",
+   "filters": {
+    "month": "2025-04",
+    "age_band": "80+"
+   },
+   "description": "ED visits in 2025-04, age 80+"
+  },
+  {
+   "id": "HQ-M05-0-9",
+   "type": "count",
+   "filters": {
+    "month": "2025-05",
+    "age_band": "0-9"
+   },
+   "description": "ED visits in 2025-05, age 0-9"
+  },
+  {
+   "id": "HQ-M05-10-19",
+   "type": "count",
+   "filters": {
+    "month": "2025-05",
+    "age_band": "10-19"
+   },
+   "description": "ED visits in 2025-05, age 10-19"
+  },
+  {
+   "id": "HQ-M05-20-29",
+   "type": "count",
+   "filters": {
+    "month": "2025-05",
+    "age_band": "20-29"
+   },
+   "description": "ED visits in 2025-05, age 20-29"
+  },
+  {
+   "id": "HQ-M05-30-39",
+   "type": "count",
+   "filters": {
+    "month": "2025-05",
+    "age_band": "30-39"
+   },
+   "description": "ED visits in 2025-05, age 30-39"
+  },
+  {
+   "id": "HQ-M05-40-49",
+   "type": "count",
+   "filters": {
+    "month": "2025-05",
+    "age_band": "40-49"
+   },
+   "description": "ED visits in 2025-05, age 40-49"
+  },
+  {
+   "id": "HQ-M05-50-59",
+   "type": "count",
+   "filters": {
+    "month": "2025-05",
+    "age_band": "50-59"
+   },
+   "description": "ED visits in 2025-05, age 50-59"
+  },
+  {
+   "id": "HQ-M05-60-69",
+   "type": "count",
+   "filters": {
+    "month": "2025-05",
+    "age_band": "60-69"
+   },
+   "description": "ED visits in 2025-05, age 60-69"
+  },
+  {
+   "id": "HQ-M05-70-79",
+   "type": "count",
+   "filters": {
+    "month": "2025-05",
+    "age_band": "70-79"
+   },
+   "description": "ED visits in 2025-05, age 70-79"
+  },
+  {
+   "id": "HQ-M05-80+",
+   "type": "count",
+   "filters": {
+    "month": "2025-05",
+    "age_band": "80+"
+   },
+   "description": "ED visits in 2025-05, age 80+"
+  },
+  {
+   "id": "HQ-M06-0-9",
+   "type": "count",
+   "filters": {
+    "month": "2025-06",
+    "age_band": "0-9"
+   },
+   "description": "ED visits in 2025-06, age 0-9"
+  },
+  {
+   "id": "HQ-M06-10-19",
+   "type": "count",
+   "filters": {
+    "month": "2025-06",
+    "age_band": "10-19"
+   },
+   "description": "ED visits in 2025-06, age 10-19"
+  },
+  {
+   "id": "HQ-M06-20-29",
+   "type": "count",
+   "filters": {
+    "month": "2025-06",
+    "age_band": "20-29"
+   },
+   "description": "ED visits in 2025-06, age 20-29"
+  },
+  {
+   "id": "HQ-M06-30-39",
+   "type": "count",
+   "filters": {
+    "month": "2025-06",
+    "age_band": "30-39"
+   },
+   "description": "ED visits in 2025-06, age 30-39"
+  },
+  {
+   "id": "HQ-M06-40-49",
+   "type": "count",
+   "filters": {
+    "month": "2025-06",
+    "age_band": "40-49"
+   },
+   "description": "ED visits in 2025-06, age 40-49"
+  },
+  {
+   "id": "HQ-M06-50-59",
+   "type": "count",
+   "filters": {
+    "month": "2025-06",
+    "age_band": "50-59"
+   },
+   "description": "ED visits in 2025-06, age 50-59"
+  },
+  {
+   "id": "HQ-M06-60-69",
+   "type": "count",
+   "filters": {
+    "month": "2025-06",
+    "age_band": "60-69"
+   },
+   "description": "ED visits in 2025-06, age 60-69"
+  },
+  {
+   "id": "HQ-M06-70-79",
+   "type": "count",
+   "filters": {
+    "month": "2025-06",
+    "age_band": "70-79"
+   },
+   "description": "ED visits in 2025-06, age 70-79"
+  },
+  {
+   "id": "HQ-M06-80+",
+   "type": "count",
+   "filters": {
+    "month": "2025-06",
+    "age_band": "80+"
+   },
+   "description": "ED visits in 2025-06, age 80+"
+  },
+  {
+   "id": "HQ-M07-0-9",
+   "type": "count",
+   "filters": {
+    "month": "2025-07",
+    "age_band": "0-9"
+   },
+   "description": "ED visits in 2025-07, age 0-9"
+  },
+  {
+   "id": "HQ-M07-10-19",
+   "type": "count",
+   "filters": {
+    "month": "2025-07",
+    "age_band": "10-19"
+   },
+   "description": "ED visits in 2025-07, age 10-19"
+  },
+  {
+   "id": "HQ-M07-20-29",
+   "type": "count",
+   "filters": {
+    "month": "2025-07",
+    "age_band": "20-29"
+   },
+   "description": "ED visits in 2025-07, age 20-29"
+  },
+  {
+   "id": "HQ-M07-30-39",
+   "type": "count",
+   "filters": {
+    "month": "2025-07",
+    "age_band": "30-39"
+   },
+   "description": "ED visits in 2025-07, age 30-39"
+  },
+  {
+   "id": "HQ-M07-40-49",
+   "type": "count",
+   "filters": {
+    "month": "2025-07",
+    "age_band": "40-49"
+   },
+   "description": "ED visits in 2025-07, age 40-49"
+  },
+  {
+   "id": "HQ-M07-50-59",
+   "type": "count",
+   "filters": {
+    "month": "2025-07",
+    "age_band": "50-59"
+   },
+   "description": "ED visits in 2025-07, age 50-59"
+  },
+  {
+   "id": "HQ-M07-60-69",
+   "type": "count",
+   "filters": {
+    "month": "2025-07",
+    "age_band": "60-69"
+   },
+   "description": "ED visits in 2025-07, age 60-69"
+  },
+  {
+   "id": "HQ-M07-70-79",
+   "type": "count",
+   "filters": {
+    "month": "2025-07",
+    "age_band": "70-79"
+   },
+   "description": "ED visits in 2025-07, age 70-79"
+  },
+  {
+   "id": "HQ-M07-80+",
+   "type": "count",
+   "filters": {
+    "month": "2025-07",
+    "age_band": "80+"
+   },
+   "description": "ED visits in 2025-07, age 80+"
+  },
+  {
+   "id": "HQ-M08-0-9",
+   "type": "count",
+   "filters": {
+    "month": "2025-08",
+    "age_band": "0-9"
+   },
+   "description": "ED visits in 2025-08, age 0-9"
+  },
+  {
+   "id": "HQ-M08-10-19",
+   "type": "count",
+   "filters": {
+    "month": "2025-08",
+    "age_band": "10-19"
+   },
+   "description": "ED visits in 2025-08, age 10-19"
+  },
+  {
+   "id": "HQ-M08-20-29",
+   "type": "count",
+   "filters": {
+    "month": "2025-08",
+    "age_band": "20-29"
+   },
+   "description": "ED visits in 2025-08, age 20-29"
+  },
+  {
+   "id": "HQ-M08-30-39",
+   "type": "count",
+   "filters": {
+    "month": "2025-08",
+    "age_band": "30-39"
+   },
+   "description": "ED visits in 2025-08, age 30-39"
+  },
+  {
+   "id": "HQ-M08-40-49",
+   "type": "count",
+   "filters": {
+    "month": "2025-08",
+    "age_band": "40-49"
+   },
+   "description": "ED visits in 2025-08, age 40-49"
+  },
+  {
+   "id": "HQ-M08-50-59",
+   "type": "count",
+   "filters": {
+    "month": "2025-08",
+    "age_band": "50-59"
+   },
+   "description": "ED visits in 2025-08, age 50-59"
+  },
+  {
+   "id": "HQ-M08-60-69",
+   "type": "count",
+   "filters": {
+    "month": "2025-08",
+    "age_band": "60-69"
+   },
+   "description": "ED visits in 2025-08, age 60-69"
+  },
+  {
+   "id": "HQ-M08-70-79",
+   "type": "count",
+   "filters": {
+    "month": "2025-08",
+    "age_band": "70-79"
+   },
+   "description": "ED visits in 2025-08, age 70-79"
+  },
+  {
+   "id": "HQ-M08-80+",
+   "type": "count",
+   "filters": {
+    "month": "2025-08",
+    "age_band": "80+"
+   },
+   "description": "ED visits in 2025-08, age 80+"
+  },
+  {
+   "id": "HQ-M09-0-9",
+   "type": "count",
+   "filters": {
+    "month": "2025-09",
+    "age_band": "0-9"
+   },
+   "description": "ED visits in 2025-09, age 0-9"
+  },
+  {
+   "id": "HQ-M09-10-19",
+   "type": "count",
+   "filters": {
+    "month": "2025-09",
+    "age_band": "10-19"
+   },
+   "description": "ED visits in 2025-09, age 10-19"
+  },
+  {
+   "id": "HQ-M09-20-29",
+   "type": "count",
+   "filters": {
+    "month": "2025-09",
+    "age_band": "20-29"
+   },
+   "description": "ED visits in 2025-09, age 20-29"
+  },
+  {
+   "id": "HQ-M09-30-39",
+   "type": "count",
+   "filters": {
+    "month": "2025-09",
+    "age_band": "30-39"
+   },
+   "description": "ED visits in 2025-09, age 30-39"
+  },
+  {
+   "id": "HQ-M09-40-49",
+   "type": "count",
+   "filters": {
+    "month": "2025-09",
+    "age_band": "40-49"
+   },
+   "description": "ED visits in 2025-09, age 40-49"
+  },
+  {
+   "id": "HQ-M09-50-59",
+   "type": "count",
+   "filters": {
+    "month": "2025-09",
+    "age_band": "50-59"
+   },
+   "description": "ED visits in 2025-09, age 50-59"
+  },
+  {
+   "id": "HQ-M09-60-69",
+   "type": "count",
+   "filters": {
+    "month": "2025-09",
+    "age_band": "60-69"
+   },
+   "description": "ED visits in 2025-09, age 60-69"
+  },
+  {
+   "id": "HQ-M09-70-79",
+   "type": "count",
+   "filters": {
+    "month": "2025-09",
+    "age_band": "70-79"
+   },
+   "description": "ED visits in 2025-09, age 70-79"
+  },
+  {
+   "id": "HQ-M09-80+",
+   "type": "count",
+   "filters": {
+    "month": "2025-09",
+    "age_band": "80+"
+   },
+   "description": "ED visits in 2025-09, age 80+"
+  },
+  {
+   "id": "HQ-M10-0-9",
+   "type": "count",
+   "filters": {
+    "month": "2025-10",
+    "age_band": "0-9"
+   },
+   "description": "ED visits in 2025-10, age 0-9"
+  },
+  {
+   "id": "HQ-M10-10-19",
+   "type": "count",
+   "filters": {
+    "month": "2025-10",
+    "age_band": "10-19"
+   },
+   "description": "ED visits in 2025-10, age 10-19"
+  },
+  {
+   "id": "HQ-M10-20-29",
+   "type": "count",
+   "filters": {
+    "month": "2025-10",
+    "age_band": "20-29"
+   },
+   "description": "ED visits in 2025-10, age 20-29"
+  },
+  {
+   "id": "HQ-M10-30-39",
+   "type": "count",
+   "filters": {
+    "month": "2025-10",
+    "age_band": "30-39"
+   },
+   "description": "ED visits in 2025-10, age 30-39"
+  },
+  {
+   "id": "HQ-M10-40-49",
+   "type": "count",
+   "filters": {
+    "month": "2025-10",
+    "age_band": "40-49"
+   },
+   "description": "ED visits in 2025-10, age 40-49"
+  },
+  {
+   "id": "HQ-M10-50-59",
+   "type": "count",
+   "filters": {
+    "month": "2025-10",
+    "age_band": "50-59"
+   },
+   "description": "ED visits in 2025-10, age 50-59"
+  },
+  {
+   "id": "HQ-M10-60-69",
+   "type": "count",
+   "filters": {
+    "month": "2025-10",
+    "age_band": "60-69"
+   },
+   "description": "ED visits in 2025-10, age 60-69"
+  },
+  {
+   "id": "HQ-M10-70-79",
+   "type": "count",
+   "filters": {
+    "month": "2025-10",
+    "age_band": "70-79"
+   },
+   "description": "ED visits in 2025-10, age 70-79"
+  },
+  {
+   "id": "HQ-M10-80+",
+   "type": "count",
+   "filters": {
+    "month": "2025-10",
+    "age_band": "80+"
+   },
+   "description": "ED visits in 2025-10, age 80+"
+  },
+  {
+   "id": "HQ-M11-0-9",
+   "type": "count",
+   "filters": {
+    "month": "2025-11",
+    "age_band": "0-9"
+   },
+   "description": "ED visits in 2025-11, age 0-9"
+  },
+  {
+   "id": "HQ-M11-10-19",
+   "type": "count",
+   "filters": {
+    "month": "2025-11",
+    "age_band": "10-19"
+   },
+   "description": "ED visits in 2025-11, age 10-19"
+  },
+  {
+   "id": "HQ-M11-20-29",
+   "type": "count",
+   "filters": {
+    "month": "2025-11",
+    "age_band": "20-29"
+   },
+   "description": "ED visits in 2025-11, age 20-29"
+  },
+  {
+   "id": "HQ-M11-30-39",
+   "type": "count",
+   "filters": {
+    "month": "2025-11",
+    "age_band": "30-39"
+   },
+   "description": "ED visits in 2025-11, age 30-39"
+  },
+  {
+   "id": "HQ-M11-40-49",
+   "type": "count",
+   "filters": {
+    "month": "2025-11",
+    "age_band": "40-49"
+   },
+   "description": "ED visits in 2025-11, age 40-49"
+  },
+  {
+   "id": "HQ-M11-50-59",
+   "type": "count",
+   "filters": {
+    "month": "2025-11",
+    "age_band": "50-59"
+   },
+   "description": "ED visits in 2025-11, age 50-59"
+  },
+  {
+   "id": "HQ-M11-60-69",
+   "type": "count",
+   "filters": {
+    "month": "2025-11",
+    "age_band": "60-69"
+   },
+   "description": "ED visits in 2025-11, age 60-69"
+  },
+  {
+   "id": "HQ-M11-70-79",
+   "type": "count",
+   "filters": {
+    "month": "2025-11",
+    "age_band": "70-79"
+   },
+   "description": "ED visits in 2025-11, age 70-79"
+  },
+  {
+   "id": "HQ-M11-80+",
+   "type": "count",
+   "filters": {
+    "month": "2025-11",
+    "age_band": "80+"
+   },
+   "description": "ED visits in 2025-11, age 80+"
+  },
+  {
+   "id": "HQ-M12-0-9",
+   "type": "count",
+   "filters": {
+    "month": "2025-12",
+    "age_band": "0-9"
+   },
+   "description": "ED visits in 2025-12, age 0-9"
+  },
+  {
+   "id": "HQ-M12-10-19",
+   "type": "count",
+   "filters": {
+    "month": "2025-12",
+    "age_band": "10-19"
+   },
+   "description": "ED visits in 2025-12, age 10-19"
+  },
+  {
+   "id": "HQ-M12-20-29",
+   "type": "count",
+   "filters": {
+    "month": "2025-12",
+    "age_band": "20-29"
+   },
+   "description": "ED visits in 2025-12, age 20-29"
+  },
+  {
+   "id": "HQ-M12-30-39",
+   "type": "count",
+   "filters": {
+    "month": "2025-12",
+    "age_band": "30-39"
+   },
+   "description": "ED visits in 2025-12, age 30-39"
+  },
+  {
+   "id": "HQ-M12-40-49",
+   "type": "count",
+   "filters": {
+    "month": "2025-12",
+    "age_band": "40-49"
+   },
+   "description": "ED visits in 2025-12, age 40-49"
+  },
+  {
+   "id": "HQ-M12-50-59",
+   "type": "count",
+   "filters": {
+    "month": "2025-12",
+    "age_band": "50-59"
+   },
+   "description": "ED visits in 2025-12, age 50-59"
+  },
+  {
+   "id": "HQ-M12-60-69",
+   "type": "count",
+   "filters": {
+    "month": "2025-12",
+    "age_band": "60-69"
+   },
+   "description": "ED visits in 2025-12, age 60-69"
+  },
+  {
+   "id": "HQ-M12-70-79",
+   "type": "count",
+   "filters": {
+    "month": "2025-12",
+    "age_band": "70-79"
+   },
+   "description": "ED visits in 2025-12, age 70-79"
+  },
+  {
+   "id": "HQ-M12-80+",
+   "type": "count",
+   "filters": {
+    "month": "2025-12",
+    "age_band": "80+"
+   },
+   "description": "ED visits in 2025-12, age 80+"
+  },
+  {
+   "id": "HQ-LOS-A",
+   "type": "mean",
+   "value": "los",
+   "filters": {
+    "triage": "A"
+   },
+   "bounds": [
+    0,
+    2880
+   ],
+   "description": "Mean length of stay (minutes), triage A"
+  },
+  {
+   "id": "HQ-LOS-B",
+   "type": "mean",
+   "value": "los",
+   "filters": {
+    "triage": "B"
+   },
+   "bounds": [
+    0,
+    2880
+   ],
+   "description": "Mean length of stay (minutes), triage B"
+  },
+  {
+   "id": "HQ-LOS-C",
+   "type": "mean",
+   "value": "los",
+   "filters": {
+    "triage": "C"
+   },
+   "bounds": [
+    0,
+    2880
+   ],
+   "description": "Mean length of stay (minutes), triage C"
+  },
+  {
+   "id": "HQ-LOS-D",
+   "type": "mean",
+   "value": "los",
+   "filters": {
+    "triage": "D"
+   },
+   "bounds": [
+    0,
+    2880
+   ],
+   "description": "Mean length of stay (minutes), triage D"
+  },
+  {
+   "id": "HQ-LOS-E",
+   "type": "mean",
+   "value": "los",
+   "filters": {
+    "triage": "E"
+   },
+   "bounds": [
+    0,
+    2880
+   ],
+   "description": "Mean length of stay (minutes), triage E"
+  },
+  {
+   "id": "HQ-MG-Turku-cardiovascular",
+   "type": "count",
+   "filters": {
+    "municipality": "Turku",
+    "diagnosis_group": "cardiovascular"
+   },
+   "description": "Visits by residents of Turku, diagnosis group cardiovascular"
+  },
+  {
+   "id": "HQ-MG-Turku-respiratory",
+   "type": "count",
+   "filters": {
+    "municipality": "Turku",
+    "diagnosis_group": "respiratory"
+   },
+   "description": "Visits by residents of Turku, diagnosis group respiratory"
+  },
+  {
+   "id": "HQ-MG-Turku-ILI",
+   "type": "count",
+   "filters": {
+    "municipality": "Turku",
+    "diagnosis_group": "ILI"
+   },
+   "description": "Visits by residents of Turku, diagnosis group ILI"
+  },
+  {
+   "id": "HQ-MG-Turku-injury",
+   "type": "count",
+   "filters": {
+    "municipality": "Turku",
+    "diagnosis_group": "injury"
+   },
+   "description": "Visits by residents of Turku, diagnosis group injury"
+  },
+  {
+   "id": "HQ-MG-Turku-gastrointestinal",
+   "type": "count",
+   "filters": {
+    "municipality": "Turku",
+    "diagnosis_group": "gastrointestinal"
+   },
+   "description": "Visits by residents of Turku, diagnosis group gastrointestinal"
+  },
+  {
+   "id": "HQ-MG-Turku-neurological",
+   "type": "count",
+   "filters": {
+    "municipality": "Turku",
+    "diagnosis_group": "neurological"
+   },
+   "description": "Visits by residents of Turku, diagnosis group neurological"
+  },
+  {
+   "id": "HQ-MG-Turku-intoxication",
+   "type": "count",
+   "filters": {
+    "municipality": "Turku",
+    "diagnosis_group": "intoxication"
+   },
+   "description": "Visits by residents of Turku, diagnosis group intoxication"
+  },
+  {
+   "id": "HQ-MG-Turku-mental_health",
+   "type": "count",
+   "filters": {
+    "municipality": "Turku",
+    "diagnosis_group": "mental_health"
+   },
+   "description": "Visits by residents of Turku, diagnosis group mental_health"
+  },
+  {
+   "id": "HQ-MG-Turku-urological",
+   "type": "count",
+   "filters": {
+    "municipality": "Turku",
+    "diagnosis_group": "urological"
+   },
+   "description": "Visits by residents of Turku, diagnosis group urological"
+  },
+  {
+   "id": "HQ-MG-Turku-other",
+   "type": "count",
+   "filters": {
+    "municipality": "Turku",
+    "diagnosis_group": "other"
+   },
+   "description": "Visits by residents of Turku, diagnosis group other"
+  },
+  {
+   "id": "HQ-MG-Salo-cardiovascular",
+   "type": "count",
+   "filters": {
+    "municipality": "Salo",
+    "diagnosis_group": "cardiovascular"
+   },
+   "description": "Visits by residents of Salo, diagnosis group cardiovascular"
+  },
+  {
+   "id": "HQ-MG-Salo-respiratory",
+   "type": "count",
+   "filters": {
+    "municipality": "Salo",
+    "diagnosis_group": "respiratory"
+   },
+   "description": "Visits by residents of Salo, diagnosis group respiratory"
+  },
+  {
+   "id": "HQ-MG-Salo-ILI",
+   "type": "count",
+   "filters": {
+    "municipality": "Salo",
+    "diagnosis_group": "ILI"
+   },
+   "description": "Visits by residents of Salo, diagnosis group ILI"
+  },
+  {
+   "id": "HQ-MG-Salo-injury",
+   "type": "count",
+   "filters": {
+    "municipality": "Salo",
+    "diagnosis_group": "injury"
+   },
+   "description": "Visits by residents of Salo, diagnosis group injury"
+  },
+  {
+   "id": "HQ-MG-Salo-gastrointestinal",
+   "type": "count",
+   "filters": {
+    "municipality": "Salo",
+    "diagnosis_group": "gastrointestinal"
+   },
+   "description": "Visits by residents of Salo, diagnosis group gastrointestinal"
+  },
+  {
+   "id": "HQ-MG-Salo-neurological",
+   "type": "count",
+   "filters": {
+    "municipality": "Salo",
+    "diagnosis_group": "neurological"
+   },
+   "description": "Visits by residents of Salo, diagnosis group neurological"
+  },
+  {
+   "id": "HQ-MG-Salo-intoxication",
+   "type": "count",
+   "filters": {
+    "municipality": "Salo",
+    "diagnosis_group": "intoxication"
+   },
+   "description": "Visits by residents of Salo, diagnosis group intoxication"
+  },
+  {
+   "id": "HQ-MG-Salo-mental_health",
+   "type": "count",
+   "filters": {
+    "municipality": "Salo",
+    "diagnosis_group": "mental_health"
+   },
+   "description": "Visits by residents of Salo, diagnosis group mental_health"
+  },
+  {
+   "id": "HQ-MG-Salo-urological",
+   "type": "count",
+   "filters": {
+    "municipality": "Salo",
+    "diagnosis_group": "urological"
+   },
+   "description": "Visits by residents of Salo, diagnosis group urological"
+  },
+  {
+   "id": "HQ-MG-Salo-other",
+   "type": "count",
+   "filters": {
+    "municipality": "Salo",
+    "diagnosis_group": "other"
+   },
+   "description": "Visits by residents of Salo, diagnosis group other"
+  },
+  {
+   "id": "HQ-MG-Kaarina-cardiovascular",
+   "type": "count",
+   "filters": {
+    "municipality": "Kaarina",
+    "diagnosis_group": "cardiovascular"
+   },
+   "description": "Visits by residents of Kaarina, diagnosis group cardiovascular"
+  },
+  {
+   "id": "HQ-MG-Kaarina-respiratory",
+   "type": "count",
+   "filters": {
+    "municipality": "Kaarina",
+    "diagnosis_group": "respiratory"
+   },
+   "description": "Visits by residents of Kaarina, diagnosis group respiratory"
+  },
+  {
+   "id": "HQ-MG-Kaarina-ILI",
+   "type": "count",
+   "filters": {
+    "municipality": "Kaarina",
+    "diagnosis_group": "ILI"
+   },
+   "description": "Visits by residents of Kaarina, diagnosis group ILI"
+  },
+  {
+   "id": "HQ-MG-Kaarina-injury",
+   "type": "count",
+   "filters": {
+    "municipality": "Kaarina",
+    "diagnosis_group": "injury"
+   },
+   "description": "Visits by residents of Kaarina, diagnosis group injury"
+  },
+  {
+   "id": "HQ-MG-Kaarina-gastrointestinal",
+   "type": "count",
+   "filters": {
+    "municipality": "Kaarina",
+    "diagnosis_group": "gastrointestinal"
+   },
+   "description": "Visits by residents of Kaarina, diagnosis group gastrointestinal"
+  },
+  {
+   "id": "HQ-MG-Kaarina-neurological",
+   "type": "count",
+   "filters": {
+    "municipality": "Kaarina",
+    "diagnosis_group": "neurological"
+   },
+   "description": "Visits by residents of Kaarina, diagnosis group neurological"
+  },
+  {
+   "id": "HQ-MG-Kaarina-intoxication",
+   "type": "count",
+   "filters": {
+    "municipality": "Kaarina",
+    "diagnosis_group": "intoxication"
+   },
+   "description": "Visits by residents of Kaarina, diagnosis group intoxication"
+  },
+  {
+   "id": "HQ-MG-Kaarina-mental_health",
+   "type": "count",
+   "filters": {
+    "municipality": "Kaarina",
+    "diagnosis_group": "mental_health"
+   },
+   "description": "Visits by residents of Kaarina, diagnosis group mental_health"
+  },
+  {
+   "id": "HQ-MG-Kaarina-urological",
+   "type": "count",
+   "filters": {
+    "municipality": "Kaarina",
+    "diagnosis_group": "urological"
+   },
+   "description": "Visits by residents of Kaarina, diagnosis group urological"
+  },
+  {
+   "id": "HQ-MG-Kaarina-other",
+   "type": "count",
+   "filters": {
+    "municipality": "Kaarina",
+    "diagnosis_group": "other"
+   },
+   "description": "Visits by residents of Kaarina, diagnosis group other"
+  },
+  {
+   "id": "HQ-MG-Raisio-cardiovascular",
+   "type": "count",
+   "filters": {
+    "municipality": "Raisio",
+    "diagnosis_group": "cardiovascular"
+   },
+   "description": "Visits by residents of Raisio, diagnosis group cardiovascular"
+  },
+  {
+   "id": "HQ-MG-Raisio-respiratory",
+   "type": "count",
+   "filters": {
+    "municipality": "Raisio",
+    "diagnosis_group": "respiratory"
+   },
+   "description": "Visits by residents of Raisio, diagnosis group respiratory"
+  },
+  {
+   "id": "HQ-MG-Raisio-ILI",
+   "type": "count",
+   "filters": {
+    "municipality": "Raisio",
+    "diagnosis_group": "ILI"
+   },
+   "description": "Visits by residents of Raisio, diagnosis group ILI"
+  },
+  {
+   "id": "HQ-MG-Raisio-injury",
+   "type": "count",
+   "filters": {
+    "municipality": "Raisio",
+    "diagnosis_group": "injury"
+   },
+   "description": "Visits by residents of Raisio, diagnosis group injury"
+  },
+  {
+   "id": "HQ-MG-Raisio-gastrointestinal",
+   "type": "count",
+   "filters": {
+    "municipality": "Raisio",
+    "diagnosis_group": "gastrointestinal"
+   },
+   "description": "Visits by residents of Raisio, diagnosis group gastrointestinal"
+  },
+  {
+   "id": "HQ-MG-Raisio-neurological",
+   "type": "count",
+   "filters": {
+    "municipality": "Raisio",
+    "diagnosis_group": "neurological"
+   },
+   "description": "Visits by residents of Raisio, diagnosis group neurological"
+  },
+  {
+   "id": "HQ-MG-Raisio-intoxication",
+   "type": "count",
+   "filters": {
+    "municipality": "Raisio",
+    "diagnosis_group": "intoxication"
+   },
+   "description": "Visits by residents of Raisio, diagnosis group intoxication"
+  },
+  {
+   "id": "HQ-MG-Raisio-mental_health",
+   "type": "count",
+   "filters": {
+    "municipality": "Raisio",
+    "diagnosis_group": "mental_health"
+   },
+   "description": "Visits by residents of Raisio, diagnosis group mental_health"
+  },
+  {
+   "id": "HQ-MG-Raisio-urological",
+   "type": "count",
+   "filters": {
+    "municipality": "Raisio",
+    "diagnosis_group": "urological"
+   },
+   "description": "Visits by residents of Raisio, diagnosis group urological"
+  },
+  {
+   "id": "HQ-MG-Raisio-other",
+   "type": "count",
+   "filters": {
+    "municipality": "Raisio",
+    "diagnosis_group": "other"
+   },
+   "description": "Visits by residents of Raisio, diagnosis group other"
+  },
+  {
+   "id": "HQ-MG-Lieto-cardiovascular",
+   "type": "count",
+   "filters": {
+    "municipality": "Lieto",
+    "diagnosis_group": "cardiovascular"
+   },
+   "description": "Visits by residents of Lieto, diagnosis group cardiovascular"
+  },
+  {
+   "id": "HQ-MG-Lieto-respiratory",
+   "type": "count",
+   "filters": {
+    "municipality": "Lieto",
+    "diagnosis_group": "respiratory"
+   },
+   "description": "Visits by residents of Lieto, diagnosis group respiratory"
+  },
+  {
+   "id": "HQ-MG-Lieto-ILI",
+   "type": "count",
+   "filters": {
+    "municipality": "Lieto",
+    "diagnosis_group": "ILI"
+   },
+   "description": "Visits by residents of Lieto, diagnosis group ILI"
+  },
+  {
+   "id": "HQ-MG-Lieto-injury",
+   "type": "count",
+   "filters": {
+    "municipality": "Lieto",
+    "diagnosis_group": "injury"
+   },
+   "description": "Visits by residents of Lieto, diagnosis group injury"
+  },
+  {
+   "id": "HQ-MG-Lieto-gastrointestinal",
+   "type": "count",
+   "filters": {
+    "municipality": "Lieto",
+    "diagnosis_group": "gastrointestinal"
+   },
+   "description": "Visits by residents of Lieto, diagnosis group gastrointestinal"
+  },
+  {
+   "id": "HQ-MG-Lieto-neurological",
+   "type": "count",
+   "filters": {
+    "municipality": "Lieto",
+    "diagnosis_group": "neurological"
+   },
+   "description": "Visits by residents of Lieto, diagnosis group neurological"
+  },
+  {
+   "id": "HQ-MG-Lieto-intoxication",
+   "type": "count",
+   "filters": {
+    "municipality": "Lieto",
+    "diagnosis_group": "intoxication"
+   },
+   "description": "Visits by residents of Lieto, diagnosis group intoxication"
+  },
+  {
+   "id": "HQ-MG-Lieto-mental_health",
+   "type": "count",
+   "filters": {
+    "municipality": "Lieto",
+    "diagnosis_group": "mental_health"
+   },
+   "description": "Visits by residents of Lieto, diagnosis group mental_health"
+  },
+  {
+   "id": "HQ-MG-Lieto-urological",
+   "type": "count",
+   "filters": {
+    "municipality": "Lieto",
+    "diagnosis_group": "urological"
+   },
+   "description": "Visits by residents of Lieto, diagnosis group urological"
+  },
+  {
+   "id": "HQ-MG-Lieto-other",
+   "type": "count",
+   "filters": {
+    "municipality": "Lieto",
+    "diagnosis_group": "other"
+   },
+   "description": "Visits by residents of Lieto, diagnosis group other"
+  },
+  {
+   "id": "HQ-MG-Naantali-cardiovascular",
+   "type": "count",
+   "filters": {
+    "municipality": "Naantali",
+    "diagnosis_group": "cardiovascular"
+   },
+   "description": "Visits by residents of Naantali, diagnosis group cardiovascular"
+  },
+  {
+   "id": "HQ-MG-Naantali-respiratory",
+   "type": "count",
+   "filters": {
+    "municipality": "Naantali",
+    "diagnosis_group": "respiratory"
+   },
+   "description": "Visits by residents of Naantali, diagnosis group respiratory"
+  },
+  {
+   "id": "HQ-MG-Naantali-ILI",
+   "type": "count",
+   "filters": {
+    "municipality": "Naantali",
+    "diagnosis_group": "ILI"
+   },
+   "description": "Visits by residents of Naantali, diagnosis group ILI"
+  },
+  {
+   "id": "HQ-MG-Naantali-injury",
+   "type": "count",
+   "filters": {
+    "municipality": "Naantali",
+    "diagnosis_group": "injury"
+   },
+   "description": "Visits by residents of Naantali, diagnosis group injury"
+  },
+  {
+   "id": "HQ-MG-Naantali-gastrointestinal",
+   "type": "count",
+   "filters": {
+    "municipality": "Naantali",
+    "diagnosis_group": "gastrointestinal"
+   },
+   "description": "Visits by residents of Naantali, diagnosis group gastrointestinal"
+  },
+  {
+   "id": "HQ-MG-Naantali-neurological",
+   "type": "count",
+   "filters": {
+    "municipality": "Naantali",
+    "diagnosis_group": "neurological"
+   },
+   "description": "Visits by residents of Naantali, diagnosis group neurological"
+  },
+  {
+   "id": "HQ-MG-Naantali-intoxication",
+   "type": "count",
+   "filters": {
+    "municipality": "Naantali",
+    "diagnosis_group": "intoxication"
+   },
+   "description": "Visits by residents of Naantali, diagnosis group intoxication"
+  },
+  {
+   "id": "HQ-MG-Naantali-mental_health",
+   "type": "count",
+   "filters": {
+    "municipality": "Naantali",
+    "diagnosis_group": "mental_health"
+   },
+   "description": "Visits by residents of Naantali, diagnosis group mental_health"
+  },
+  {
+   "id": "HQ-MG-Naantali-urological",
+   "type": "count",
+   "filters": {
+    "municipality": "Naantali",
+    "diagnosis_group": "urological"
+   },
+   "description": "Visits by residents of Naantali, diagnosis group urological"
+  },
+  {
+   "id": "HQ-MG-Naantali-other",
+   "type": "count",
+   "filters": {
+    "municipality": "Naantali",
+    "diagnosis_group": "other"
+   },
+   "description": "Visits by residents of Naantali, diagnosis group other"
+  },
+  {
+   "id": "HQ-MG-Uusikaupunki-cardiovascular",
+   "type": "count",
+   "filters": {
+    "municipality": "Uusikaupunki",
+    "diagnosis_group": "cardiovascular"
+   },
+   "description": "Visits by residents of Uusikaupunki, diagnosis group cardiovascular"
+  },
+  {
+   "id": "HQ-MG-Uusikaupunki-respiratory",
+   "type": "count",
+   "filters": {
+    "municipality": "Uusikaupunki",
+    "diagnosis_group": "respiratory"
+   },
+   "description": "Visits by residents of Uusikaupunki, diagnosis group respiratory"
+  },
+  {
+   "id": "HQ-MG-Uusikaupunki-ILI",
+   "type": "count",
+   "filters": {
+    "municipality": "Uusikaupunki",
+    "diagnosis_group": "ILI"
+   },
+   "description": "Visits by residents of Uusikaupunki, diagnosis group ILI"
+  },
+  {
+   "id": "HQ-MG-Uusikaupunki-injury",
+   "type": "count",
+   "filters": {
+    "municipality": "Uusikaupunki",
+    "diagnosis_group": "injury"
+   },
+   "description": "Visits by residents of Uusikaupunki, diagnosis group injury"
+  },
+  {
+   "id": "HQ-MG-Uusikaupunki-gastrointestinal",
+   "type": "count",
+   "filters": {
+    "municipality": "Uusikaupunki",
+    "diagnosis_group": "gastrointestinal"
+   },
+   "description": "Visits by residents of Uusikaupunki, diagnosis group gastrointestinal"
+  },
+  {
+   "id": "HQ-MG-Uusikaupunki-neurological",
+   "type": "count",
+   "filters": {
+    "municipality": "Uusikaupunki",
+    "diagnosis_group": "neurological"
+   },
+   "description": "Visits by residents of Uusikaupunki, diagnosis group neurological"
+  },
+  {
+   "id": "HQ-MG-Uusikaupunki-intoxication",
+   "type": "count",
+   "filters": {
+    "municipality": "Uusikaupunki",
+    "diagnosis_group": "intoxication"
+   },
+   "description": "Visits by residents of Uusikaupunki, diagnosis group intoxication"
+  },
+  {
+   "id": "HQ-MG-Uusikaupunki-mental_health",
+   "type": "count",
+   "filters": {
+    "municipality": "Uusikaupunki",
+    "diagnosis_group": "mental_health"
+   },
+   "description": "Visits by residents of Uusikaupunki, diagnosis group mental_health"
+  },
+  {
+   "id": "HQ-MG-Uusikaupunki-urological",
+   "type": "count",
+   "filters": {
+    "municipality": "Uusikaupunki",
+    "diagnosis_group": "urological"
+   },
+   "description": "Visits by residents of Uusikaupunki, diagnosis group urological"
+  },
+  {
+   "id": "HQ-MG-Uusikaupunki-other",
+   "type": "count",
+   "filters": {
+    "municipality": "Uusikaupunki",
+    "diagnosis_group": "other"
+   },
+   "description": "Visits by residents of Uusikaupunki, diagnosis group other"
+  },
+  {
+   "id": "HQ-MG-Loimaa-cardiovascular",
+   "type": "count",
+   "filters": {
+    "municipality": "Loimaa",
+    "diagnosis_group": "cardiovascular"
+   },
+   "description": "Visits by residents of Loimaa, diagnosis group cardiovascular"
+  },
+  {
+   "id": "HQ-MG-Loimaa-respiratory",
+   "type": "count",
+   "filters": {
+    "municipality": "Loimaa",
+    "diagnosis_group": "respiratory"
+   },
+   "description": "Visits by residents of Loimaa, diagnosis group respiratory"
+  },
+  {
+   "id": "HQ-MG-Loimaa-ILI",
+   "type": "count",
+   "filters": {
+    "municipality": "Loimaa",
+    "diagnosis_group": "ILI"
+   },
+   "description": "Visits by residents of Loimaa, diagnosis group ILI"
+  },
+  {
+   "id": "HQ-MG-Loimaa-injury",
+   "type": "count",
+   "filters": {
+    "municipality": "Loimaa",
+    "diagnosis_group": "injury"
+   },
+   "description": "Visits by residents of Loimaa, diagnosis group injury"
+  },
+  {
+   "id": "HQ-MG-Loimaa-gastrointestinal",
+   "type": "count",
+   "filters": {
+    "municipality": "Loimaa",
+    "diagnosis_group": "gastrointestinal"
+   },
+   "description": "Visits by residents of Loimaa, diagnosis group gastrointestinal"
+  },
+  {
+   "id": "HQ-MG-Loimaa-neurological",
+   "type": "count",
+   "filters": {
+    "municipality": "Loimaa",
+    "diagnosis_group": "neurological"
+   },
+   "description": "Visits by residents of Loimaa, diagnosis group neurological"
+  },
+  {
+   "id": "HQ-MG-Loimaa-intoxication",
+   "type": "count",
+   "filters": {
+    "municipality": "Loimaa",
+    "diagnosis_group": "intoxication"
+   },
+   "description": "Visits by residents of Loimaa, diagnosis group intoxication"
+  },
+  {
+   "id": "HQ-MG-Loimaa-mental_health",
+   "type": "count",
+   "filters": {
+    "municipality": "Loimaa",
+    "diagnosis_group": "mental_health"
+   },
+   "description": "Visits by residents of Loimaa, diagnosis group mental_health"
+  },
+  {
+   "id": "HQ-MG-Loimaa-urological",
+   "type": "count",
+   "filters": {
+    "municipality": "Loimaa",
+    "diagnosis_group": "urological"
+   },
+   "description": "Visits by residents of Loimaa, diagnosis group urological"
+  },
+  {
+   "id": "HQ-MG-Loimaa-other",
+   "type": "count",
+   "filters": {
+    "municipality": "Loimaa",
+    "diagnosis_group": "other"
+   },
+   "description": "Visits by residents of Loimaa, diagnosis group other"
+  },
+  {
+   "id": "HQ-ADM-0-9",
+   "type": "mean",
+   "value": "admitted",
+   "filters": {
+    "age_band": "0-9"
+   },
+   "bounds": [
+    0,
+    1
+   ],
+   "description": "Share admitted to ward or ICU, age 0-9"
+  },
+  {
+   "id": "HQ-ADM-10-19",
+   "type": "mean",
+   "value": "admitted",
+   "filters": {
+    "age_band": "10-19"
+   },
+   "bounds": [
+    0,
+    1
+   ],
+   "description": "Share admitted to ward or ICU, age 10-19"
+  },
+  {
+   "id": "HQ-ADM-20-29",
+   "type": "mean",
+   "value": "admitted",
+   "filters": {
+    "age_band": "20-29"
+   },
+   "bounds": [
+    0,
+    1
+   ],
+   "description": "Share admitted to ward or ICU, age 20-29"
+  },
+  {
+   "id": "HQ-ADM-30-39",
+   "type": "mean",
+   "value": "admitted",
+   "filters": {
+    "age_band": "30-39"
+   },
+   "bounds": [
+    0,
+    1
+   ],
+   "description": "Share admitted to ward or ICU, age 30-39"
+  },
+  {
+   "id": "HQ-ADM-40-49",
+   "type": "mean",
+   "value": "admitted",
+   "filters": {
+    "age_band": "40-49"
+   },
+   "bounds": [
+    0,
+    1
+   ],
+   "description": "Share admitted to ward or ICU, age 40-49"
+  },
+  {
+   "id": "HQ-ADM-50-59",
+   "type": "mean",
+   "value": "admitted",
+   "filters": {
+    "age_band": "50-59"
+   },
+   "bounds": [
+    0,
+    1
+   ],
+   "description": "Share admitted to ward or ICU, age 50-59"
+  },
+  {
+   "id": "HQ-ADM-60-69",
+   "type": "mean",
+   "value": "admitted",
+   "filters": {
+    "age_band": "60-69"
+   },
+   "bounds": [
+    0,
+    1
+   ],
+   "description": "Share admitted to ward or ICU, age 60-69"
+  },
+  {
+   "id": "HQ-ADM-70-79",
+   "type": "mean",
+   "value": "admitted",
+   "filters": {
+    "age_band": "70-79"
+   },
+   "bounds": [
+    0,
+    1
+   ],
+   "description": "Share admitted to ward or ICU, age 70-79"
+  },
+  {
+   "id": "HQ-ADM-80+",
+   "type": "mean",
+   "value": "admitted",
+   "filters": {
+    "age_band": "80+"
+   },
+   "bounds": [
+    0,
+    1
+   ],
+   "description": "Share admitted to ward or ICU, age 80+"
+  }
+ ]
+}

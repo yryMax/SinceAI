@@ -1,0 +1,255 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TrustED PETs Proving Ground 2026: start here</title><style>
+:root{--surface-1:#fcfcfb;--text-primary:#0b0b0b;--text-secondary:#52514e;--grid:#e4e3df;--series-1:#2a78d6;--series-2:#eb6834;--series-3:#1baf7a;--accent:#2a78d6}
+@media (prefers-color-scheme:dark){:root{--surface-1:#1a1a19;--text-primary:#f0efec;--text-secondary:#c3c2b7;--grid:#3a3a37;--series-1:#3987e5;--series-2:#d95926;--series-3:#199e70;--accent:#3987e5}}
+body{background:var(--surface-1);color:var(--text-primary);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:980px;margin:0 auto;padding:32px 24px 80px}
+h1{font-size:30px;line-height:1.2;margin:0 0 8px}h2{font-size:21px;margin:36px 0 10px;border-top:1px solid var(--grid);padding-top:22px}h3{font-size:17px}
+a{color:var(--accent)}code{font:13.5px ui-monospace,SFMono-Regular,Menlo,monospace;background:color-mix(in srgb,var(--grid) 55%,transparent);padding:1px 4px;border-radius:4px}
+pre{background:color-mix(in srgb,var(--grid) 40%,transparent);padding:14px 16px;border-radius:8px;overflow:auto}pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;font-size:14.5px;margin:10px 0}th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--grid);vertical-align:top}th{color:var(--text-secondary);font-weight:600}
+.figs{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:12px 0}@media(max-width:760px){.figs{grid-template-columns:1fr}}
+.chart{width:100%;height:auto}.chart .ct{font-size:13px;font-weight:600;fill:var(--text-primary)}.chart .lab{font-size:12px;fill:var(--text-primary)}.chart .tick{font-size:11px;fill:var(--text-secondary)}.chart .grid{stroke:var(--grid);stroke-width:1}
+.legend{display:flex;gap:18px;font-size:13.5px;color:var(--text-secondary);flex-wrap:wrap}.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.note{color:var(--text-secondary);font-size:14px}
+</style></head><body><h1 id="trusted-pets-proving-ground-2026-start-here">TrustED PETs
+Proving Ground 2026: start here</h1>
+<p><strong>Challenge:</strong> TrustED PETs Transformer — <em>Protect
+the data, keep its value.</em> <strong>What this package is:</strong>
+realistic synthetic data to protect, plus tools that measure how well
+you protected it.</p>
+<p>The package contains:</p>
+<ul>
+<li>nine sensitive synthetic datasets from the domains named in the
+challenge brief;</li>
+<li>one surprise dataset whose contents you must identify without
+labels;</li>
+<li>the attackers' background knowledge, so your privacy claims can be
+tested;</li>
+<li>utility tasks and a scorecard that produce the before/after
+comparison the final demo requires.</li>
+</ul>
+<p>Everything is synthetic. No real person's data was used (see
+<code>NOTICE.md</code>).</p>
+<h2 id="the-30-second-version">The 30-second version</h2>
+<ol type="1">
+<li>Pick a dataset and a <strong>sharing scenario</strong>
+(<code>docs/SCENARIOS.md</code>): who receives the data and why.</li>
+<li>Build a tool that <strong>detects</strong> what each column and text
+contains, <strong>selects</strong> a PET for each, and
+<strong>transforms</strong> the data.</li>
+<li>Run <code>pets-eval scorecard</code> to <strong>demonstrate</strong>
+what you removed (re-identification risk) and what you kept
+(utility).</li>
+</ol>
+<h2 id="one-world-ten-datasets">One world, ten datasets</h2>
+<p>All datasets draw on one synthetic population: 100,000 residents of
+Southwest Finland at synthetic addresses in real postcode areas. The
+same people appear in several datasets. A patient in the emergency
+department may also ride the bus, bank at Saaristo Bank, work at
+Meridian Logistics and file a noise complaint, which makes cross-dataset
+linkage as real a risk as it is in practice.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Dataset</th>
+<th>Story (fictional controller)</th>
+<th>Main tables (rows)</th>
+<th>Typical PET problems</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>health</code></td>
+<td>Aurajoki Regional Hospital ED, 2025</td>
+<td>ed_visits 46k, lab_results 130k, clinical_notes 30k,
+published_weekly_stats 30k</td>
+<td>HETU encodes birth date and sex, rare diagnoses, clinical free text,
+unsuppressed small cells, DP dashboard</td>
+</tr>
+<tr class="even">
+<td><code>mobility</code></td>
+<td>Aura Transit travel cards and city bikes, Oct 2025</td>
+<td>taps 943k, cards 23k, bike_trips 58k</td>
+<td>Trajectory unicity (4 points single out about 98 % of cards), home
+locations, discount types revealing disability</td>
+</tr>
+<tr class="odd">
+<td><code>smart_city</code></td>
+<td>City-centre Wi-Fi sensors and ANPR car parks, Nov 2025</td>
+<td>wifi_probes 586k, anpr_parking 49k, footfall_15min 27k</td>
+<td>Static MACs, probed network names containing surnames, plates,
+purpose limitation</td>
+</tr>
+<tr class="even">
+<td><code>energy</code></td>
+<td>Lounaisvirta Verkko Oy smart meters, winter 2025–26</td>
+<td>meter_readings_hourly 1.6M, customers 757</td>
+<td>Occupancy and vacation inference, medical-device priority flag (Art.
+9)</td>
+</tr>
+<tr class="odd">
+<td><code>finance</code></td>
+<td>Saaristo Bank cards and transfers, H2 2025</td>
+<td>card_transactions 398k, transfers 87k, customers 6.3k</td>
+<td>Tokenisation, receipts that re-link, Art. 9 inference from
+merchants, fraud-model utility</td>
+</tr>
+<tr class="even">
+<td><code>cyber</code></td>
+<td>Meridian Logistics Oy SOC logs, Mar 2026</td>
+<td>proxy_logs 137k, dns_logs 76k, signin_logs 41k, email_gateway
+30k</td>
+<td>Joins across logs, prefix-preserving IPs, names in hostnames,
+secrets in URLs, labelled attack campaign</td>
+</tr>
+<tr class="odd">
+<td><code>education</code></td>
+<td>Upper-secondary and vocational schools, 2022–2025</td>
+<td>course_grades 152k, students 5.2k, counsellor_notes 3.8k</td>
+<td>Small classes, religion and migrant-background proxies in course
+codes, counsellor notes</td>
+</tr>
+<tr class="even">
+<td><code>public_admin</code></td>
+<td>Southwest Joint Service Centre feedback and permits, 2024–25</td>
+<td>service_requests 32k, building_permits 2.7k</td>
+<td>Open-data release of free text, neighbours named in complaints,
+repeat reporters</td>
+</tr>
+<tr class="odd">
+<td><code>customer_service</code></td>
+<td>Aallokko Telecom contact centre, 2025</td>
+<td>turns 140k, conversations 12k</td>
+<td>The redaction benchmark: spoken numbers, spelled emails, passwords
+in chat, a hidden eval split</td>
+</tr>
+<tr class="even">
+<td><code>unseen</code></td>
+<td>An HR/payroll export from a care company</td>
+<td>export_2025_q4 2.8k</td>
+<td>Obfuscated headers <code>c01..c26</code>: detect everything without
+labels</td>
+</tr>
+</tbody>
+</table>
+<p>Across the package there are 4.7 million rows, 475 catalogued
+columns, 354,000 labelled PII spans in free text, and 13
+attacker-knowledge files. Each dataset folder has its own
+<code>README.md</code>.</p>
+<h2 id="choose-your-path">Choose your path</h2>
+<p>These are suggestions; teams can combine them.</p>
+<ul>
+<li><strong>Free-text redaction:</strong> <code>customer_service</code>
+(with a hidden eval split), <code>health/clinical_notes</code>,
+<code>public_admin</code>.</li>
+<li><strong>Tabular de-identification under linkage attacks:</strong>
+<code>health/ed_visits</code>, <code>finance/customers</code>,
+<code>education/students</code>.</li>
+<li><strong>Location and trajectory privacy:</strong>
+<code>mobility</code>, <code>smart_city</code>.</li>
+<li><strong>Pseudonymisation that keeps joins:</strong>
+<code>cyber</code>. Detection must still work after protection.</li>
+<li><strong>Differential privacy for published statistics:</strong>
+<code>health/published_weekly_stats</code> with the DP query workload
+<code>metadata/dp_query_workload_health.json</code>, or
+<code>energy</code> neighbourhood load.</li>
+<li><strong>Synthetic data with a measured privacy risk:</strong> any
+table; <code>holdout/</code> gives the non-members needed for
+membership-inference tests.</li>
+<li><strong>Automatic detection:</strong> the <code>unseen</code>
+dataset, scored by the organisers.</li>
+</ul>
+<h2 id="ten-minute-quickstart">Ten-minute quickstart</h2>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">-e</span> ./toolkit                 <span class="co"># pets-eval CLI; Python ≥ 3.10, numpy, pandas 2 or 3, scipy, scikit-learn</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> examples/quickstart.py           <span class="co"># protects health/ed_visits for HEALTH-S1 and writes a scorecard</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">pets-eval</span> scenarios                      <span class="co"># list the 27 sharing scenarios</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">pets-eval</span> tasks <span class="at">--dataset</span> finance        <span class="co"># utility tasks for a dataset</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">pets-eval</span> check results/quickstart       <span class="co"># scan any output for residual identifiers</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ex">pets-eval</span> scorecard <span class="at">--original</span> data/health <span class="at">--protected</span> my_out/health <span class="at">--scenario</span> HEALTH-S1</span></code></pre></div>
+<p>Read every CSV with <code>dtype=str</code> first, because phone
+numbers, postcodes and identifiers break when they are parsed as
+numbers.</p>
+<h2 id="what-the-final-demo-must-show-and-how-this-package-helps">What
+the final demo must show, and how this package helps</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Demo requirement (TrustED brief)</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Data types identified</td>
+<td>Your detector's output, scored with <code>pets-eval detect</code>
+against <code>metadata/field_catalog.csv</code></td>
+</tr>
+<tr class="even">
+<td>2. PETs selected per data type</td>
+<td><code>docs/PET_PLAYBOOK.md</code>; justify each choice against the
+scenario</td>
+</tr>
+<tr class="odd">
+<td>3. Transformed dataset or protected view</td>
+<td>Your output folder</td>
+</tr>
+<tr class="even">
+<td>4. Utility before vs after</td>
+<td><code>pets-eval scorecard</code>: utility tasks per scenario, as
+JSON and HTML</td>
+</tr>
+<tr class="odd">
+<td>5. The sharing scenario it is fit for</td>
+<td><code>docs/SCENARIOS.md</code>, plus the residual risks reported by
+the scorecard</td>
+</tr>
+</tbody>
+</table>
+<p>The best solutions do not merely hide values. They keep the patterns,
+distributions, trends and relationships the scenario needs, and they
+report honestly which risks remain.</p>
+<h2 id="baselines-at-a-glance">Baselines at a glance</h2><p class="note">Reference baselines on every dataset (self-assessment scores from <code>pets-eval scorecard</code>; details in <code>docs/BENCHMARK.md</code>). Hover a bar for its value. Your job is to move right on both charts.</p><div class="legend"><span><i style="background:var(--series-1)"></i>B0 drop direct identifiers</span><span><i style="background:var(--series-2)"></i>B2 classic SDC</span><span><i style="background:var(--series-3)"></i>B2-k classic SDC + k≥5</span></div><div class="figs"><svg viewBox="0 0 530 400" role="img" aria-label="Privacy score (higher = safer)" class="chart"><text x="0" y="16" class="ct">Privacy score (higher = safer)</text><line x1="130" y1="26" x2="130" y2="394" class="grid"/><text x="130" y="400" class="tick" text-anchor="middle">0</text><line x1="310.0" y1="26" x2="310.0" y2="394" class="grid"/><text x="310.0" y="400" class="tick" text-anchor="middle">0.5</text><line x1="490" y1="26" x2="490" y2="394" class="grid"/><text x="490" y="400" class="tick" text-anchor="middle">1</text><text x="122" y="49.0" class="lab" text-anchor="end">health</text><rect x="130" y="30.0" width="102.2" height="7.7" rx="2" fill="var(--series-1)"><title>health · B0 drop direct identifiers: 0.28</title></rect><rect x="130" y="40.7" width="127.9" height="7.7" rx="2" fill="var(--series-2)"><title>health · B2 classic SDC: 0.36</title></rect><rect x="130" y="51.3" width="186.8" height="7.7" rx="2" fill="var(--series-3)"><title>health · B2-k classic SDC + k≥5: 0.52</title></rect><text x="122" y="89.0" class="lab" text-anchor="end">mobility</text><rect x="130" y="70.0" width="120.9" height="7.7" rx="2" fill="var(--series-1)"><title>mobility · B0 drop direct identifiers: 0.34</title></rect><rect x="130" y="80.7" width="129.8" height="7.7" rx="2" fill="var(--series-2)"><title>mobility · B2 classic SDC: 0.36</title></rect><rect x="130" y="91.3" width="183.7" height="7.7" rx="2" fill="var(--series-3)"><title>mobility · B2-k classic SDC + k≥5: 0.51</title></rect><text x="122" y="129.0" class="lab" text-anchor="end">smart_city</text><rect x="130" y="110.0" width="121.9" height="7.7" rx="2" fill="var(--series-1)"><title>smart_city · B0 drop direct identifiers: 0.34</title></rect><rect x="130" y="120.7" width="162.3" height="7.7" rx="2" fill="var(--series-2)"><title>smart_city · B2 classic SDC: 0.45</title></rect><rect x="130" y="131.3" width="168.5" height="7.7" rx="2" fill="var(--series-3)"><title>smart_city · B2-k classic SDC + k≥5: 0.47</title></rect><text x="122" y="169.0" class="lab" text-anchor="end">energy</text><rect x="130" y="150.0" width="127.6" height="7.7" rx="2" fill="var(--series-1)"><title>energy · B0 drop direct identifiers: 0.35</title></rect><rect x="130" y="160.7" width="144.3" height="7.7" rx="2" fill="var(--series-2)"><title>energy · B2 classic SDC: 0.40</title></rect><rect x="130" y="171.3" width="279.9" height="7.7" rx="2" fill="var(--series-3)"><title>energy · B2-k classic SDC + k≥5: 0.78</title></rect><text x="122" y="209.0" class="lab" text-anchor="end">finance</text><rect x="130" y="190.0" width="85.2" height="7.7" rx="2" fill="var(--series-1)"><title>finance · B0 drop direct identifiers: 0.24</title></rect><rect x="130" y="200.7" width="103.1" height="7.7" rx="2" fill="var(--series-2)"><title>finance · B2 classic SDC: 0.29</title></rect><rect x="130" y="211.3" width="219.7" height="7.7" rx="2" fill="var(--series-3)"><title>finance · B2-k classic SDC + k≥5: 0.61</title></rect><text x="122" y="249.0" class="lab" text-anchor="end">cyber</text><rect x="130" y="230.0" width="102.9" height="7.7" rx="2" fill="var(--series-1)"><title>cyber · B0 drop direct identifiers: 0.29</title></rect><rect x="130" y="240.7" width="154.1" height="7.7" rx="2" fill="var(--series-2)"><title>cyber · B2 classic SDC: 0.43</title></rect><rect x="130" y="251.3" width="205.9" height="7.7" rx="2" fill="var(--series-3)"><title>cyber · B2-k classic SDC + k≥5: 0.57</title></rect><text x="122" y="289.0" class="lab" text-anchor="end">education</text><rect x="130" y="270.0" width="138.2" height="7.7" rx="2" fill="var(--series-1)"><title>education · B0 drop direct identifiers: 0.38</title></rect><rect x="130" y="280.7" width="140.2" height="7.7" rx="2" fill="var(--series-2)"><title>education · B2 classic SDC: 0.39</title></rect><rect x="130" y="291.3" width="188.2" height="7.7" rx="2" fill="var(--series-3)"><title>education · B2-k classic SDC + k≥5: 0.52</title></rect><text x="122" y="329.0" class="lab" text-anchor="end">public_admin</text><rect x="130" y="310.0" width="90.0" height="7.7" rx="2" fill="var(--series-1)"><title>public_admin · B0 drop direct identifiers: 0.25</title></rect><rect x="130" y="320.7" width="97.8" height="7.7" rx="2" fill="var(--series-2)"><title>public_admin · B2 classic SDC: 0.27</title></rect><rect x="130" y="331.3" width="204.7" height="7.7" rx="2" fill="var(--series-3)"><title>public_admin · B2-k classic SDC + k≥5: 0.57</title></rect><text x="122" y="369.0" class="lab" text-anchor="end">customer_service</text><rect x="130" y="350.0" width="80.0" height="7.7" rx="2" fill="var(--series-1)"><title>customer_service · B0 drop direct identifiers: 0.22</title></rect><rect x="130" y="360.7" width="112.5" height="7.7" rx="2" fill="var(--series-2)"><title>customer_service · B2 classic SDC: 0.31</title></rect><rect x="130" y="371.3" width="178.3" height="7.7" rx="2" fill="var(--series-3)"><title>customer_service · B2-k classic SDC + k≥5: 0.50</title></rect></svg><svg viewBox="0 0 530 400" role="img" aria-label="Utility score (higher = more useful)" class="chart"><text x="0" y="16" class="ct">Utility score (higher = more useful)</text><line x1="130" y1="26" x2="130" y2="394" class="grid"/><text x="130" y="400" class="tick" text-anchor="middle">0</text><line x1="310.0" y1="26" x2="310.0" y2="394" class="grid"/><text x="310.0" y="400" class="tick" text-anchor="middle">0.5</text><line x1="490" y1="26" x2="490" y2="394" class="grid"/><text x="490" y="400" class="tick" text-anchor="middle">1</text><text x="122" y="49.0" class="lab" text-anchor="end">health</text><rect x="130" y="30.0" width="360.0" height="7.7" rx="2" fill="var(--series-1)"><title>health · B0 drop direct identifiers: 1.00</title></rect><rect x="130" y="40.7" width="312.3" height="7.7" rx="2" fill="var(--series-2)"><title>health · B2 classic SDC: 0.87</title></rect><rect x="130" y="51.3" width="159.7" height="7.7" rx="2" fill="var(--series-3)"><title>health · B2-k classic SDC + k≥5: 0.44</title></rect><text x="122" y="89.0" class="lab" text-anchor="end">mobility</text><rect x="130" y="70.0" width="360.0" height="7.7" rx="2" fill="var(--series-1)"><title>mobility · B0 drop direct identifiers: 1.00</title></rect><rect x="130" y="80.7" width="352.7" height="7.7" rx="2" fill="var(--series-2)"><title>mobility · B2 classic SDC: 0.98</title></rect><rect x="130" y="91.3" width="188.7" height="7.7" rx="2" fill="var(--series-3)"><title>mobility · B2-k classic SDC + k≥5: 0.52</title></rect><text x="122" y="129.0" class="lab" text-anchor="end">smart_city</text><rect x="130" y="110.0" width="300.0" height="7.7" rx="2" fill="var(--series-1)"><title>smart_city · B0 drop direct identifiers: 0.83</title></rect><rect x="130" y="120.7" width="266.9" height="7.7" rx="2" fill="var(--series-2)"><title>smart_city · B2 classic SDC: 0.74</title></rect><rect x="130" y="131.3" width="211.9" height="7.7" rx="2" fill="var(--series-3)"><title>smart_city · B2-k classic SDC + k≥5: 0.59</title></rect><text x="122" y="169.0" class="lab" text-anchor="end">energy</text><rect x="130" y="150.0" width="360.0" height="7.7" rx="2" fill="var(--series-1)"><title>energy · B0 drop direct identifiers: 1.00</title></rect><rect x="130" y="160.7" width="342.8" height="7.7" rx="2" fill="var(--series-2)"><title>energy · B2 classic SDC: 0.95</title></rect><rect x="130" y="171.3" width="300.6" height="7.7" rx="2" fill="var(--series-3)"><title>energy · B2-k classic SDC + k≥5: 0.84</title></rect><text x="122" y="209.0" class="lab" text-anchor="end">finance</text><rect x="130" y="190.0" width="168.7" height="7.7" rx="2" fill="var(--series-1)"><title>finance · B0 drop direct identifiers: 0.47</title></rect><rect x="130" y="200.7" width="299.8" height="7.7" rx="2" fill="var(--series-2)"><title>finance · B2 classic SDC: 0.83</title></rect><rect x="130" y="211.3" width="59.7" height="7.7" rx="2" fill="var(--series-3)"><title>finance · B2-k classic SDC + k≥5: 0.17</title></rect><text x="122" y="249.0" class="lab" text-anchor="end">cyber</text><rect x="130" y="230.0" width="130.9" height="7.7" rx="2" fill="var(--series-1)"><title>cyber · B0 drop direct identifiers: 0.36</title></rect><rect x="130" y="240.7" width="266.5" height="7.7" rx="2" fill="var(--series-2)"><title>cyber · B2 classic SDC: 0.74</title></rect><rect x="130" y="251.3" width="250.4" height="7.7" rx="2" fill="var(--series-3)"><title>cyber · B2-k classic SDC + k≥5: 0.70</title></rect><text x="122" y="289.0" class="lab" text-anchor="end">education</text><rect x="130" y="270.0" width="360.0" height="7.7" rx="2" fill="var(--series-1)"><title>education · B0 drop direct identifiers: 1.00</title></rect><rect x="130" y="280.7" width="275.5" height="7.7" rx="2" fill="var(--series-2)"><title>education · B2 classic SDC: 0.77</title></rect><rect x="130" y="291.3" width="264.2" height="7.7" rx="2" fill="var(--series-3)"><title>education · B2-k classic SDC + k≥5: 0.73</title></rect><text x="122" y="329.0" class="lab" text-anchor="end">public_admin</text><rect x="130" y="310.0" width="360.0" height="7.7" rx="2" fill="var(--series-1)"><title>public_admin · B0 drop direct identifiers: 1.00</title></rect><rect x="130" y="320.7" width="334.8" height="7.7" rx="2" fill="var(--series-2)"><title>public_admin · B2 classic SDC: 0.93</title></rect><rect x="130" y="331.3" width="156.7" height="7.7" rx="2" fill="var(--series-3)"><title>public_admin · B2-k classic SDC + k≥5: 0.44</title></rect><text x="122" y="369.0" class="lab" text-anchor="end">customer_service</text><rect x="130" y="350.0" width="360.0" height="7.7" rx="2" fill="var(--series-1)"><title>customer_service · B0 drop direct identifiers: 1.00</title></rect><rect x="130" y="360.7" width="308.1" height="7.7" rx="2" fill="var(--series-2)"><title>customer_service · B2 classic SDC: 0.86</title></rect><rect x="130" y="371.3" width="308.1" height="7.7" rx="2" fill="var(--series-3)"><title>customer_service · B2-k classic SDC + k≥5: 0.86</title></rect></svg></div><div class="figs"><svg viewBox="0 0 420 200" role="img" aria-label="DP error versus epsilon" class="chart"><text x="0" y="16" class="ct">B3: mean relative error of DP answers vs ε (health workload)</text><line x1="50" y1="170.0" x2="400" y2="170.0" class="grid"/><text x="44" y="174.0" class="tick" text-anchor="end">0.00</text><line x1="50" y1="100.0" x2="400" y2="100.0" class="grid"/><text x="44" y="104.0" class="tick" text-anchor="end">0.22</text><path d="M50.0,48.3 L131.0,90.5 L212.0,120.0 L292.9,138.4 L400.0,148.6" fill="none" stroke="var(--series-1)" stroke-width="2"/><circle cx="50.0" cy="48.3" r="5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"><title>ε = 0.25: mean relative error 0.382</title></circle><text x="50.0" y="192" class="tick" text-anchor="middle">ε=0.25</text><circle cx="131.0" cy="90.5" r="5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"><title>ε = 0.5: mean relative error 0.249</title></circle><text x="131.0" y="192" class="tick" text-anchor="middle">ε=0.5</text><circle cx="212.0" cy="120.0" r="5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"><title>ε = 1: mean relative error 0.157</title></circle><text x="212.0" y="192" class="tick" text-anchor="middle">ε=1</text><circle cx="292.9" cy="138.4" r="5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"><title>ε = 2: mean relative error 0.099</title></circle><text x="292.9" y="192" class="tick" text-anchor="middle">ε=2</text><circle cx="400.0" cy="148.6" r="5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"><title>ε = 5: mean relative error 0.067</title></circle><text x="400.0" y="192" class="tick" text-anchor="middle">ε=5</text></svg><div></div></div><h2 id="how-you-are-measured">How you are measured</h2>
+<ul>
+<li><strong>Self-assessment (yours):</strong>
+<code>pets-eval scorecard</code> combines privacy, utility and a
+composite score. The scorecard is a tool for building and presenting
+your work. It is not the official judging score.</li>
+<li><strong>Judging:</strong> judging follows the official Since AI
+evaluation process.</li>
+<li><strong>Optional organiser checks:</strong> the organisers can run
+your outputs against things you have not seen: a stronger hidden
+attacker for every domain, the private labels of the <code>unseen</code>
+dataset, and the hidden eval spans of <code>customer_service</code>. See
+<code>docs/EVALUATION.md</code>.</li>
+<li><strong>Baselines to beat:</strong>
+<code>docs/BENCHMARK.md</code>.</li>
+</ul>
+<h2 id="rules-of-the-road">Rules of the road</h2>
+<ul>
+<li>Use only this synthetic data, public data, or data you are
+explicitly allowed to use.</li>
+<li>Never publish row maps (<code>rowmap_*.csv</code>). They exist only
+so that your protection can be scored.</li>
+<li>Say what your guarantee is. "Anonymised" and "differentially
+private" are claims that need a method and parameters (see the
+playbook).</li>
+<li>Licences: data CC BY 4.0, code MIT, © Since AI ry. Postcode
+centroids come from GeoNames (CC BY 4.0).</li>
+</ul>
+<h2 id="folder-map">Folder map</h2>
+<pre><code>data/&lt;dataset&gt;/              tables + README per dataset
+metadata/                    field_catalog.csv, scenarios.json, pii_spans/, taxonomy.md, attack_specs.json,
+                             dp_query_workload_health.json, pii_span_guidelines.md
+adversary/                   what attackers know (public part)
+truth/                       who is who: record -&gt; person, attacker row -&gt; person (for self-assessment)
+holdout/                     non-member records for membership-inference tests
+toolkit/                     the pets-eval Python package and CLI
+baselines/                   B0–B4 reference solutions; results/ holds their scorecards
+examples/                    quickstart
+docs/                        DATA_DICTIONARY, SCENARIOS, THREAT_MODEL, PET_PLAYBOOK, EVALUATION, BENCHMARK, GLOSSARY, LIMITATIONS</code></pre>
+<p>Inspired by the European project TrustED (Horizon Europe grant
+agreement No. 101168467), coordinated by Gradiant. Since AI ry produced
+this package for Since AI Hackathon 2026. It does not imply endorsement
+by the EU or the TrustED consortium. Questions go to the TrustED
+challenge channel on the Since AI Discord.</p>
+</body></html>

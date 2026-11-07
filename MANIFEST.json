@@ -1,0 +1,1310 @@
+{
+ "package": "TRUSTED_PETS_PROVING_GROUND_2026",
+ "version": "1.0.0",
+ "created": "2026-11-04",
+ "generator_seed": "UNDISCLOSED (held by the organisers)",
+ "seed_commitment_sha256": "048b726d6895cbdad3a8bcc614974551dea1ba3c4a24cc49f0c080ae999327f0",
+ "n_files": 260,
+ "files": [
+  {
+   "path": "CHANGELOG.md",
+   "bytes": 83,
+   "sha256": "fa4cc4966cdf6cd02a96fd7c3d6542a198fc0767eccd0ae4a9a0b7ce4ef7000c"
+  },
+  {
+   "path": "LICENSE",
+   "bytes": 1068,
+   "sha256": "b15859a8c28e07e13037dde146719d2aa4b8b14e30d1dd8078e57a2f15eb05e2"
+  },
+  {
+   "path": "LICENSE-DATA.md",
+   "bytes": 523,
+   "sha256": "3dc23323ce3bb76adeebc967eb28c8e3955e62589fff4b2cb92ba8cbaec7d87b"
+  },
+  {
+   "path": "NOTICE.md",
+   "bytes": 2193,
+   "sha256": "b69673ad2c6312a7a4d92e0b81638319a6352b8001ff2fe49b77319b2f1cd686"
+  },
+  {
+   "path": "README.md",
+   "bytes": 1319,
+   "sha256": "db5b226dc129874ac8ed4ec838ec6ef8e614e136f0365024f4db1e530ea1e81f"
+  },
+  {
+   "path": "START_HERE.html",
+   "bytes": 25970,
+   "sha256": "629d6a288b66f3b3a1a63036e90f09de649ea74247efcd6e58a14461cc0b04f8"
+  },
+  {
+   "path": "START_HERE.md",
+   "bytes": 8420,
+   "sha256": "f39210ddefad9ac9240c7c250435a09641a48fa55234e31701a9703eb87dafbd"
+  },
+  {
+   "path": "adversary/company_website_staff.csv",
+   "bytes": 47482,
+   "sha256": "c874d6a60335efa7b67108c86f3708483bc88aad161aaed1da840d3b867b0f80"
+  },
+  {
+   "path": "adversary/fitness_app_leak.csv",
+   "bytes": 164112,
+   "sha256": "28e74e61d4f69b4aa33e855ab380ea94f6750a787d82172f10c770e8ab98da2e"
+  },
+  {
+   "path": "adversary/graduation_lists.csv",
+   "bytes": 225413,
+   "sha256": "c098ba4ac1870311d38129092c8805a64b5e4c63e6c22de5f8f4e35430e94732"
+  },
+  {
+   "path": "adversary/leaked_customer_list.csv",
+   "bytes": 211546,
+   "sha256": "a2f856477b39b6faff3a5f568819a0c70e7ad916e0510a4bc15b55190b1d96aa"
+  },
+  {
+   "path": "adversary/neighbourhood_forum_posts.csv",
+   "bytes": 194355,
+   "sha256": "cbc0481919a052b2dd9b4b0302e796c659804c9e60d5cbfc5cf8bfbe35eff859"
+  },
+  {
+   "path": "adversary/news_clips_health.csv",
+   "bytes": 47180,
+   "sha256": "66214b5b77dc1605d6335587dc3e04371088679cd16d2f840554404a6f22082e"
+  },
+  {
+   "path": "adversary/plate_sightings.csv",
+   "bytes": 112159,
+   "sha256": "de626f6238870547ac919eac40a1e47b6bac687500dc8f5bc31804fd87849fec"
+  },
+  {
+   "path": "adversary/public_directory.csv",
+   "bytes": 2611313,
+   "sha256": "c4d6a8fe0d71d9800e7f5bbbb0fa328b19ac634cd32680d92c8eb70974e93033"
+  },
+  {
+   "path": "adversary/receipt_photos_ocr.csv",
+   "bytes": 146843,
+   "sha256": "6e4f91a6bb0858b4a80363d3212d569b7cd0bba0965f972434fbcbd4372edb70"
+  },
+  {
+   "path": "adversary/social_checkins.csv",
+   "bytes": 237102,
+   "sha256": "8206d7b5e58fa06b2f828677c6986b0d107af3f98a598f155bf3bd22d8618cf6"
+  },
+  {
+   "path": "adversary/social_posts_health.csv",
+   "bytes": 143444,
+   "sha256": "07df33c570ff80e0b1b3b36c8646aea54f2b077e608c0c649f3b7da978a9019b"
+  },
+  {
+   "path": "adversary/sports_club_rosters.csv",
+   "bytes": 61557,
+   "sha256": "b8d3ad59b43c494d470c5aa9dd35dd6651cc108a01e899ff36d8ef2e0d570653"
+  },
+  {
+   "path": "adversary/vacation_posts.csv",
+   "bytes": 45278,
+   "sha256": "36bf08e68c4aabc93e996bfa59df82b996c8865237df3bca4d9bdb5e92329e03"
+  },
+  {
+   "path": "baselines/README.md",
+   "bytes": 926,
+   "sha256": "91573d5d9f0e61cf9446b3310a7c1d8589cf770c617790b93be201f44d9a8cd3"
+  },
+  {
+   "path": "baselines/_common.py",
+   "bytes": 6098,
+   "sha256": "9e79b3066fe2e6cfdc07bd8681f87570d91ad2b2f30f700a46a2faae68d5f8d4"
+  },
+  {
+   "path": "baselines/b1_detect_rules.py",
+   "bytes": 4921,
+   "sha256": "4acf4a0da02f40c47f896f44fa3c484f368bd7f70215cb7dcd873b46447c5746"
+  },
+  {
+   "path": "baselines/b3_dp_health.py",
+   "bytes": 3794,
+   "sha256": "e386723a23f8c1f2ce3db29eb8e8ce202b7c8faafe9640bf947ee22a4ebb1f02"
+  },
+  {
+   "path": "baselines/b4_synth_health.py",
+   "bytes": 4963,
+   "sha256": "92b8fe7771274212c2f61befbc262be8473e33bd3855480bda4094f9bf9d6a52"
+  },
+  {
+   "path": "baselines/protect.py",
+   "bytes": 1263,
+   "sha256": "0f647153ae32ca0ec45c50ce2ffba493b2fffa4ffa615f96f9cd1283b3b99998"
+  },
+  {
+   "path": "baselines/run_all.py",
+   "bytes": 5210,
+   "sha256": "5e4bb0e50651e4b9113ea8b8dae1d4ce1e92fb9c65d255f28d37f7ed0d5ae0bb"
+  },
+  {
+   "path": "data/customer_service/README.md",
+   "bytes": 2294,
+   "sha256": "9421adfaf493aae75cf4b9734c2ce42ed5039e217d437fd751c2cc9f487b46ef"
+  },
+  {
+   "path": "data/customer_service/conversations.csv",
+   "bytes": 2480576,
+   "sha256": "c1df5a43ab6b13bdb9429e42e029bee38022e7f82e807b54cc9f40b366212b49"
+  },
+  {
+   "path": "data/customer_service/customers.csv",
+   "bytes": 1758772,
+   "sha256": "b841730e8aaea9e6b7f8801d306aa40242811b40fd8989a3025a099a88bcf622"
+  },
+  {
+   "path": "data/customer_service/turns.csv",
+   "bytes": 14341681,
+   "sha256": "dbcc1159cbfdbe870d441a4d8b604e89059da278b909e05f405a937257e3d0f5"
+  },
+  {
+   "path": "data/cyber/README.md",
+   "bytes": 2723,
+   "sha256": "ac8d4cbc4566143892c89ce8c86382ce852d2e97f6ab9d19bed81b0628c9fd46"
+  },
+  {
+   "path": "data/cyber/dns_logs.csv",
+   "bytes": 8429338,
+   "sha256": "7bc8dba898fd356b73c349002c1f4f921401d39fbb92c2bea62b187e7ca7ebe5"
+  },
+  {
+   "path": "data/cyber/edr_alerts.csv",
+   "bytes": 150965,
+   "sha256": "2afff1aed70f3dbb4240f814d52d3d4563e42792f0d6a658187dfce690862b1a"
+  },
+  {
+   "path": "data/cyber/email_gateway.csv",
+   "bytes": 7288720,
+   "sha256": "2f8c22d43fd5e92a82fdddb8f5576c284634f560fd6c7295e78a37261428b4fb"
+  },
+  {
+   "path": "data/cyber/geoip_ranges.csv",
+   "bytes": 1342,
+   "sha256": "f0b7c6dd6722f4f431cead8346cc4f652fb3201329b7af2178e1d8f42bc5d009"
+  },
+  {
+   "path": "data/cyber/identity.csv",
+   "bytes": 248383,
+   "sha256": "b62ed72655dc1c2f86b648012916dcb22ebcf54a6d9c034ed52dbbe5025f51da"
+  },
+  {
+   "path": "data/cyber/incident_tickets.csv",
+   "bytes": 99815,
+   "sha256": "fe6f5fcf16960b1fac08291479260d789e29044efdced23284f2ac9c466160c5"
+  },
+  {
+   "path": "data/cyber/proxy_logs.csv",
+   "bytes": 49284379,
+   "sha256": "23d5b19f6fa7edb61292707a31b2c28933573d05c7c2e26d48edf7f9e8500ad9"
+  },
+  {
+   "path": "data/cyber/signin_logs.csv",
+   "bytes": 12987607,
+   "sha256": "c9ae410bda242eab882cfad06ec10937045334b3ecfcd7c504f37ab845ccd7d7"
+  },
+  {
+   "path": "data/cyber/vpn_logs.csv",
+   "bytes": 809605,
+   "sha256": "20e3effd3d411d06ea3f6570f1ce81b6e702cd441d05e118b32fe295292a917a"
+  },
+  {
+   "path": "data/education/README.md",
+   "bytes": 2453,
+   "sha256": "af143d05c38e17b31b23d3345d8e3d5eb17d71a3df6284f62dc0d3a6ac4befd5"
+  },
+  {
+   "path": "data/education/absences.csv",
+   "bytes": 888269,
+   "sha256": "465f67dbc82211a04ed94e7aa5db0325169ad6b922fab64c3f1ff3c6cb7dbfed"
+  },
+  {
+   "path": "data/education/counsellor_notes.csv",
+   "bytes": 1094206,
+   "sha256": "fc973163bfd0eb58792b16685420c1bdfc8597f1b8b3f094a525761bd5312524"
+  },
+  {
+   "path": "data/education/course_grades.csv",
+   "bytes": 14734965,
+   "sha256": "ba3074fbd93d10a827b7e43b6cf3031fc8e41699f52aae9dbb394cd25c89d2b5"
+  },
+  {
+   "path": "data/education/matriculation_results.csv",
+   "bytes": 805766,
+   "sha256": "0f7c5ebf724cd0eef15aca25dfe835b67c7bc4baff22c275db3ff51f1b31ad53"
+  },
+  {
+   "path": "data/education/students.csv",
+   "bytes": 1302491,
+   "sha256": "6c1b18a599e79ee3196be48d45eee4fbb6141a244a8fbe40d4289e246f6173d4"
+  },
+  {
+   "path": "data/energy/README.md",
+   "bytes": 2728,
+   "sha256": "dab2b75a86546e80ea1ceb9e00caed8a7a47c978fab6231cee9e160aa0259979"
+  },
+  {
+   "path": "data/energy/customers.csv",
+   "bytes": 166016,
+   "sha256": "0711266dd3c5040ec7f01a3c0192075fd25053777143c0044c6f369a7bd182dc"
+  },
+  {
+   "path": "data/energy/meter_readings_hourly.csv",
+   "bytes": 83215537,
+   "sha256": "38230b66051c01d5818e25dcac982b05b74ad7fb064c5ace398bf23f805d3573"
+  },
+  {
+   "path": "data/energy/weather_hourly.csv",
+   "bytes": 75515,
+   "sha256": "eca5a32da71192229eca3ddb023c77d010c51ac04e6771673c652dc65fdb2e6a"
+  },
+  {
+   "path": "data/finance/README.md",
+   "bytes": 2687,
+   "sha256": "e4063075ae5c5b294b923418b4a69a0ed3781adb93cdf7ac0e92c9fdb3f56600"
+  },
+  {
+   "path": "data/finance/card_transactions.csv",
+   "bytes": 54110686,
+   "sha256": "7843eed30bef33cd39e794a2703cd0e5ee4e3be6b2471ac1805010b42ac93bb1"
+  },
+  {
+   "path": "data/finance/cards.csv",
+   "bytes": 482387,
+   "sha256": "e9a741eb96ad48d0e34b692fff384e4fb6cbc95d10a4638f2dec4aa3f2cf7850"
+  },
+  {
+   "path": "data/finance/customers.csv",
+   "bytes": 1307091,
+   "sha256": "eea55650e81659395fb8707e7467d099057f5713e26082cdff01fd6c28a6c6ac"
+  },
+  {
+   "path": "data/finance/transfers.csv",
+   "bytes": 13310776,
+   "sha256": "691ac4c76a6eb2e583e89242737fd5a4b6133a81c7e989037f1cc225bb7fc6c5"
+  },
+  {
+   "path": "data/health/README.md",
+   "bytes": 2548,
+   "sha256": "48800f69e7dc9240a130d0303fb20b299969b5bd88e38b3d7984f14fdb97fe7d"
+  },
+  {
+   "path": "data/health/clinical_notes.csv",
+   "bytes": 12969394,
+   "sha256": "0f040c051454160561fea9de9e99606213f63699b734e40066e0157a9016db39"
+  },
+  {
+   "path": "data/health/ed_visits.csv",
+   "bytes": 11786441,
+   "sha256": "9d81dcc1badc186893097f57ff79356078edf83b4008770ebbcd28397bca9335"
+  },
+  {
+   "path": "data/health/lab_results.csv",
+   "bytes": 10334093,
+   "sha256": "8b66d848685da735e43eaa4dafaa55ce1200f15e859c322038a9160a69baffd4"
+  },
+  {
+   "path": "data/health/published_weekly_stats.csv",
+   "bytes": 1357713,
+   "sha256": "60ccc12e0fafa10f03268de9a46e8f642f541ab9841daf56d4df1d605b8e49b0"
+  },
+  {
+   "path": "data/mobility/README.md",
+   "bytes": 2573,
+   "sha256": "b11194ca8d531b40d2a938325211294a2df3db3b9dff7ee5fb6836586386723d"
+  },
+  {
+   "path": "data/mobility/bike_stations.csv",
+   "bytes": 3026,
+   "sha256": "d14c893b2cfdc939110596285fb80d05172803b821347700acd09ccece5f8210"
+  },
+  {
+   "path": "data/mobility/bike_trips.csv",
+   "bytes": 7985825,
+   "sha256": "431349e90ace18107bd3d0f3ff2d9c5ad3b70710d00eb9f8b9781989c59d577e"
+  },
+  {
+   "path": "data/mobility/cards.csv",
+   "bytes": 2215381,
+   "sha256": "1e9a252fbe0e10666b0f37b317376ae42e87bacb4044551992e45f009f759998"
+  },
+  {
+   "path": "data/mobility/stops.csv",
+   "bytes": 48363,
+   "sha256": "98b1e04a7c185d7f053fb1401f886940309085268f1f15456f9790c5778d2dc7"
+  },
+  {
+   "path": "data/mobility/taps.csv",
+   "bytes": 69299330,
+   "sha256": "81c58dea476c9d5737d3acb1342325e01faf2d31b4b8cf2141bb67ecacfeea06"
+  },
+  {
+   "path": "data/public_admin/README.md",
+   "bytes": 2148,
+   "sha256": "4bbe5e25717022434691172e27e6e733de227e852be6b5af0636962bfd53a002"
+  },
+  {
+   "path": "data/public_admin/building_permits.csv",
+   "bytes": 534394,
+   "sha256": "00e8525886957198b25a06a4337841a8d3dcdb3e2af2c989bc7f84d62caac4c3"
+  },
+  {
+   "path": "data/public_admin/service_requests.csv",
+   "bytes": 13753484,
+   "sha256": "cfb93b74098f5d92720fe08a509ce163dfd383c7d4136f4844037b82448fd8c9"
+  },
+  {
+   "path": "data/smart_city/README.md",
+   "bytes": 1876,
+   "sha256": "2d6e805505b045d7c918109788c53c745a8c7fa6bcdf9ef0ed13f96738a04e39"
+  },
+  {
+   "path": "data/smart_city/anpr_parking.csv",
+   "bytes": 4940251,
+   "sha256": "4f51f93c8a971970de02c005d0702b0a14f77879e1476648b4577ea2e83805f9"
+  },
+  {
+   "path": "data/smart_city/footfall_15min.csv",
+   "bytes": 898140,
+   "sha256": "1171191fef13a0ea4adbccb7b10d9a405e84407532062007da7758a709aeacb8"
+  },
+  {
+   "path": "data/smart_city/sensors.csv",
+   "bytes": 1341,
+   "sha256": "a6531605975f9bb217453ba1f0cac6c6c15b2a3496018ec260f2790336691d48"
+  },
+  {
+   "path": "data/smart_city/wifi_probes.csv",
+   "bytes": 34527360,
+   "sha256": "0dc32fcd9c5ec321fef657b3bd97e709f4c2ec3a9ba2b71eadcd1974729b2592"
+  },
+  {
+   "path": "data/unseen/README.md",
+   "bytes": 1005,
+   "sha256": "c4409f487702d28db9c03e2dcb9b1840394f91a5fb8b1cae80896ed4a7b487d2"
+  },
+  {
+   "path": "data/unseen/export_2025_q4.csv",
+   "bytes": 1066415,
+   "sha256": "21792caabda5d49bef46a78e6827f7743805adc8d80660476a72e6dadd2e6683"
+  },
+  {
+   "path": "docs/BENCHMARK.md",
+   "bytes": 5246,
+   "sha256": "e89dc7e44ec8ec31912deeee1d5549073989d1fb8dcdfb485978cff9184cc575"
+  },
+  {
+   "path": "docs/DATA_DICTIONARY.md",
+   "bytes": 44460,
+   "sha256": "81cd25bbf93965d539b6f7ee2e0ee964cd08d0eb13a445bd6ef83d53f9c68901"
+  },
+  {
+   "path": "docs/EVALUATION.md",
+   "bytes": 4708,
+   "sha256": "6d9d74765bd30c6411bc715d25ea8a6cc3ebf55c8cfce6b49d20a3987e27fd2a"
+  },
+  {
+   "path": "docs/GLOSSARY.md",
+   "bytes": 3959,
+   "sha256": "50c8147abfdd794fcb34cd670ca4c501926caa68a4c951cacefcf6b3b57dedcf"
+  },
+  {
+   "path": "docs/LIMITATIONS.md",
+   "bytes": 2205,
+   "sha256": "dc28450e8fca1edb51ca2aa44d27475ecab9ad3129524a2440686f753da3d9c4"
+  },
+  {
+   "path": "docs/PET_PLAYBOOK.md",
+   "bytes": 6185,
+   "sha256": "88e2416c1eeb01bd45f8dd8314f265b06b6a50b2eecdaf2344ebfe289d02ff0f"
+  },
+  {
+   "path": "docs/SCENARIOS.md",
+   "bytes": 22111,
+   "sha256": "7bbd521953c3c6e5c129d92623fd8add24355c23aeeaf6e60e9fac6db629886e"
+  },
+  {
+   "path": "docs/THREAT_MODEL.md",
+   "bytes": 4431,
+   "sha256": "149cd91f1dc5f3ce5077832d43c427fde4793ba62bcf5088e5b2819c0000c8fb"
+  },
+  {
+   "path": "examples/quickstart.py",
+   "bytes": 3167,
+   "sha256": "e21b0189df6d40206c6e1a87371fe70873528e4ea665a0428c9ab5180c2c0888"
+  },
+  {
+   "path": "holdout/customer_service/conversations.csv",
+   "bytes": 140323,
+   "sha256": "5c6e1d8829ccfc64a2b1e622292e8adb61daf3ec052398d18eda3a375e674645"
+  },
+  {
+   "path": "holdout/customer_service/customers.csv",
+   "bytes": 99428,
+   "sha256": "69603fdde6dd3af5d7e8b018dfc4de4505dbc3832a5e198095f4737843d5360b"
+  },
+  {
+   "path": "holdout/customer_service/turns.csv",
+   "bytes": 793049,
+   "sha256": "8f011a6c1986df950d90d55949d70615e08f9e342bed020e349e68405f5c8eaa"
+  },
+  {
+   "path": "holdout/cyber/identity.csv",
+   "bytes": 14018,
+   "sha256": "a2f3516817fc8bc8075d7f1eb46a0b5562a4f015464e32e6e34ca18bb91faa00"
+  },
+  {
+   "path": "holdout/cyber/signin_logs.csv",
+   "bytes": 686569,
+   "sha256": "1752c6e7cbcc2baec4b8cdab5637ebcf3a813be4a6667f4ca678c454fa9fab52"
+  },
+  {
+   "path": "holdout/education/absences.csv",
+   "bytes": 52233,
+   "sha256": "d571a21f06cb96e360cef49a2120d20d2c236b1429522e5adc28ef82def052ee"
+  },
+  {
+   "path": "holdout/education/counsellor_notes.csv",
+   "bytes": 65128,
+   "sha256": "ee8a5e33f9cbd308ba031e2c44e05d9424de1b068db84b90292f25b31281b475"
+  },
+  {
+   "path": "holdout/education/course_grades.csv",
+   "bytes": 858332,
+   "sha256": "b8383be307cde5b27bc9801ba5ab22400928c64814c5a90558edfd0811156aab"
+  },
+  {
+   "path": "holdout/education/matriculation_results.csv",
+   "bytes": 48935,
+   "sha256": "5dde45b0c837a55dbe06ddeb2bd772290e9047e45240aa26eded2f12c4bb9058"
+  },
+  {
+   "path": "holdout/education/students.csv",
+   "bytes": 72177,
+   "sha256": "a03cd9b376998ba75dc8d079f589893ab4593ff6d6579fa0eef0fa82b9e1050d"
+  },
+  {
+   "path": "holdout/energy/customers.csv",
+   "bytes": 6079,
+   "sha256": "c8f552e06f9ab41379193e88cf9665f06521b0221f33f69314da8f695e5c9673"
+  },
+  {
+   "path": "holdout/energy/meter_readings_hourly.csv",
+   "bytes": 2857744,
+   "sha256": "641dec021f71fd08385de857817a1685b130806d3ffe4ed03c0a7916df8a0626"
+  },
+  {
+   "path": "holdout/finance/card_transactions.csv",
+   "bytes": 3085793,
+   "sha256": "13669fd62a45136d579d276a75cd3ce8197af8e389018372f76cf9512f64a0a3"
+  },
+  {
+   "path": "holdout/finance/cards.csv",
+   "bytes": 27342,
+   "sha256": "16b7f8917856411b5a114720c2f36cb5cfb0ae400924996fef40495d3920f78b"
+  },
+  {
+   "path": "holdout/finance/customers.csv",
+   "bytes": 73067,
+   "sha256": "1041079c6048a8eb1ff324816e1c253f97b77c73fc40549b7ba93c938f62da9b"
+  },
+  {
+   "path": "holdout/finance/transfers.csv",
+   "bytes": 773032,
+   "sha256": "893a0328f197c49c25643a9b66f190adc9da23bb4b423ebf6ac1d2deb82c1933"
+  },
+  {
+   "path": "holdout/health/clinical_notes.csv",
+   "bytes": 714797,
+   "sha256": "a044279a79d3ba41fcc8ba399b96a114129b5266338283dfe61e0fc7bcef028e"
+  },
+  {
+   "path": "holdout/health/ed_visits.csv",
+   "bytes": 642559,
+   "sha256": "90a39751473872b42e8b12a3e9fb20cc1b4bb0fce926253447647152aca40054"
+  },
+  {
+   "path": "holdout/health/lab_results.csv",
+   "bytes": 572922,
+   "sha256": "780b989c0422813ea39a0ee7d05ab03c6e5fac41082d20761b58e9eb6b956f2a"
+  },
+  {
+   "path": "holdout/mobility/bike_trips.csv",
+   "bytes": 390762,
+   "sha256": "b46f3354bcb35f7e4eb1e23177ab4b28920d2cf2788cdf800645a1a9fdaee609"
+  },
+  {
+   "path": "holdout/mobility/cards.csv",
+   "bytes": 122173,
+   "sha256": "1889d72ea313219cc4e14d8afa709279fab34c98f37d5f897a72d6eb4b06006e"
+  },
+  {
+   "path": "holdout/mobility/taps.csv",
+   "bytes": 3845296,
+   "sha256": "ef3b9c76153879cc96e7e02cfd97fc97a0109394f754ab0e2af7731343f2242a"
+  },
+  {
+   "path": "holdout/public_admin/building_permits.csv",
+   "bytes": 27031,
+   "sha256": "1a653834e0013cd95460d52b11c47584057ff6ba1ad079e03a07d25d93cd8489"
+  },
+  {
+   "path": "holdout/public_admin/service_requests.csv",
+   "bytes": 777940,
+   "sha256": "7ebd44c257c0ac6dcd1235f8845f6a7534364a81d7bf24c35b408fee037b1026"
+  },
+  {
+   "path": "holdout/smart_city/anpr_parking.csv",
+   "bytes": 277803,
+   "sha256": "29d3d8027b0a88479e4cf0b1c7ae2c881f1eb7630cae80ffaaae6ed85916a3f8"
+  },
+  {
+   "path": "metadata/attack_specs.json",
+   "bytes": 10660,
+   "sha256": "933d33d8a17c4af557d9c4b1783c3f961a88d079f16b20aa499ad9316cb63ce8"
+  },
+  {
+   "path": "metadata/dp_query_workload_health.json",
+   "bytes": 51629,
+   "sha256": "e29899c23a597a50208ce59c9cb765e1a05184b28645bd500761ac298fa5b5d0"
+  },
+  {
+   "path": "metadata/field_catalog.csv",
+   "bytes": 61954,
+   "sha256": "265e4335a9c756de3d62a9ba2c60bed2ec2692ae4703bb8be3d9d3c0c41ffa47"
+  },
+  {
+   "path": "metadata/pii_span_guidelines.md",
+   "bytes": 2938,
+   "sha256": "35d02c95671221a791d0da45e1f4c260c3272e25732293e7e46ac5bc44a09ca3"
+  },
+  {
+   "path": "metadata/pii_spans/customer_service__conversations__agent_note.jsonl",
+   "bytes": 1519181,
+   "sha256": "bb67bfc5aece82c5b13dff6288b9651ecb257582a753fbd9b7a927d667b7162b"
+  },
+  {
+   "path": "metadata/pii_spans/customer_service__turns__text.jsonl",
+   "bytes": 5104235,
+   "sha256": "89051352560f3f00e3e3594f36259101ab94c2ce921119408612d04e818bda4e"
+  },
+  {
+   "path": "metadata/pii_spans/cyber__incident_tickets__description.jsonl",
+   "bytes": 78501,
+   "sha256": "cd2d461ba6e61f8226a98bf2a5f4444d883a86cf45471e5f4197d378b356c3d3"
+  },
+  {
+   "path": "metadata/pii_spans/education__counsellor_notes__note_text.jsonl",
+   "bytes": 1028943,
+   "sha256": "2f3a44a1c664a98a29789ea44d61475bb331e4976b83e33dc1e3c44101a68d2a"
+  },
+  {
+   "path": "metadata/pii_spans/energy__customers__dso_notes.jsonl",
+   "bytes": 22043,
+   "sha256": "142fbcd571cf531db6c859b15b99f5d8538e4ee3b6d38d58aa863ef713e2bdff"
+  },
+  {
+   "path": "metadata/pii_spans/finance__transfers__message.jsonl",
+   "bytes": 2252861,
+   "sha256": "b2f2cf99cc30e95eb5fd4810e5ee2110c85cffbc1e60b1b3e7ac055b4702611b"
+  },
+  {
+   "path": "metadata/pii_spans/health__clinical_notes__note_text.jsonl",
+   "bytes": 8048739,
+   "sha256": "45a8b17906b8fe67ecd19ae72e351e84dc6a850e4e95fe796a40f5562f7d38c0"
+  },
+  {
+   "path": "metadata/pii_spans/health__ed_visits__chief_complaint.jsonl",
+   "bytes": 57393,
+   "sha256": "673daf676ce6ee2776ea25373b6b26f360a175c19e5022c68d61099b86b729e9"
+  },
+  {
+   "path": "metadata/pii_spans/public_admin__service_requests__description.jsonl",
+   "bytes": 4805990,
+   "sha256": "c8b94a787b08e7a7d1457146bf64cde58e4a4a9eb6f8c94a4a830db5ea68d407"
+  },
+  {
+   "path": "metadata/pii_spans/public_admin__service_requests__response_text.jsonl",
+   "bytes": 9331373,
+   "sha256": "8ab13b255781424b69b3aef77209c8c3121332577b43bc55b44f1be2cc0cf3be"
+  },
+  {
+   "path": "metadata/scenarios.json",
+   "bytes": 25072,
+   "sha256": "8b9a8ca1f35754dfcd9361996478295def12537ef8a5b021eb2390d6fdabd058"
+  },
+  {
+   "path": "metadata/taxonomy.md",
+   "bytes": 2501,
+   "sha256": "ece0673cd117d4cd093cd8eb300731620fc0f5b7d19f476dab3d0d413b67fe8a"
+  },
+  {
+   "path": "results/b0/customer_service/scorecard.html",
+   "bytes": 8195,
+   "sha256": "c45fbc0c6ed071a4cedd94f08e6fba6618d84bd55bdb3ade20a56bf5d1d8728f"
+  },
+  {
+   "path": "results/b0/customer_service/scorecard.json",
+   "bytes": 12719,
+   "sha256": "8a3d515f16906cadd69c81477eec2ac5c881d38ba67d4b442b7e6365171a2a3d"
+  },
+  {
+   "path": "results/b0/cyber/scorecard.html",
+   "bytes": 13912,
+   "sha256": "a81e9ee5f501147236e9a6bfe00474527e0becfc25a8b7e46ba6e452a043700e"
+  },
+  {
+   "path": "results/b0/cyber/scorecard.json",
+   "bytes": 21725,
+   "sha256": "69f2aae2df48ef604970f03aea0ba17079c829a778ca18e6eb35e85bb1ae3cd9"
+  },
+  {
+   "path": "results/b0/education/scorecard.html",
+   "bytes": 8829,
+   "sha256": "1c88c4f70ae875c813e13040539bb09387ef2ec8e14decc6213da5caef347231"
+  },
+  {
+   "path": "results/b0/education/scorecard.json",
+   "bytes": 15960,
+   "sha256": "f90e94b81f3c6cea36b5a86eb2981694a23b41a69bb3b986cd88db98713d8297"
+  },
+  {
+   "path": "results/b0/energy/scorecard.html",
+   "bytes": 7809,
+   "sha256": "ca4680219130c4f7c475d3a68581132d063f1fdc82c7e9451ad31e7e6802a84c"
+  },
+  {
+   "path": "results/b0/energy/scorecard.json",
+   "bytes": 11025,
+   "sha256": "7fdbe384002550d934c504e5cec0cf1bcec89fb82140b23ab2936fab67b676a1"
+  },
+  {
+   "path": "results/b0/finance/scorecard.html",
+   "bytes": 8274,
+   "sha256": "6784a72ef1305a1d93eb319fc86785212351872f81419db122c0d0bb4885e577"
+  },
+  {
+   "path": "results/b0/finance/scorecard.json",
+   "bytes": 14323,
+   "sha256": "9a3dc0e04d2dab183f962ac3f66e5135dd3544ec7d4f1460906de6e3c0693fec"
+  },
+  {
+   "path": "results/b0/health/scorecard.html",
+   "bytes": 9803,
+   "sha256": "537ee77578007b1c54803d7422fa89635780bbda9da8831deb685164283c404f"
+  },
+  {
+   "path": "results/b0/health/scorecard.json",
+   "bytes": 16626,
+   "sha256": "ea1d3efadf0cecf0631a3dba3fe6a5920e0cd1e3eb52d5ddf6259a7fa29ed9f7"
+  },
+  {
+   "path": "results/b0/mobility/scorecard.html",
+   "bytes": 9490,
+   "sha256": "b35f40d0fd489b66fadb8d89807c1e3e43425592a3dd3503cd6e9c95dec9aa37"
+  },
+  {
+   "path": "results/b0/mobility/scorecard.json",
+   "bytes": 11776,
+   "sha256": "fbad993ccb7d6048cb160e3961d54889daa7843cdfbb2af61f9b0deaf334abc0"
+  },
+  {
+   "path": "results/b0/public_admin/scorecard.html",
+   "bytes": 6959,
+   "sha256": "09bce0ae026e32de6a52ea5780c012f3c805da6953e487e4e55cd8d81562f6f9"
+  },
+  {
+   "path": "results/b0/public_admin/scorecard.json",
+   "bytes": 10408,
+   "sha256": "b175e5a9b838b134a724c33ac0627ee35339a517f0656509227889190e2c8f88"
+  },
+  {
+   "path": "results/b0/smart_city/scorecard.html",
+   "bytes": 7695,
+   "sha256": "5f117acbb424854cd1d52f9cc46dd0bd17ca35797e734078ae3c3986e8fb8639"
+  },
+  {
+   "path": "results/b0/smart_city/scorecard.json",
+   "bytes": 8291,
+   "sha256": "ceeb98f532f9aba6d21ad08c2195c2dcc1e2ff395b0d84bd2e36f49c453f3985"
+  },
+  {
+   "path": "results/b1_field_labels.csv",
+   "bytes": 28356,
+   "sha256": "bb2020c466d6a0d02dbe81eabdb749befc915ac268c329a02fdee66dc74731aa"
+  },
+  {
+   "path": "results/b2/customer_service/scorecard.html",
+   "bytes": 8096,
+   "sha256": "d09bf7027596f49c53e7a997c54eab4c0fe6005aad40a30922b06394b11be791"
+  },
+  {
+   "path": "results/b2/customer_service/scorecard.json",
+   "bytes": 12510,
+   "sha256": "35f43c16c09725c946fec283730f0e871921f88c315b8c5dd189bbea4bcf0ab0"
+  },
+  {
+   "path": "results/b2/cyber/scorecard.html",
+   "bytes": 14290,
+   "sha256": "a08ebad0c418861ae2cf3ebc68279f6114a8ac87f0b3697b8aa51d336362945e"
+  },
+  {
+   "path": "results/b2/cyber/scorecard.json",
+   "bytes": 23283,
+   "sha256": "66872341afb8e787a6a5b27b6b421071d383041d4691cc8bb17616ada94ae240"
+  },
+  {
+   "path": "results/b2/education/scorecard.html",
+   "bytes": 8716,
+   "sha256": "c2b614ccb6d430d19c3218cf6c3a0fcd9ef8cc486aa07c6c661440d081d719b3"
+  },
+  {
+   "path": "results/b2/education/scorecard.json",
+   "bytes": 15860,
+   "sha256": "f3f4fb27baed7b8b52bf3437ea565e4e968e78bddee4a05079fc007bc3d54356"
+  },
+  {
+   "path": "results/b2/energy/scorecard.html",
+   "bytes": 7796,
+   "sha256": "11463628de3e9b297372ea643f903c3f93a2c6867832b034fe944eee70e8b626"
+  },
+  {
+   "path": "results/b2/energy/scorecard.json",
+   "bytes": 10972,
+   "sha256": "cbc225038d709ee0970a95b3405fe52b7a3c905b025d4cb705bc4db22ab947a3"
+  },
+  {
+   "path": "results/b2/finance/scorecard.html",
+   "bytes": 8581,
+   "sha256": "362f2d9e5f31fb208875ba5deca244e796761b66247d6b582976cb6324add0a3"
+  },
+  {
+   "path": "results/b2/finance/scorecard.json",
+   "bytes": 14361,
+   "sha256": "da583921c660ffeb4c5cd1b585a38f7035665b415c2f5cc72a30ec3d65fa8c70"
+  },
+  {
+   "path": "results/b2/health/scorecard.html",
+   "bytes": 9676,
+   "sha256": "5972083c91030d458823e72fd6f5dbf65dd925010c8d42e25ad1d76873ad261f"
+  },
+  {
+   "path": "results/b2/health/scorecard.json",
+   "bytes": 16554,
+   "sha256": "702c090f345aa9aa5f7fcd1579133f8e55f5862df64eb51c361058b89c6b1392"
+  },
+  {
+   "path": "results/b2/mobility/scorecard.html",
+   "bytes": 9489,
+   "sha256": "1612298ac5aa178c8702954299cb53750e7a78a4bc4a4e4b5ce75d61dfdcac44"
+  },
+  {
+   "path": "results/b2/mobility/scorecard.json",
+   "bytes": 11849,
+   "sha256": "6a0fa9ccd6a5bb83982974a0d0d9335d59040a03a500cc3f240b370b7a8ab481"
+  },
+  {
+   "path": "results/b2/public_admin/scorecard.html",
+   "bytes": 6920,
+   "sha256": "c69cae9feb76087507366f44dba2e4fd22f0ae54935d696717772c5d7db4bffb"
+  },
+  {
+   "path": "results/b2/public_admin/scorecard.json",
+   "bytes": 10150,
+   "sha256": "ed9e90ec3bc8f7fc01a2c11e53a5fa1c12d4a5a29d831dc0220c24f41508c569"
+  },
+  {
+   "path": "results/b2/smart_city/scorecard.html",
+   "bytes": 7774,
+   "sha256": "8530dea504942c87f1cad402fcc838abc8d26a3bbd476354479241f105eb09b1"
+  },
+  {
+   "path": "results/b2/smart_city/scorecard.json",
+   "bytes": 8521,
+   "sha256": "ee8f91efa41fb92adb8a51fecef14b01aa0d3d1890e90e8eb3d626f861452ab4"
+  },
+  {
+   "path": "results/b2k/customer_service/scorecard.html",
+   "bytes": 8084,
+   "sha256": "e0e40f9a481561e7e47085a9cddfc4d1b7bdd79464306f3b010ebff2fa1cf389"
+  },
+  {
+   "path": "results/b2k/customer_service/scorecard.json",
+   "bytes": 12480,
+   "sha256": "6a1860266144011fc955ded319f459f248702f294b0df7cc09a2c3cfbfd979e9"
+  },
+  {
+   "path": "results/b2k/cyber/scorecard.html",
+   "bytes": 14264,
+   "sha256": "4a8bb80cbeb9b57016bbca529873f054b033f83738927edec3bb6f73816157d2"
+  },
+  {
+   "path": "results/b2k/cyber/scorecard.json",
+   "bytes": 23204,
+   "sha256": "d84975daac8975c1f91d3eaec6f9c6d1473364aee97a450e681f7d9f29771e6b"
+  },
+  {
+   "path": "results/b2k/education/scorecard.html",
+   "bytes": 8702,
+   "sha256": "05a6e32a8ef86308f9f34674daf8dbea7b0d54171c45a2037dcd3f54bf2b92ed"
+  },
+  {
+   "path": "results/b2k/education/scorecard.json",
+   "bytes": 15838,
+   "sha256": "ca2df543ec82ff3ed15b8359672ef3d9202947804de335961e66999459be2574"
+  },
+  {
+   "path": "results/b2k/energy/scorecard.html",
+   "bytes": 7794,
+   "sha256": "0f4d5723da34bf5074af71a77ea1a9fb625e25c01f1be3ad10520255235a56da"
+  },
+  {
+   "path": "results/b2k/energy/scorecard.json",
+   "bytes": 11052,
+   "sha256": "08f75b197be52461620cff7d2954a8d14262ddcb050bd2828ab0ae0590b63d50"
+  },
+  {
+   "path": "results/b2k/finance/scorecard.html",
+   "bytes": 8550,
+   "sha256": "a7b7dc835ef13e249542320b197b6d8b17bd9d9acda65925f81803956675a103"
+  },
+  {
+   "path": "results/b2k/finance/scorecard.json",
+   "bytes": 14316,
+   "sha256": "6aa5c1b103c9c6b56200167bab01207513f7d49226aa599e4eaf196a19e28ed1"
+  },
+  {
+   "path": "results/b2k/health/scorecard.html",
+   "bytes": 9411,
+   "sha256": "8c25799b6a0e3ca73d0b33e50a426bb4317faa222cc5a48848ceb6a50e3cb50d"
+  },
+  {
+   "path": "results/b2k/health/scorecard.json",
+   "bytes": 15950,
+   "sha256": "872243057620c8962b3f99e3124210a0ae10d9588407fe331b76522e9f056d24"
+  },
+  {
+   "path": "results/b2k/mobility/scorecard.html",
+   "bytes": 9465,
+   "sha256": "6d7d99a2a3fb1e79425bdde48d37518588d15c6896a2ae18cb9a5166db8a2f49"
+  },
+  {
+   "path": "results/b2k/mobility/scorecard.json",
+   "bytes": 11855,
+   "sha256": "e6e9d54c4ab0bf8c9093b478327198d91842a5d995835409bf7e7d32ba171b20"
+  },
+  {
+   "path": "results/b2k/public_admin/scorecard.html",
+   "bytes": 6902,
+   "sha256": "0f7b9f66d50d8e4ea6ebd0e1e5efea59879f007a31a56bf6aacee473fb81dc01"
+  },
+  {
+   "path": "results/b2k/public_admin/scorecard.json",
+   "bytes": 10124,
+   "sha256": "8989d75ae7c7f3b7b6303f29e8cdd32520f3a5034af6f165e66d55982b0c666c"
+  },
+  {
+   "path": "results/b2k/smart_city/scorecard.html",
+   "bytes": 7762,
+   "sha256": "1853ba08694847ac084ab8626a077ce7adcc241228b86faf90f8558caa8e90a2"
+  },
+  {
+   "path": "results/b2k/smart_city/scorecard.json",
+   "bytes": 8492,
+   "sha256": "6ea81cc2220df619151908d86f7f6d06a79e652bb55333f691d7f68bb3a76798"
+  },
+  {
+   "path": "results/b4/health/scorecard.html",
+   "bytes": 5177,
+   "sha256": "3d6da2b7693d9b79f042846fe770ac9e41efeab9118f37db7c69cd7878629603"
+  },
+  {
+   "path": "results/b4/health/scorecard.json",
+   "bytes": 7440,
+   "sha256": "bb3a1649e8155ebd7765a8a48c3cf294007244874e8bcb74598597a080e03f21"
+  },
+  {
+   "path": "results/benchmark.json",
+   "bytes": 16336,
+   "sha256": "c6cfd69ec55163b2912c42315fae6b7dd5073843798139c580eb43845704f233"
+  },
+  {
+   "path": "tests/test_package.py",
+   "bytes": 3217,
+   "sha256": "cf8c9e4979d8da4c2069fdf4484dd5bbf1fb6cb1c58128257540ec62c643fbe0"
+  },
+  {
+   "path": "tests/test_toolkit.py",
+   "bytes": 13291,
+   "sha256": "af35c5bf3bcc2398b228257746338d8fc03b37d2dc8fbe28cb46a8585e73dde7"
+  },
+  {
+   "path": "toolkit/README.md",
+   "bytes": 1980,
+   "sha256": "d297e73ad538c680175241bea8c358d903c126a50f77c23086efb9961a5dbe1f"
+  },
+  {
+   "path": "toolkit/pets_eval/__init__.py",
+   "bytes": 940,
+   "sha256": "1374c4367aaab6551c0d6c39337a13aa8e70c6d940bada175f75974398ec91eb"
+  },
+  {
+   "path": "toolkit/pets_eval/__main__.py",
+   "bytes": 30,
+   "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279"
+  },
+  {
+   "path": "toolkit/pets_eval/attacks.py",
+   "bytes": 27236,
+   "sha256": "809c342cd5c529fb6224c63e6ddb20e62456260d4075294c3bc27849b0f47d5c"
+  },
+  {
+   "path": "toolkit/pets_eval/check.py",
+   "bytes": 4962,
+   "sha256": "22abfff828a88d6ea42dca07ecd73bc82db8a42fd48408b58d9168e4969ca03d"
+  },
+  {
+   "path": "toolkit/pets_eval/cli.py",
+   "bytes": 6053,
+   "sha256": "cf89bd054173b849121d9dcb655e0f8f398c1c292dd7215f7f751823cc4b8b99"
+  },
+  {
+   "path": "toolkit/pets_eval/detect.py",
+   "bytes": 3293,
+   "sha256": "083b21ee3b1dc8d7f9de665d1689f4c72560a6bbc03cbc78a7d0847539b7c813"
+  },
+  {
+   "path": "toolkit/pets_eval/io.py",
+   "bytes": 7508,
+   "sha256": "6a03e6fbf0e08544099fb159affc512eeec6ec586bc4f5980370fbb04a7c77d0"
+  },
+  {
+   "path": "toolkit/pets_eval/parse.py",
+   "bytes": 6595,
+   "sha256": "9327faedc52032fb8f66cd5e34e6e7843c911ca8d15795005200d9eb3c8f90c2"
+  },
+  {
+   "path": "toolkit/pets_eval/privacy.py",
+   "bytes": 15203,
+   "sha256": "10c873270c620850839601eb8176f3052a64f8cb42ac214ac19436e9e1592f82"
+  },
+  {
+   "path": "toolkit/pets_eval/scorecard.py",
+   "bytes": 22961,
+   "sha256": "26c37895a2eb4edf7e688e776d26e2a80cee45eccba1f84df33263c9c340b2b5"
+  },
+  {
+   "path": "toolkit/pets_eval/text.py",
+   "bytes": 7264,
+   "sha256": "bb46e1e9ca2b626ac31c0545a64704256561d42eede47f2a192af25c7df416e6"
+  },
+  {
+   "path": "toolkit/pets_eval/utility/__init__.py",
+   "bytes": 1812,
+   "sha256": "55552db42a3233ec1299753eb928cb73c9276fce36db2b3b64e92288d1c02af8"
+  },
+  {
+   "path": "toolkit/pets_eval/utility/customer_service.py",
+   "bytes": 11153,
+   "sha256": "bd308b061524637654a00d5356cfaef8397aff209fba213d8a72e865fb8ad3bb"
+  },
+  {
+   "path": "toolkit/pets_eval/utility/cyber.py",
+   "bytes": 23490,
+   "sha256": "be3b3f7a2bfb76b4d3c9009a9995fa949f5af0302455656613ebff079a06be9a"
+  },
+  {
+   "path": "toolkit/pets_eval/utility/education.py",
+   "bytes": 10977,
+   "sha256": "a8fd8e0187313d36dfde516aabdde76e2f2eb7efe9fbfaec096ff7083105bd4d"
+  },
+  {
+   "path": "toolkit/pets_eval/utility/energy.py",
+   "bytes": 13794,
+   "sha256": "b8155d304d03800bab0d67acd9634792191511c079921ace38ccdda95ee78d06"
+  },
+  {
+   "path": "toolkit/pets_eval/utility/finance.py",
+   "bytes": 12389,
+   "sha256": "32c9e59db4410b1a843a8da9a90e816fe2f2f53d41608e9ed8dc05c0eebf1424"
+  },
+  {
+   "path": "toolkit/pets_eval/utility/health.py",
+   "bytes": 20381,
+   "sha256": "b11a4f3eb55a1578d80d41af0458b414a96c47bbf28daf642bad8d176c93b54e"
+  },
+  {
+   "path": "toolkit/pets_eval/utility/mobility.py",
+   "bytes": 11153,
+   "sha256": "2a787bb2c15e75eadd87f5f8fda7caccbf34ef334892510bdaa53eb9ca348d5f"
+  },
+  {
+   "path": "toolkit/pets_eval/utility/public_admin.py",
+   "bytes": 6595,
+   "sha256": "8c7532040f8493a113b598d624741569cc0334da2de09baa048e19ad8158db21"
+  },
+  {
+   "path": "toolkit/pets_eval/utility/smart_city.py",
+   "bytes": 7304,
+   "sha256": "5e4d45b3e0bbd513fd55cd4aeb68068503dc7867fe7f6c31c301ebfb321fae82"
+  },
+  {
+   "path": "toolkit/pyproject.toml",
+   "bytes": 599,
+   "sha256": "c01a8ff85e57901b6511134dd41fa21c18645f202cc03445ba515369e269b074"
+  },
+  {
+   "path": "truth/adversary__company_website_staff.csv",
+   "bytes": 6634,
+   "sha256": "392eb8300b84d642298a07bf26a4f8d4911fc6d6d91d5637847ac28613cecd33"
+  },
+  {
+   "path": "truth/adversary__fitness_app_leak.csv",
+   "bytes": 35085,
+   "sha256": "6ca9533056f2edc4750d9806ebfe2fed71d80b4f9e914013a9392fa16887a376"
+  },
+  {
+   "path": "truth/adversary__graduation_lists.csv",
+   "bytes": 41907,
+   "sha256": "96d45fdb6baf683935d6f6d7df2fc14ae54161dec0f90ab69849f30962e6f0d3"
+  },
+  {
+   "path": "truth/adversary__leaked_customer_list.csv",
+   "bytes": 46821,
+   "sha256": "d6e255dc62d85996055020ba901fb9027676802448f02da4c7290870b2bd63de"
+  },
+  {
+   "path": "truth/adversary__neighbourhood_forum_posts.csv",
+   "bytes": 26621,
+   "sha256": "6b09eae13f1bfdaf697b70d2ec2bffab0ec1529abbd4ae0320e23d66e4c31d36"
+  },
+  {
+   "path": "truth/adversary__news_clips_health.csv",
+   "bytes": 3981,
+   "sha256": "c569fd2c6ecf5b059db01dc2df4a5a01f2f66479a03d6d2f94f6c06bd6b6ed9c"
+  },
+  {
+   "path": "truth/adversary__plate_sightings.csv",
+   "bytes": 27021,
+   "sha256": "f9647820c5a93bb2d9c33cf520fd95d908820493a7fa9e852adcb26bbe55fb2a"
+  },
+  {
+   "path": "truth/adversary__public_directory.csv",
+   "bytes": 827053,
+   "sha256": "8e4926a3a5a0b75870f898f151e74492e866fb6ac78276da1b64a9996cc7b919"
+  },
+  {
+   "path": "truth/adversary__receipt_photos_ocr.csv",
+   "bytes": 23821,
+   "sha256": "7ae7effd00f2f7eb9d2054186764b1ffbc290b1a943ddadcf8f02b3e7220e5d5"
+  },
+  {
+   "path": "truth/adversary__social_checkins.csv",
+   "bytes": 56001,
+   "sha256": "4537bd4bc779caa302b449e7a6e7f588b5e42e6cffff7b5c450e63f7cf2a7377"
+  },
+  {
+   "path": "truth/adversary__social_posts_health.csv",
+   "bytes": 17085,
+   "sha256": "a20e7637eec9cc58369089ed6309156fa950c9533e4c39950b2d4acbc8cd1dd9"
+  },
+  {
+   "path": "truth/adversary__sports_club_rosters.csv",
+   "bytes": 14583,
+   "sha256": "3f20d64175744cd87f067725ff73d3c17e6d341ba76a5317b60fd5fecab30acc"
+  },
+  {
+   "path": "truth/adversary__vacation_posts.csv",
+   "bytes": 6583,
+   "sha256": "2c21849800ad49cfeace9c4725a892e14b2a4df43011d30233e6d42044697b1c"
+  },
+  {
+   "path": "truth/customer_service__conversations.csv",
+   "bytes": 226937,
+   "sha256": "e61e5e4b95f70db827cd02fba299bf4b2252d944bce8323f643af5d8781d8798"
+  },
+  {
+   "path": "truth/customer_service__customers.csv",
+   "bytes": 153476,
+   "sha256": "6777b353b1e4e89587f41cdabe8559b8329e00d050ed288dace56a3f2b1c102c"
+  },
+  {
+   "path": "truth/customer_service__turns.csv",
+   "bytes": 2385885,
+   "sha256": "6896c7950a47edda232afbaf0c23e3db9ed6f603f68dba964424b63c99c30342"
+  },
+  {
+   "path": "truth/cyber__dns_logs.csv",
+   "bytes": 1360893,
+   "sha256": "431bb7d8a988133397d425abe3e5d13206db61c1d83ef2357f2965eda8f05adb"
+  },
+  {
+   "path": "truth/cyber__edr_alerts.csv",
+   "bytes": 8070,
+   "sha256": "85b985d8795f31361ad767d033215174d444e65264b26f0b3c38bdeb294373d2"
+  },
+  {
+   "path": "truth/cyber__email_gateway.csv",
+   "bytes": 574846,
+   "sha256": "d69aff8748a148bc05c28fe1610269e7c0af61e6572af99bc0fd7b11ef4c02e8"
+  },
+  {
+   "path": "truth/cyber__identity.csv",
+   "bytes": 15896,
+   "sha256": "ed5f0528db3da0f288d61325e040be2a97c1a52cfcc15c70382310ece8612c10"
+  },
+  {
+   "path": "truth/cyber__incident_tickets.csv",
+   "bytes": 6950,
+   "sha256": "3b5e7cb17dc0495d353d2fcb358d7c26d59d0adb2c2ad57ca4f3791bac0f7322"
+  },
+  {
+   "path": "truth/cyber__proxy_logs.csv",
+   "bytes": 2457044,
+   "sha256": "d47773155a71706016438fba8e7d53680ea15ddd19f65e31a050df52bf37fe07"
+  },
+  {
+   "path": "truth/cyber__signin_logs.csv",
+   "bytes": 736263,
+   "sha256": "caeb93c34259f9fca8747cfa018e07014466ae2c578f98f8ba6502fafaf9e5bb"
+  },
+  {
+   "path": "truth/cyber__vpn_logs.csv",
+   "bytes": 68492,
+   "sha256": "0ad681613db1428195b6b14ad8c483d4664af5ea9f9ae29b78a68e9d48fdbcc0"
+  },
+  {
+   "path": "truth/education__absences.csv",
+   "bytes": 332557,
+   "sha256": "45cae930623812431a1a77d5ba3146d07843bf7629c60d238d8d3accd2f922fb"
+  },
+  {
+   "path": "truth/education__counsellor_notes.csv",
+   "bytes": 61140,
+   "sha256": "de393a78d4252b726115b8a07340e602040313dfe760737de25aeab64a2fb668"
+  },
+  {
+   "path": "truth/education__course_grades.csv",
+   "bytes": 2736488,
+   "sha256": "1b65f744af751cc10af2a41749d04ac6d975bdc3fb97d881e3c4282925f0f9c0"
+  },
+  {
+   "path": "truth/education__matriculation_results.csv",
+   "bytes": 215053,
+   "sha256": "ce365eb81d29b026de842a4c752937b1aab75a13cc4a286daa06f410aacbe0ba"
+  },
+  {
+   "path": "truth/education__students.csv",
+   "bytes": 92918,
+   "sha256": "bace18a5ac13c55ff52b8a50afc06fb9ae2cb071d554d6ee98f56ed73e917d49"
+  },
+  {
+   "path": "truth/energy__customers.csv",
+   "bytes": 13646,
+   "sha256": "bd355f6cf824a3186d0eba4dac03050e48f65eceb9af40e4f021753f93d35831"
+  },
+  {
+   "path": "truth/energy__meter_readings_hourly.csv",
+   "bytes": 26161940,
+   "sha256": "34ce10336434a49ab5d5d24418c62c988bb0cea1c28b741e56015c58816ada32"
+  },
+  {
+   "path": "truth/finance__card_transactions.csv",
+   "bytes": 8366588,
+   "sha256": "cd6a9733b08444b298069962f45a04305f570fa6148f143cd7f21829fed49db8"
+  },
+  {
+   "path": "truth/finance__cards.csv",
+   "bytes": 132431,
+   "sha256": "486833ad85375dabc9a257c36dfd6c0185f99640901524a30dba5d68c051a6ee"
+  },
+  {
+   "path": "truth/finance__customers.csv",
+   "bytes": 120005,
+   "sha256": "8618fe79576d82e0cdf00c49ea852a282887a193668508740e24a0b85fc73822"
+  },
+  {
+   "path": "truth/finance__transfers.csv",
+   "bytes": 1731820,
+   "sha256": "d5c174c5079b3eef8cf948b62cb9b3c428bb8055c3475f0866b571c52455fe0c"
+  },
+  {
+   "path": "truth/health__clinical_notes.csv",
+   "bytes": 508145,
+   "sha256": "530fd2f01a028f9f9d95b404081db380c83266739451657a672c5dfe4aae65d8"
+  },
+  {
+   "path": "truth/health__ed_visits.csv",
+   "bytes": 922317,
+   "sha256": "d327d37ef6439afec6db32939358d5047b540eb96a1abb82e6949dc13a12d942"
+  },
+  {
+   "path": "truth/health__holdout_ed_visits.csv",
+   "bytes": 50300,
+   "sha256": "a50db38535731cf93951d637f88f4ea1462a09143a61c1a8ac935cc437924d74"
+  },
+  {
+   "path": "truth/health__lab_results.csv",
+   "bytes": 2463052,
+   "sha256": "daabadf829e0da8713522b27f9974ecdaf7d5c14fd3a9deaf36b3fe3e8ab0f80"
+  },
+  {
+   "path": "truth/mobility__bike_stations.csv",
+   "bytes": 545,
+   "sha256": "21393e64f89f20b3f13861a19f962dfe3e698f7d1f416b10e3307873268bf3d0"
+  },
+  {
+   "path": "truth/mobility__bike_trips.csv",
+   "bytes": 1084501,
+   "sha256": "4b3acdadf1f75ed5ef9f7c74d25a04957ab2d7034ab0f49cd7a6bdc6e499b767"
+  },
+  {
+   "path": "truth/mobility__cards.csv",
+   "bytes": 628545,
+   "sha256": "fcf276fe981ce0c682d396507b1cf838d7d42a415c71cd5b2c53a63c550576a9"
+  },
+  {
+   "path": "truth/mobility__stops.csv",
+   "bytes": 4234,
+   "sha256": "2b998d89609254125e35130186f9a81a66ac36da0d96caef970b793a85971be4"
+  },
+  {
+   "path": "truth/mobility__taps.csv",
+   "bytes": 17821919,
+   "sha256": "b075075d88ad406fd38970c52de7b35eac68a97679104c1a493c6bff04e074fb"
+  },
+  {
+   "path": "truth/public_admin__building_permits.csv",
+   "bytes": 58086,
+   "sha256": "a8069606145ec0a2d11b2ee5613d4a80ed45aef0b52783e9601f228d6ff2994f"
+  },
+  {
+   "path": "truth/public_admin__service_requests.csv",
+   "bytes": 728317,
+   "sha256": "d70459c5143bfbedb26ad0d6e6d6daec67fc841368f4a5d3de134beef35409f4"
+  },
+  {
+   "path": "truth/smart_city__anpr_parking.csv",
+   "bytes": 909633,
+   "sha256": "afcac779a8ed73cfbe5c0e7f699af8b33e4065bcfdd70a97415eb754342334dc"
+  },
+  {
+   "path": "truth/smart_city__footfall_15min.csv",
+   "bytes": 268820,
+   "sha256": "3c956fcc288d2c9f7231c9bd82dfa8ff3c50ca92575a0d6b5e61e06f7ee8d1dc"
+  },
+  {
+   "path": "truth/smart_city__sensors.csv",
+   "bytes": 140,
+   "sha256": "d977ff82490ada83848e8edb7ebb211eee7ec508ecc1367173ab676012379fb4"
+  },
+  {
+   "path": "truth/smart_city__wifi_probes.csv",
+   "bytes": 10539470,
+   "sha256": "6da4bb8018f938e398eae5547ca6ec35928efeedfd348ecd49e00e4be064b2e1"
+  }
+ ]
+}
